@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+from mpl_toolkits.mplot3d import Axes3D
 
 
 def prvi():
@@ -20,15 +20,17 @@ def two():
     plt.show()
 
 def three():
-    x2v=np.arange(0.2*np.pi)
-    x1v=np.arange(0.2*np.pi)
-    x1=x2=np.meshgrid(x1v,x2v)
+    x2=np.arange(0,2*np.pi,0.1)
+    x1=np.arange(0,2*np.pi,0.1)
+    x1,x2=np.meshgrid(x1,x2)
     y = np.sin(x1)+np.cos(x2)
     
-    figura = plt.figure
-    a = figura.add_subplot(111,progection='3d')
+    figura = plt.figure()
+    a = figura.add_subplot(111,projection='3d') #11 - koliko prozora imam, 1 - pristupimo
+                                                # tip 1 stolbik, 1-polosa
 
-    pl = plt.plot(y)
+    a.plot_surface(x1,x2,y)
+    #pl = plt.plot(y)
     plt.show()
 
 
