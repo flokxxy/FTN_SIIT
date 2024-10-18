@@ -1,0 +1,49 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+
+def prvi():
+
+    x = np.array([0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5])
+    y = np.array([1, 2, 3, 2, 2, 2, 1.5, 2, 2, 2.5])
+
+    pl = plt.plot(x,y)
+    plt.show()
+
+def two():
+
+    x = np.arange(0,2*np.pi, 0.1)
+    y = np.sin(x)
+
+    pl = plt.plot(x,y)
+    plt.show()
+
+def three():
+    x2v=np.arange(0.2*np.pi)
+    x1v=np.arange(0.2*np.pi)
+    x1=x2=np.meshgrid(x1v,x2v)
+    y = np.sin(x1)+np.cos(x2)
+    
+    figura = plt.figure
+    a = figura.add_subplot(111,progection='3d')
+
+    pl = plt.plot(y)
+    plt.show()
+
+
+
+
+if __name__ == '__main__':
+    #prvi()
+    #two()
+    three()
+
+    print(np.arange(0,4.5,0.5)) #lybie znachenija
+
+
+
+
+
+
+
