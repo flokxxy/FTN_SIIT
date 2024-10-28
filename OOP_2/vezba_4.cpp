@@ -1,7 +1,8 @@
 #include <iostream>
 #include <complex>
+#include "myComplex.h"
 
-
+//1 
 using namespace std;
 
 class Complex{
@@ -30,7 +31,7 @@ public:
 
 
     // Метод для сложения двух комплексных чисел
-    Complex Complex::add(const Complex& other) const {
+    Complex operator+(const Complex& other) const {
         return Complex(real + other.real, imag + other.imag);
     }
     Complex operator-(const Complex& other) const {
@@ -67,16 +68,16 @@ int main(int argc, char** argv) {
     cout << "a (" << a.getReal() << ", " << a.getImag() << "i) " << endl;
     cout << "b (" << b.getReal() << ", " << b.getImag() << "i) " << endl;
 
-    c = a.add(b);
+    c = a.operator+(b);
     cout << "a + b = (" << c.getReal() << ", " << c.getImag() << "i) " << endl;
 
-    c = a.sub(b);
+    c = a.operator-(b);
     cout << "a - b = (" << c.getReal() << ", " << c.getImag() << "i) " << endl;
 
-    c = a.mul(b);
+    c = a.operator*(b);
     cout << "a * b = (" << c.getReal() << ", " << c.getImag() << "i) " << endl;
 
-    c = a.conj();
+    c = a.operator~();
     cout << "~a = (" << c.getReal() << ", " << c.getImag() << "i) " << endl;
 
     cout << "Done!" << endl;
