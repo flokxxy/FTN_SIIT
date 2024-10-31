@@ -1,0 +1,107 @@
+{
+  "R004" : [ {
+    "routeCode" : "R004",
+    "departurePlace" : "Kragujevac",
+    "arrivalPlace" : "Nis",
+    "departureDate" : "2024-11-01",
+    "departureTime" : "09:30",
+    "arrivalTime" : "12:30",
+    "platform" : "4",
+    "ticketPrice" : 700.0,
+    "ticketsSold" : 15
+  }, {
+    "routeCode" : "R004",
+    "departurePlace" : "Kragujevac",
+    "arrivalPlace" : "Nis",
+    "departureDate" : "2024-11-01",
+    "departureTime" : "13:30",
+    "arrivalTime" : "16:30",
+    "platform" : "4",
+    "ticketPrice" : 700.0,
+    "ticketsSold" : 22
+  } ],
+  "R005" : [ {
+    "routeCode" : "R005",
+    "departurePlace" : "Nis",
+    "arrivalPlace" : "Belgrade",
+    "departureDate" : "2024-11-01",
+    "departureTime" : "10:00",
+    "arrivalTime" : "14:00",
+    "platform" : "7",
+    "ticketPrice" : 800.0,
+    "ticketsSold" : 28
+  }, {
+    "routeCode" : "R005",
+    "departurePlace" : "Nis",
+    "arrivalPlace" : "Belgrade",
+    "departureDate" : "2024-11-01",
+    "departureTime" : "18:00",
+    "arrivalTime" : "22:00",
+    "platform" : "7",
+    "ticketPrice" : 800.0,
+    "ticketsSold" : 32
+  } ],
+  "R002" : [ {
+    "routeCode" : "R002",
+    "departurePlace" : "Novi Sad",
+    "arrivalPlace" : "Subotica",
+    "departureDate" : "2024-11-01",
+    "departureTime" : "09:00",
+    "arrivalTime" : "10:30",
+    "platform" : "1",
+    "ticketPrice" : 400.0,
+    "ticketsSold" : 20
+  }, {
+    "routeCode" : "R002",
+    "departurePlace" : "Novi Sad",
+    "arrivalPlace" : "Subotica",
+    "departureDate" : "2024-11-01",
+    "departureTime" : "14:00",
+    "arrivalTime" : "15:30",
+    "platform" : "3",
+    "ticketPrice" : 400.0,
+    "ticketsSold" : 18
+  } ],
+  "R003" : [ {
+    "routeCode" : "R003",
+    "departurePlace" : "Belgrade",
+    "arrivalPlace" : "Kragujevac",
+    "departureDate" : "2024-11-01",
+    "departureTime" : "07:30",
+    "arrivalTime" : "10:00",
+    "platform" : "5",
+    "ticketPrice" : 600.0,
+    "ticketsSold" : 35
+  }, {
+    "routeCode" : "R003",
+    "departurePlace" : "Belgrade",
+    "arrivalPlace" : "Kragujevac",
+    "departureDate" : "2024-11-01",
+    "departureTime" : "15:00",
+    "arrivalTime" : "17:30",
+    "platform" : "6",
+    "ticketPrice" : 600.0,
+    "ticketsSold" : 40
+  } ],
+  "R001" : [ {
+    "routeCode" : "R001",
+    "departurePlace" : "Belgrade",
+    "arrivalPlace" : "Novi Sad",
+    "departureDate" : "2024-11-01",
+    "departureTime" : "08:00",
+    "arrivalTime" : "09:30",
+    "platform" : "1",
+    "ticketPrice" : 500.0,
+    "ticketsSold" : 30
+  }, {
+    "routeCode" : "R001",
+    "departurePlace" : "Belgrade",
+    "arrivalPlace" : "Novi Sad",
+    "departureDate" : "2024-11-01",
+    "departureTime" : "12:00",
+    "arrivalTime" : "13:30",
+    "platform" : "2",
+    "ticketPrice" : 500.0,
+    "ticketsSold" : 25
+  } ]
+}
