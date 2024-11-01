@@ -1,3 +1,5 @@
+#programa yvelicivaet bykvi i ybirajet probeli
+
 .section .data
 
 	str1: .ascii "fhdjjd  gg\0"
@@ -13,35 +15,32 @@ main:
 	
 	
 change_petlja:
-	cmpb $'', (%esi)
-	je preskoci
-	jmp uvel
-	
-preskoci:
- 	incl %esi
 
-uvel:
 	cmpb $0,(%esi)
 	je kraj
+	
+	cmpb $'', (%esi)
+	je preskoci
+	
 	cmpb $'a', (%esi)
 	jb preskoci
 	cmpb $'z', (%esi)
-	jbe malo_slovo
 	jmp zamena
+	
+	
+preskoci:
+ 	incl %esi
+ 	jmp change_petlja
+
 	
 zamena:
 	movb (%esi), %al
+	subb $32, %al 
 	movb %al,(%edi)
 	incl %esi
 	incl %edi
-	
-malo_slovo:
-	subb $32, (%esi)
+	jmp change_petlja
 
-
-preskoci:
-	incl %esi
-	jmp petlja 
 	
 kraj:
 	movl $1,%eax
