@@ -1,0 +1,3 @@
+/Users/viktoria/CLionProjects/oop2_vezb5/cmake-build-debug/CMakeFiles/oop2_vezb5.dir
+/Users/viktoria/CLionProjects/oop2_vezb5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/viktoria/CLionProjects/oop2_vezb5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
