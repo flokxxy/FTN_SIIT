@@ -60,8 +60,6 @@ ispis:
 	movl imeprez_len,%edx
 	int $0x80
 	
-	
-
 
 kraj:
 	movl $1,%eax
