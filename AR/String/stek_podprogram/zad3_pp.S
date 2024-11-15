@@ -44,9 +44,12 @@ cicle:
 	
 	jmp cicle
 	
-	
+greska:
+	movl $1, %edi
 	
 kraj:
+	ovl %edi, %eax
+
 	popl %edi
 	popl %esi
 	popl %ebx
