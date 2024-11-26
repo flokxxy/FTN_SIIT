@@ -90,3 +90,42 @@ plt.ylabel("f(x)")
 plt.grid()
 plt.show()
 
+///////////////////
+
+
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+
+# f(x) = x^2 - 5
+
+def f(x):
+    return x**2 - 5
+
+def f_pr1(x):
+    return 2 * x
+
+# Метод Ньютона-Рапсона
+def metod_NR(x, eps):
+    x1 = x
+    x = math.inf
+    while abs(x1 - x) > eps:
+        x = x1
+        x1 = x - f(x) / f_pr1(x)
+    return x1
+
+# Решение уравнения
+print(metod_NR(x=0.5, eps=0.01))
+
+# Построение графика
+x = np.linspace(-1, 3, 500)  # Диапазон значений для графика
+y = f(x)
+
+plt.axhline(0, color='black', linewidth=0.8, linestyle='--')  # Ось X
+plt.plot(x, y, label=f(x))
+plt.title("График функции")
+plt.xlabel("x")
+plt.ylabel("f(x)")
+
+plt.grid()
+plt.show()
