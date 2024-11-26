@@ -129,3 +129,28 @@ plt.ylabel("f(x)")
 
 plt.grid()
 plt.show()
+
+
+//////////////////
+
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+
+#f(x)=sin(x)−0.5
+def f(x):
+    return np.sin(x)-0.5
+
+def f_pr1(x):
+    return np.cos(x)
+
+def metod_NR(x,eps):
+    x1=x
+    x=math.inf
+    while (abs(x1-x)>eps):
+        x = x1
+        x1 = x - f(x)/f_pr1(x)
+    return x1
+
+print(metod_NR(x = 0.5,eps = 0.01))
+
