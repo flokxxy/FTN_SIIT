@@ -25,7 +25,7 @@ def metod_NajbPad_saMom(x0, eps, n, gamma,m):
             break
     return x
 
-
+print("точка минимума:")
  #print(metod_NajbPad(x0 = [-2,2],eps = 1e-4,n = 100,gamma = 0.1))
 print(metod_NajbPad_saMom(x0=[-2, 2], eps=1e-4, n=100, gamma=0.3, m=0.3))
 
