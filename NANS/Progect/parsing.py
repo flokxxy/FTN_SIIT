@@ -230,6 +230,84 @@ artists_countries = {
     "Emilio Prini": "Italy",
     "Fausto Melotti": "Italy",
     "Philippe Hiquily": "France",
+    "ALBRECHT DÜRER": "Germany",
+    "ANTHONY VAN DYCK": "Flanders (modern Belgium)",
+    "ANTONIO CANAL, CALLED CANALETTO": "Italy",
+    "ARSHILE GORKY": "Armenia / United States",
+    "AUGUSTIN HIRSCHVOGEL": "Germany",
+    "BENTON M. SPRUANCE": "United States",
+    "BERNARDO BELLOTTO": "Italy",
+    "BLANCHE LAZZELL": "United States",
+    "BROR JULIUS OLSSON NORDFELDT": "United States",
+    "CAMILLE PISSARRO": "France",
+    "CHARLES MERYON": "France",
+    "CHARLES SHEELER": "United States",
+    "CHILDE HASSAM": "United States",
+    "CHRISTOFFEL JEGHER AFTER PETER PAUL RUBENS": "Flanders (modern Belgium)",
+    "CLARE LEIGHTON": "England",
+    "DIEGO RIVERA": "Mexico",
+    "EDGAR DEGAS": "France",
+    "EDVARD MUNCH": "Norway",
+    "EDWARD HOPPER": "United States",
+    "ELIZABETH CATLETT": "United States",
+    "EMIL NOLDE": "Germany",
+    "ERICH HECKEL": "Germany",
+    "ERNST LUDWIG KIRCHNER": "Germany",
+    "ETHEL MARS": "United States",
+    "FRANCES H. GEARHART": "United States",
+    "FRANCISCO DE GOYA Y LUCIENTES": "Spain",
+    "FÉLIX BRACQUEMOND": "France",
+    "FÉLIX VALLOTTON": "Switzerland",
+    "GEORGE WESLEY BELLOWS": "United States",
+    "GEORGES BRAQUE": "France",
+    "GIOVANNI BATTISTA TIEPOLO": "Italy",
+    "GUSTAVE BAUMANN": "United States",
+    "HANNS LAUTENSACK": "Germany",
+    "HEINRICH CAMPENDONCK": "Germany",
+    "HENDRICK GOLTZIUS": "Netherlands",
+    "HENDRIK GOUDT AFTER ADAM ELSHEIMER": "Netherlands / Germany",
+    "HENRI DE TOULOUSE-LAUTREC": "France",
+    "HENRI MATISSE": "France",
+    "HONORÉ DAUMIER": "France",
+    "HOWARD COOK": "United States",
+    "JACQUES BELLANGE": "France",
+    "JACQUES CALLOT": "France",
+    "JACQUES VILLON": "France",
+    "JAMES ABBOTT MCNEILL WHISTLER": "United States / United Kingdom",
+    "JAN MATULKA": "United States",
+    "JEAN DUVET": "France",
+    "JOAN MIRÓ": "Spain",
+    "JOANNES VAN DOETECUM THE ELDER AND LUCAS VAN DOETECUM AFTER PIETER BRUEGEL THE ELDER": "Netherlands",
+    "JOHN MARIN": "United States",
+    "JOHN SINGER SARGENT": "United States",
+    "JOHN STEUART CURRY": "United States",
+    "KARL SCHMIDT-ROTTLUFF": "Germany",
+    "KÄTHE KOLLWITZ": "Germany",
+    "LOUIS LOZOWICK": "United States",
+    "LUCAS VAN LEYDEN": "Netherlands",
+    "LYONEL FEININGER": "United States / Germany",
+    "MABEL HEWIT": "United States",
+    "MARC CHAGALL": "Belarus / France",
+    "MARTIN LEWIS": "United States",
+    "MARTIN SCHONGAUER": "Germany",
+    "MAURICE BRAZIL PRENDERGAST": "United States",
+    "MAX BECKMANN": "Germany",
+    "ODILON REDON": "France",
+    "PABLO PICASSO": "Spain",
+    "PAUL KLEE": "Switzerland / Germany",
+    "PETER PAUL RUBENS": "Flanders (modern Belgium)",
+    "PIERRE BONNARD": "France",
+    "RAPHAEL SOYER": "United States",
+    "REGINALD MARSH": "United States",
+    "REMBRANDT HARMENSZ. VAN RIJN": "Netherlands",
+    "RODOLPHE BRESDIN": "France",
+    "SAMUEL MARGOLIES": "United States",
+    "STOW WENGENROTH": "United States",
+    "STUART DAVIS": "United States",
+    "THOMAS GAINSBOROUGH": "England",
+    "THOMAS HART BENTON": "United States",
+    "WINSLOW HOMER": "United States",
+    "ÉDOUARD MANET": "France"
 }
 
 
@@ -1339,6 +1417,120 @@ def extract_style(description):
 #     driver.quit()
 
 #-------------------------------------------------------------------------------------------------------------------
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import re
+# import json
+# import csv
+
+
+# # Укажите путь к вашему WebDriver
+# driver_path = "D:\\project on python\\msedgedriver.exe"
+
+# # Настройки WebDriver
+# options = Options()
+# options.add_argument("--headless")  # Запуск браузера в фоновом режиме (если необходимо)
+# options.add_argument("--disable-gpu")
+# options.add_argument("--no-sandbox")
+# options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+
+# # Настройка службы WebDriver
+# service = Service(driver_path)
+
+# # Создание экземпляра WebDriver
+# driver = webdriver.Edge(service=service, options=options)
+
+
+# # URL страницы
+# url = "https://onlineonly.christies.com/s/marc-chagall-entre-ciel-et-terre-oeuvres-provenant-de-la-succession-de/lots/3732"
+
+
+
+# try:
+#     # Открываем страницу
+#     driver.get(url)
+
+#     # Ищем теги <script>, содержащие данные
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+#     lot_data = None
+
+#     # Ищем JSON в одном из скриптов
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents" in script_content:
+#             match = re.search(r"window\.chrComponents\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_data = match.group(1)
+#                 lot_data = json.loads(json_data)
+#                 break
+
+#     if not lot_data:
+#         print("Данные не найдены.")
+#     else:
+#         # Парсим лоты
+#         lots = lot_data.get("lots", {}).get("data", {}).get("lots", [])
+#         results = []
+
+#         for lot in lots:
+#             artist = lot.get("title_primary_txt", "N/A")
+#             title = lot.get("title_secondary_txt", "N/A")
+#             price_realised = lot.get("price_realised_txt", "N/A")
+#             estimate = lot.get("estimate_txt", "N/A")
+#             description = lot.get("description_txt", "N/A")
+
+#             # Извлекаем материал и размеры
+#             dimensions_match = re.search(r"([\d.,]+\s*x\s*[\d.,]+\s*(cm|in))", description)
+#             dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+
+#             material_match = re.search(r"(oil on canvas|acrylic|mixed media|gouache|watercolor|bronze)", description, re.IGNORECASE)
+#             material = material_match.group(1) if material_match else "N/A"
+
+#             # Удаляем скобки и извлекаем период
+#             artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+#             period_match = re.search(r"\\(([^)]+)\\)", artist)
+#             period = period_match.group(1) if period_match else "N/A"
+
+#             # Страна
+#             country = "FRENCH"  # Можно заменить на словарь стран по художникам
+
+#             # Извлекаем стиль и жанр
+#             style = "Surrealism"
+#             genre = "Fantasy Compositions"
+
+#             # Добавляем данные в список
+#             results.append({
+#                 "Название": title,
+#                 "Имя художника": artist_cleaned,
+#                 "Стоимость": price_realised,
+#                 "Примерная оценка": estimate,
+#                 "Материал": material,
+#                 "Размер": dimensions,
+#                 "Страна": country,
+#                 "Период": "1887-1985",
+#                 "Стиль": style,
+#                 "Жанр": genre
+#         })
+            
+        
+#         csv_file = "Marc_Chagall.csv"
+#         fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+
+#         with open(csv_file, "w", newline="", encoding="utf-8") as file:
+#             writer = csv.DictWriter(file, fieldnames=fieldnames)
+#             writer.writeheader()
+#             writer.writerows(results)
+
+#         print(f"Данные успешно сохранены в файл {csv_file}")
+
+# finally:
+#     # Закрываем браузер
+#     driver.quit()
+
+
+
+#-----------------------------------------------------------------------------------------------
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.service import Service
@@ -1347,7 +1539,7 @@ import re
 import json
 import csv
 
-
+url = "https://www.christies.com/en/auction/exceptional-impressions-the-alan-and-marianne-schwartz-collection-30738/?page=2&sortby=lotnumber"
 # Укажите путь к вашему WebDriver
 driver_path = "D:\\project on python\\msedgedriver.exe"
 
@@ -1364,12 +1556,6 @@ service = Service(driver_path)
 # Создание экземпляра WebDriver
 driver = webdriver.Edge(service=service, options=options)
 
-
-# URL страницы
-url = "https://onlineonly.christies.com/s/marc-chagall-entre-ciel-et-terre-oeuvres-provenant-de-la-succession-de/lots/3732"
-
-
-
 try:
     # Открываем страницу
     driver.get(url)
@@ -1381,8 +1567,8 @@ try:
     # Ищем JSON в одном из скриптов
     for script in scripts:
         script_content = script.get_attribute("innerHTML")
-        if "window.chrComponents" in script_content:
-            match = re.search(r"window\.chrComponents\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+        if "window.chrComponents.lots" in script_content:
+            match = re.search(r"window\.chrComponents\.lots\s*=\s*(\{.*?\});", script_content, re.DOTALL)
             if match:
                 json_data = match.group(1)
                 lot_data = json.loads(json_data)
@@ -1392,36 +1578,37 @@ try:
         print("Данные не найдены.")
     else:
         # Парсим лоты
-        lots = lot_data.get("lots", {}).get("data", {}).get("lots", [])
+        lots = lot_data.get("data", {}).get("lots", [])
+        filters = lot_data.get("data", {}).get("filters", {}).get("groups", [])
+        
         results = []
-
         for lot in lots:
             artist = lot.get("title_primary_txt", "N/A")
             title = lot.get("title_secondary_txt", "N/A")
             price_realised = lot.get("price_realised_txt", "N/A")
             estimate = lot.get("estimate_txt", "N/A")
             description = lot.get("description_txt", "N/A")
+            
 
-            # Извлекаем материал и размеры
-            dimensions_match = re.search(r"([\d.,]+\s*x\s*[\d.,]+\s*(cm|in))", description)
-            dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+            # Извлекаем размер
+            dimensions_match = re.search(r"([\d.,]+\s*x\s*[\d.,]+\s*(mm|cm|in))", description, re.IGNORECASE)
+            dimensions = dimensions_match.group(1) if dimensions_match else "Размер не найден"
 
             material_match = re.search(r"(oil on canvas|acrylic|mixed media|gouache|watercolor|bronze)", description, re.IGNORECASE)
             material = material_match.group(1) if material_match else "N/A"
 
+           
             # Удаляем скобки и извлекаем период
             artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
-            period_match = re.search(r"\\(([^)]+)\\)", artist)
-            period = period_match.group(1) if period_match else "N/A"
+            # Извлечение периода
+            period_match = re.search(r"\((?:CIRCA\s*)?(\d{4}-\d{4})\)", artist, re.IGNORECASE)
+            period = period_match.group(1) if period_match else "Период не найден"
 
-            # Страна
-            country = "FRENCH"  # Можно заменить на словарь стран по художникам
+            # Добавляем страну, период, жанр
+            country = artists_countries.get(artist_cleaned, "Unknown")
+            
+            genre = ""
 
-            # Извлекаем стиль и жанр
-            style = extract_style(description)
-            genre = extract_genre(description)
-
-            # Добавляем данные в список
             results.append({
                 "Название": title,
                 "Имя художника": artist_cleaned,
@@ -1430,13 +1617,13 @@ try:
                 "Материал": material,
                 "Размер": dimensions,
                 "Страна": country,
-                "Период": "1887-1985",
-                "Стиль": style,
-                "Жанр": genre
-        })
-            
-        
-        csv_file = "Marc_Chagall.csv"
+                "Период": period,
+                "Стиль": "Engraving",  # Пока данных о стиле нет
+                "Жанр": "Engraving"
+            })
+
+        # Сохраняем данные в CSV
+        csv_file = "Alan_and_Marianne_Schwartz.csv"
         fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
 
         with open(csv_file, "w", newline="", encoding="utf-8") as file:
