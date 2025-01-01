@@ -26,6 +26,102 @@ def get_country_from_city(author_info):
         return city_to_country.get(city, "Unknown")
     return "Unknown"
 
+
+def get_style_and_genre(artist_name):
+    artist_info = artist_styles_genres.get(artist_name.upper())  # Преобразуем имя к верхнему регистру
+    if artist_info:
+        return artist_info
+    else:
+        return {"style": "Unknown", "genre": "Unknown"}
+
+
+artist_styles_genres = {
+    "ABD AL-HADI EL-GAZZAR": {"style": "Social Realism", "genre": "Figurative"},
+    "ABDULHAY MUSALLAM ZARARA": {"style": "Naive Art", "genre": "Folk"},
+    "ADAM HENEIN": {"style": "Modernism", "genre": "Sculptural"},
+    "AHMED MATER": {"style": "Contemporary", "genre": "Conceptual"},
+    "AMMAR FARHAT": {"style": "Modernism", "genre": "Figurative"},
+    "AREF EL RAYESS": {"style": "Modernism", "genre": "Abstract"},
+    "ASIM ABOU SHAKRA": {"style": "Modernism", "genre": "Expressionist"},
+    "BAHMAN MOHASSES": {"style": "Modernism", "genre": "Surrealist"},
+    "BAYA": {"style": "Folk Art", "genre": "Figurative"},
+    "CHAÏBIA TALAL": {"style": "Folk Art", "genre": "Naive"},
+    "DIA AL-AZZAWI": {"style": "Contemporary", "genre": "Abstract"},
+    "ETEL ADNAN": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "FARID BELKAHIA": {"style": "Modernism", "genre": "Abstract"},
+    "HAFIDH AL DROUBI": {"style": "Modernism", "genre": "Cubism"},
+    "HAMED NADA": {"style": "Social Realism", "genre": "Figurative"},
+    "HAYV KAHRAMAN": {"style": "Contemporary", "genre": "Figurative"},
+    "HELEN KHAL": {"style": "Modernism", "genre": "Abstract"},
+    "HUSSEIN BICAR": {"style": "Realism", "genre": "Portrait"},
+    "IBRAHIM EL-SALAHI": {"style": "Modernism", "genre": "Abstract"},
+    "INJI EFFLATOUN": {"style": "Social Realism", "genre": "Figurative"},
+    "KAMAL BOULLATA": {"style": "Geometric Abstraction", "genre": "Abstract"},
+    "LAILA SHAWA": {"style": "Contemporary", "genre": "Conceptual"},
+    "MAHMOUD HAMMAD": {"style": "Modernism", "genre": "Abstract"},
+    "MAHMOUD SABRI": {"style": "Social Realism", "genre": "Figurative"},
+    "MAHMOUD SAÏD": {"style": "Modernism", "genre": "Figurative"},
+    "MANOUCHER YEKTAI": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "MARWAN": {"style": "Modernism", "genre": "Expressionist"},
+    "MOHAMED MELEHI": {"style": "Hard-edge Abstraction", "genre": "Geometric"},
+    "MOHAMMED AL SALEEM": {"style": "Modernism", "genre": "Abstract"},
+    "MOHAMMED CHABÂA": {"style": "Modernism", "genre": "Abstract"},
+    "MOHAMMED KACIMI": {"style": "Social Realism", "genre": "Figurative"},
+    "MOHAMMED SAMI": {"style": "Contemporary", "genre": "Figurative"},
+    "MONIR SHAHROUDY FARMANFARMAIAN": {"style": "Geometric Abstraction", "genre": "Sculptural"},
+    "PAUL GUIRAGOSSIAN": {"style": "Expressionism", "genre": "Figurative"},
+    "SAFIA FARHAT": {"style": "Modernism", "genre": "Decorative"},
+    "SAMIA HALABY": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "SHAFIC ABBOUD": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "SHAKER HASSAN AL SAID": {"style": "Modernism", "genre": "Abstract"},
+    "SLIMAN MANSOUR": {"style": "Social Realism", "genre": "Figurative"},
+    "SOHRAB SEPEHRI": {"style": "Modernism", "genre": "Minimalist"},
+    "TAHIA HALIM": {"style": "Social Realism", "genre": "Figurative"},
+    "YVETTE ACHKAR": {"style": "Modernism", "genre": "Abstract"},
+    "ZIAD DALLOUL": {"style": "Contemporary", "genre": "Figurative"},
+    "ABD AL-HADI EL-GAZZAR": {"style": "Social Realism", "genre": "Figurative"},
+    "ABDELAZIZ GORGI": {"style": "Modernism", "genre": "Abstract"},
+    "ABDUL HALIM RADWI": {"style": "Contemporary", "genre": "Conceptual"},
+    "ABDULNASSER GHAREM": {"style": "Contemporary", "genre": "Conceptual"},
+    "ADAM HENEIN": {"style": "Modernism", "genre": "Sculpture"},
+    "ADHAM WANLY": {"style": "Impressionism", "genre": "Figurative"},
+    "ALFRED BASBOUS": {"style": "Modernism", "genre": "Sculpture"},
+    "DIA AL-AZZAWI": {"style": "Contemporary", "genre": "Abstract"},
+    "EMILY JACIR": {"style": "Conceptual Art", "genre": "Photography"},
+    "ETEL ADNAN": {"style": "Contemporary", "genre": "Abstract"},
+    "FAHRELNISSA ZEID": {"style": "Modernism", "genre": "Abstract"},
+    "FARHAD MOSHIRI": {"style": "Pop Art", "genre": "Mixed Media"},
+    "GEORGES HANNA SABBAGH": {"style": "Modernism", "genre": "Figurative"},
+    "HAFIDH AL-DROUBI": {"style": "Modernism", "genre": "Figurative"},
+    "HAYV KAHRAMAN": {"style": "Contemporary", "genre": "Figurative"},
+    "HELEN KHAL": {"style": "Modernism", "genre": "Abstract"},
+    "HIMAT MOHAMMED ALI": {"style": "Contemporary", "genre": "Abstract"},
+    "HUSSEIN MADI": {"style": "Modernism", "genre": "Sculpture"},
+    "JAMIL MOLAEB": {"style": "Modernism", "genre": "Abstract"},
+    "JULIANA SERAPHIM": {"style": "Surrealism", "genre": "Figurative"},
+    "JUMANA EL HUSSEINI": {"style": "Modernism", "genre": "Abstract"},
+    "LAILA SHAWA": {"style": "Contemporary", "genre": "Political Art"},
+    "MAHMOUD OBAIDI": {"style": "Contemporary", "genre": "Conceptual"},
+    "MAHMOUD SABRI": {"style": "Modernism", "genre": "Figurative"},
+    "MANAL AL DOWAYAN": {"style": "Contemporary", "genre": "Conceptual"},
+    "MARC GUIRAGOSSIAN": {"style": "Modernism", "genre": "Figurative"},
+    "MARWAN": {"style": "Expressionism", "genre": "Figurative"},
+    "MARWAN SAHMARANI": {"style": "Contemporary", "genre": "Figurative"},
+    "MASSOUD ARABSHAHI": {"style": "Modernism", "genre": "Abstract"},
+    "MOHAMMED GHANI HIKMAT": {"style": "Modernism", "genre": "Sculpture"},
+    "MONIR SHAHROUDY FARMANFARMAIAN": {"style": "Modernism", "genre": "Geometric"},
+    "NABIL ANANI": {"style": "Contemporary", "genre": "Figurative"},
+    "NEZIHA SELIM": {"style": "Modernism", "genre": "Figurative"},
+    "PAUL GUIRAGOSSIAN": {"style": "Expressionism", "genre": "Figurative"},
+    "SHAKER HASSAN AL SAID": {"style": "Modernism", "genre": "Abstract"},
+    "SUAD AL-ATTAR": {"style": "Surrealism", "genre": "Figurative"},
+    "TAGREED DARGHOUTH": {"style": "Contemporary", "genre": "Figurative"},
+    "TALA MADANI": {"style": "Contemporary", "genre": "Figurative"},
+    "TIMO NASSERI": {"style": "Contemporary", "genre": "Geometric"}
+}
+
+
+
 # Словарь художников и их стран
 artists_countries = {
     "ALEC EGAN": "United States",
@@ -307,7 +403,89 @@ artists_countries = {
     "THOMAS GAINSBOROUGH": "England",
     "THOMAS HART BENTON": "United States",
     "WINSLOW HOMER": "United States",
-    "ÉDOUARD MANET": "France"
+    "ÉDOUARD MANET": "France",
+    "ABD AL-HADI EL-GAZZAR": "Egypt",
+    "ABDULHAY MUSALLAM ZARARA": "Palestine",
+    "ADAM HENEIN": "Egypt",
+    "AHMED MATER": "Saudi Arabia",
+    "AMMAR FARHAT": "Tunisia",
+    "AREF EL RAYESS": "Lebanon",
+    "ASIM ABOU SHAKRA": "Israel/Palestine",
+    "BAHMAN MOHASSES": "Iran",
+    "BAYA": "Algeria",
+    "CHAÏBIA TALAL": "Morocco",
+    "DIA AL-AZZAWI": "Iraq",
+    "ETEL ADNAN": "Lebanon",
+    "FARID BELKAHIA": "Morocco",
+    "HAFIDH AL DROUBI": "Iraq",
+    "HAMED NADA": "Egypt",
+    "HAYV KAHRAMAN": "Iraq",
+    "HELEN KHAL": "Lebanon",
+    "HUSSEIN BICAR": "Egypt",
+    "IBRAHIM EL-SALAHI": "Sudan",
+    "INJI EFFLATOUN": "Egypt",
+    "KAMAL BOULLATA": "Palestine",
+    "LAILA SHAWA": "Palestine",
+    "MAHMOUD HAMMAD": "Syria",
+    "MAHMOUD SABRI": "Iraq",
+    "MAHMOUD SAÏD": "Egypt",
+    "MANOUCHER YEKTAI": "Iran",
+    "MARWAN": "Syria",
+    "MOHAMED MELEHI": "Morocco",
+    "MOHAMMED AL SALEEM": "Saudi Arabia",
+    "MOHAMMED CHABÂA": "Morocco",
+    "MOHAMMED KACIMI": "Morocco",
+    "MOHAMMED SAMI": "Iraq",
+    "MONIR SHAHROUDY FARMANFARMAIAN": "Iran",
+    "PAUL GUIRAGOSSIAN": "Lebanon",
+    "SAFIA FARHAT": "Tunisia",
+    "SAMIA HALABY": "Palestine",
+    "SHAFIC ABBOUD": "Lebanon",
+    "SHAKER HASSAN AL SAID": "Iraq",
+    "SLIMAN MANSOUR": "Palestine",
+    "SOHRAB SEPEHRI": "Iran",
+    "TAHIA HALIM": "Egypt",
+    "YVETTE ACHKAR": "Lebanon",
+    "ZIAD DALLOUL": "Syria",
+    "ABD AL-HADI EL-GAZZAR": "Egypt",
+    "ABDELAZIZ GORGI": "Tunisia",
+    "ABDUL HALIM RADWI": "Saudi Arabia",
+    "ABDULNASSER GHAREM": "Saudi Arabia",
+    "ADAM HENEIN": "Egypt",
+    "ADHAM WANLY": "Egypt",
+    "ALFRED BASBOUS": "Lebanon",
+    "DIA AL-AZZAWI": "Iraq",
+    "EMILY JACIR": "Palestine",
+    "ETEL ADNAN": "Lebanon",
+    "FAHRELNISSA ZEID": "Turkey",
+    "FARHAD MOSHIRI": "Iran",
+    "GEORGES HANNA SABBAGH": "Lebanon",
+    "HAFIDH AL-DROUBI": "Iraq",
+    "HAYV KAHRAMAN": "Iraq",
+    "HELEN KHAL": "Lebanon",
+    "HIMAT MOHAMMED ALI": "Iraq",
+    "HUSSEIN MADI": "Lebanon",
+    "JAMIL MOLAEB": "Lebanon",
+    "JULIANA SERAPHIM": "Lebanon",
+    "JUMANA EL HUSSEINI": "Palestine",
+    "LAILA SHAWA": "Palestine",
+    "MAHMOUD OBAIDI": "Iraq",
+    "MAHMOUD SABRI": "Iraq",
+    "MANAL AL DOWAYAN": "Saudi Arabia",
+    "MARC GUIRAGOSSIAN": "Lebanon",
+    "MARWAN": "Syria",
+    "MARWAN SAHMARANI": "Lebanon",
+    "MASSOUD ARABSHAHI": "Iran",
+    "MOHAMMED GHANI HIKMAT": "Iraq",
+    "MONIR SHAHROUDY FARMANFARMAIAN": "Iran",
+    "NABIL ANANI": "Palestine",
+    "NEZIHA SELIM": "Iraq",
+    "PAUL GUIRAGOSSIAN": "Lebanon",
+    "SHAKER HASSAN AL SAID": "Iraq",
+    "SUAD AL-ATTAR": "Iraq",
+    "TAGREED DARGHOUTH": "Lebanon",
+    "TALA MADANI": "Iran",
+    "TIMO NASSERI": "Iran"
 }
 
 
@@ -384,6 +562,30 @@ def extract_style(description):
         if keyword in description.lower():
             return style
     return "Unknown"  # Если стиль не удалось определить
+
+# Функция для конвертации размеров в сантиметры
+def convert_to_cm(dimensions):
+    try:
+        match = re.match(r"([\d.,]+)\s*x\s*([\d.,]+)\s*(mm|cm|in)", dimensions, re.IGNORECASE)
+        if match:
+            width, height, unit = match.groups()
+            width = float(width.replace(",", "."))
+            height = float(height.replace(",", "."))
+            if unit.lower() == "mm":
+                # Конвертируем миллиметры в сантиметры
+                width /= 10
+                height /= 10
+            elif unit.lower() == "in":
+                # Конвертируем дюймы в сантиметры (1 дюйм = 2.54 см)
+                width *= 2.54
+                height *= 2.54
+            # Возвращаем строку в формате "ширина x высота см"
+            return f"{width:.1f} x {height:.1f} cm"
+        else:
+            return "Размер не найден"
+    except Exception as e:
+        return "Ошибка конвертации"
+
 
 
 # import json
@@ -1531,108 +1733,340 @@ def extract_style(description):
 
 
 #-----------------------------------------------------------------------------------------------
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.edge.service import Service
-from selenium.webdriver.edge.options import Options
-import re
-import json
-import csv
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import re
+# import json
+# import csv
 
-url = "https://www.christies.com/en/auction/exceptional-impressions-the-alan-and-marianne-schwartz-collection-30738/?page=2&sortby=lotnumber"
-# Укажите путь к вашему WebDriver
-driver_path = "D:\\project on python\\msedgedriver.exe"
+# url = "https://www.christies.com/en/auction/exceptional-impressions-the-alan-and-marianne-schwartz-collection-30738/?page=2&sortby=lotnumber"
+# # Укажите путь к вашему WebDriver
+# driver_path = "D:\\project on python\\msedgedriver.exe"
 
-# Настройки WebDriver
-options = Options()
-options.add_argument("--headless")  # Запуск браузера в фоновом режиме (если необходимо)
-options.add_argument("--disable-gpu")
-options.add_argument("--no-sandbox")
-options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+# # Настройки WebDriver
+# options = Options()
+# options.add_argument("--headless")  # Запуск браузера в фоновом режиме (если необходимо)
+# options.add_argument("--disable-gpu")
+# options.add_argument("--no-sandbox")
+# options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
 
-# Настройка службы WebDriver
-service = Service(driver_path)
+# # Настройка службы WebDriver
+# service = Service(driver_path)
 
-# Создание экземпляра WebDriver
-driver = webdriver.Edge(service=service, options=options)
+# # Создание экземпляра WebDriver
+# driver = webdriver.Edge(service=service, options=options)
 
-try:
-    # Открываем страницу
-    driver.get(url)
+# try:
+#     # Открываем страницу
+#     driver.get(url)
 
-    # Ищем теги <script>, содержащие данные
-    scripts = driver.find_elements(By.TAG_NAME, "script")
-    lot_data = None
+#     # Ищем теги <script>, содержащие данные
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+#     lot_data = None
 
-    # Ищем JSON в одном из скриптов
-    for script in scripts:
-        script_content = script.get_attribute("innerHTML")
-        if "window.chrComponents.lots" in script_content:
-            match = re.search(r"window\.chrComponents\.lots\s*=\s*(\{.*?\});", script_content, re.DOTALL)
-            if match:
-                json_data = match.group(1)
-                lot_data = json.loads(json_data)
-                break
+#     # Ищем JSON в одном из скриптов
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents.lots" in script_content:
+#             match = re.search(r"window\.chrComponents\.lots\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_data = match.group(1)
+#                 lot_data = json.loads(json_data)
+#                 break
 
-    if not lot_data:
-        print("Данные не найдены.")
-    else:
-        # Парсим лоты
-        lots = lot_data.get("data", {}).get("lots", [])
-        filters = lot_data.get("data", {}).get("filters", {}).get("groups", [])
+#     if not lot_data:
+#         print("Данные не найдены.")
+#     else:
+#         # Парсим лоты
+#         lots = lot_data.get("data", {}).get("lots", [])
+#         filters = lot_data.get("data", {}).get("filters", {}).get("groups", [])
         
-        results = []
-        for lot in lots:
-            artist = lot.get("title_primary_txt", "N/A")
-            title = lot.get("title_secondary_txt", "N/A")
-            price_realised = lot.get("price_realised_txt", "N/A")
-            estimate = lot.get("estimate_txt", "N/A")
-            description = lot.get("description_txt", "N/A")
+#         results = []
+#         for lot in lots:
+#             artist = lot.get("title_primary_txt", "N/A")
+#             title = lot.get("title_secondary_txt", "N/A")
+#             price_realised = lot.get("price_realised_txt", "N/A")
+#             estimate = lot.get("estimate_txt", "N/A")
+#             description = lot.get("description_txt", "N/A")
             
 
-            # Извлекаем размер
-            dimensions_match = re.search(r"([\d.,]+\s*x\s*[\d.,]+\s*(mm|cm|in))", description, re.IGNORECASE)
-            dimensions = dimensions_match.group(1) if dimensions_match else "Размер не найден"
+#             # Извлекаем размер
+#             dimensions_match = re.search(r"([\d.,]+\s*x\s*[\d.,]+\s*(mm|cm|in))", description, re.IGNORECASE)
+#             dimensions = dimensions_match.group(1) if dimensions_match else "Размер не найден"
 
-            material_match = re.search(r"(oil on canvas|acrylic|mixed media|gouache|watercolor|bronze)", description, re.IGNORECASE)
-            material = material_match.group(1) if material_match else "N/A"
+#             material_match = re.search(r"(oil on canvas|acrylic|mixed media|gouache|watercolor|bronze)", description, re.IGNORECASE)
+#             material = material_match.group(1) if material_match else "N/A"
 
            
-            # Удаляем скобки и извлекаем период
-            artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
-            # Извлечение периода
-            period_match = re.search(r"\((?:CIRCA\s*)?(\d{4}-\d{4})\)", artist, re.IGNORECASE)
-            period = period_match.group(1) if period_match else "Период не найден"
+#             # Удаляем скобки и извлекаем период
+#             artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+#             # Извлечение периода
+#             period_match = re.search(r"\((?:CIRCA\s*)?(\d{4}-\d{4})\)", artist, re.IGNORECASE)
+#             period = period_match.group(1) if period_match else "Период не найден"
 
-            # Добавляем страну, период, жанр
-            country = artists_countries.get(artist_cleaned, "Unknown")
+#             # Добавляем страну, период, жанр
+#             country = artists_countries.get(artist_cleaned, "Unknown")
             
-            genre = ""
+#             genre = ""
 
-            results.append({
-                "Название": title,
-                "Имя художника": artist_cleaned,
-                "Стоимость": price_realised,
-                "Примерная оценка": estimate,
-                "Материал": material,
-                "Размер": dimensions,
-                "Страна": country,
-                "Период": period,
-                "Стиль": "Engraving",  # Пока данных о стиле нет
-                "Жанр": "Engraving"
-            })
+#             results.append({
+#                 "Название": title,
+#                 "Имя художника": artist_cleaned,
+#                 "Стоимость": price_realised,
+#                 "Примерная оценка": estimate,
+#                 "Материал": material,
+#                 "Размер": dimensions,
+#                 "Страна": country,
+#                 "Период": period,
+#                 "Стиль": "Engraving",  # Пока данных о стиле нет
+#                 "Жанр": "Engraving"
+#             })
 
-        # Сохраняем данные в CSV
-        csv_file = "Alan_and_Marianne_Schwartz.csv"
-        fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+#         # Сохраняем данные в CSV
+#         csv_file = "Alan_and_Marianne_Schwartz.csv"
+#         fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
 
-        with open(csv_file, "w", newline="", encoding="utf-8") as file:
-            writer = csv.DictWriter(file, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(results)
+#         with open(csv_file, "w", newline="", encoding="utf-8") as file:
+#             writer = csv.DictWriter(file, fieldnames=fieldnames)
+#             writer.writeheader()
+#             writer.writerows(results)
 
-        print(f"Данные успешно сохранены в файл {csv_file}")
+#         print(f"Данные успешно сохранены в файл {csv_file}")
 
-finally:
-    # Закрываем браузер
-    driver.quit()
+# finally:
+#     # Закрываем браузер
+#     driver.quit()
+
+#---------------------------------------------------------------------------
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import re
+# import json
+# import csv
+
+# # Функция для получения стиля и жанра
+# def get_style_and_genre(artist_name):
+#     artist_info = artist_styles_genres.get(artist_name.upper())  # Преобразуем имя к верхнему регистру
+#     if artist_info:
+#         return artist_info
+#     else:
+#         return {"style": "Unknown", "genre": "Unknown"}
+
+
+# url = "https://www.christies.com/en/auction/modern-and-contemporary-middle-eastern-art-including-highlights-from-the-dalloul-collection-30564/"
+# # Укажите путь к вашему WebDriver
+# driver_path = "D:\\project on python\\msedgedriver.exe"
+
+# # Настройки WebDriver
+# options = Options()
+# options.add_argument("--headless")  # Запуск браузера в фоновом режиме (если необходимо)
+# options.add_argument("--disable-gpu")
+# options.add_argument("--no-sandbox")
+# options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+
+# # Настройка службы WebDriver
+# service = Service(driver_path)
+
+# # Создание экземпляра WebDriver
+# driver = webdriver.Edge(service=service, options=options)
+
+# try:
+#     # Открываем страницу
+#     driver.get(url)
+
+#     # Ищем теги <script>, содержащие данные
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+#     lot_data = None
+
+#     # Ищем JSON в одном из скриптов
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents.lots" in script_content:
+#             match = re.search(r"window\.chrComponents\.lots\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_data = match.group(1)
+#                 lot_data = json.loads(json_data)
+#                 break
+
+#     if not lot_data:
+#         print("Данные не найдены.")
+#     else:
+#         # Парсим лоты
+#         lots = lot_data.get("data", {}).get("lots", [])
+#         filters = lot_data.get("data", {}).get("filters", {}).get("groups", [])
+        
+#         results = []
+#         for lot in lots:
+#             artist = lot.get("title_primary_txt", "N/A")
+#             title = lot.get("title_secondary_txt", "N/A")
+#             price_realised = lot.get("price_realised_txt", "N/A")
+#             estimate = lot.get("estimate_txt", "N/A")
+#             description = lot.get("description_txt", "N/A")
+            
+
+#             # Попытка извлечь размер и конвертировать в сантиметры
+#             dimensions_match = re.search(r"([\d.,]+\s*x\s*[\d.,]+\s*(mm|cm|in))", description, re.IGNORECASE)
+#             dimensions = convert_to_cm(dimensions_match.group(0)) if dimensions_match else "Размер не найден"
+
+#             material_match = re.search(r"(oil on canvas|acrylic|mixed media|gouache|watercolor|bronze)", description, re.IGNORECASE)
+#             material = material_match.group(1) if material_match else "N/A"
+
+           
+#             # Удаляем скобки и извлекаем период
+            
+#             artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+#             # Извлечение периода (всё, что в скобках)
+
+#             period_match = re.search(r"\((.*?)\)", artist)
+#             period = period_match.group(1) if period_match else "Период не найден"
+#             artist = re.sub(r"\s*\(.*?\)", "", artist).strip().upper()
+
+
+#             # Добавляем страну, период, жанр
+#             country = artists_countries.get(artist_cleaned, "Unknown")
+#             style_genre = get_style_and_genre(artist)
+#             genre = ""
+
+#             results.append({
+#                 "Название": title,
+#                 "Имя художника": artist_cleaned,
+#                 "Стоимость": price_realised,
+#                 "Примерная оценка": estimate,
+#                 "Материал": material,
+#                 "Размер": dimensions,
+#                 "Страна": country,
+#                 "Период": period,
+#                 "Стиль": style_genre["style"],
+#                 "Жанр": style_genre["genre"]
+#             })
+
+#         # Сохраняем данные в CSV
+#         csv_file = "Modern_and_Contemporary_Middle.csv"
+#         fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+
+#         with open(csv_file, "w", newline="", encoding="utf-8") as file:
+#             writer = csv.DictWriter(file, fieldnames=fieldnames)
+#             writer.writeheader()
+#             writer.writerows(results)
+
+#         print(f"Данные успешно сохранены в файл {csv_file}")
+
+# finally:
+#     # Закрываем браузер
+#     driver.quit()
+
+
+#---------------------------------------------------------------
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import re
+# import json
+# import csv
+
+# # Укажите путь к WebDriver
+# driver_path = "D:\\project on python\\msedgedriver.exe"
+
+# # Настройки WebDriver
+# options = Options()
+# options.add_argument("--headless")  # Запуск в фоновом режиме
+# options.add_argument("--disable-gpu")
+# options.add_argument("--no-sandbox")
+# options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+
+# # Создаем экземпляр WebDriver
+# service = Service(driver_path)
+# driver = webdriver.Edge(service=service, options=options)
+
+# # URL страницы
+# url = "https://onlineonly.christies.com/s/modern-contemporary-middle-eastern-art-including-highlights-dalloul/lots/3403"
+
+# # Функция для извлечения данных
+# def extract_lot_data(driver, url):
+#     driver.get(url)
+
+#     # Находим скрипты на странице
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+#     lot_data = None
+
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents" in script_content:
+#             match = re.search(r"window\.chrComponents\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_data = match.group(1)
+#                 lot_data = json.loads(json_data)
+#                 break
+
+#     if not lot_data or "lots" not in lot_data.get("lots", {}).get("data", {}):
+#         print("Данные о лотах не найдены")
+#         return []
+
+#     lots = lot_data["lots"]["data"]["lots"]
+#     results = []
+
+#     for lot in lots:
+#         title = lot.get("title_secondary_txt", "N/A")
+#         artist = lot.get("title_primary_txt", "N/A")
+#         price_realised = lot.get("price_realised_txt", "N/A")
+#         estimate = lot.get("estimate_txt", "N/A")
+#         description = lot.get("description_txt", "N/A")
+
+#         # Извлечение материала и размеров из description
+#         material_match = re.search(r"(oil on canvas|acrylic|printed porcelain|watercolor)", description, re.IGNORECASE)
+#         material = material_match.group(1) if material_match else "N/A"
+
+#         dimensions_match = re.search(r"(\d+\.?\d*\s*x\s*\d+\.?\d*\s*(cm|in|mm))", description, re.IGNORECASE)
+#         dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+
+#         artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+
+#         period_match = re.search(r"\((.*?)\)", artist)
+#         period = period_match.group(1) if period_match else "Период не найден"
+#         artist = re.sub(r"\s*\(.*?\)", "", artist).strip().upper()
+
+#         country=artists_countries.get(artist_cleaned, "Unknown")
+#         style_genre = get_style_and_genre(artist)
+
+#         # Добавляем данные в результат
+#         results.append({
+#             "Название": title,
+#             "Имя художника": artist,
+#             "Стоимость": price_realised,
+#             "Примерная оценка": estimate,
+#             "Материал": material,
+#             "Размер": dimensions,
+#             "Страна": country,
+#             "Период": period,
+#             "Стиль": style_genre["style"],
+#             "Жанр": style_genre["genre"]
+#         })
+
+#     return results
+
+# # Основной блок выполнения
+# try:
+#     data = extract_lot_data(driver, url)
+
+#     # Сохраняем данные в CSV
+#     csv_file = "Middle_Eastern_Art.csv"
+#     fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+
+#     with open(csv_file, "w", newline="", encoding="utf-8") as file:
+#         writer = csv.DictWriter(file, fieldnames=fieldnames)
+#         writer.writeheader()
+#         writer.writerows(data)
+
+#     print(f"Данные успешно сохранены в файл {csv_file}")
+
+# finally:
+#     driver.quit()
+
+#------------------------------------------------------------------
