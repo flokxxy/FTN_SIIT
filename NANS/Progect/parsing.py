@@ -1,4 +1,30 @@
+# Словарь с городами и соответствующими странами
+city_to_country = {
+    "Paris": "France",
+    "New York": "United States",
+    "London": "United Kingdom",
+    "Berlin": "Germany",
+    "Rome": "Italy",
+    "Madrid": "Spain",
+    "Amsterdam": "Netherlands",
+    "Vienna": "Austria",
+    "Moscow": "Russia",
+    "Tokyo": "Japan",
+    "Beijing": "China",
+   
+}
 
+def get_country_from_city(author_info):
+    """
+    Извлекает страну по городу, указанному в скобках у автора.
+    :param author_info: строка с именем автора и дополнительной информацией (например, год и город).
+    :return: название страны или 'Unknown', если город не найден.
+    """
+    city_match = re.search(r"\(([^,)]+)", author_info)  # Извлечение текста из скобок до первой запятой
+    if city_match:
+        city = city_match.group(1).strip()
+        return city_to_country.get(city, "Unknown")
+    return "Unknown"
 
 # Словарь художников и их стран
 artists_countries = {
@@ -65,19 +91,182 @@ artists_countries = {
     "WADE GUYTON": "United States",
     "WANGECHI MUTU": "Kenya",
     "WILLIAM KENTRIDGE": "South Africa",
-    "ZANELE MUHOLI": "South Africa"
+    "ZANELE MUHOLI": "South Africa",
+    "ABRAHAM WILLAERTS": "Netherlands",
+    "ALBERT-ERNEST CARRIER-BELLEUSE": "France",
+    "ANTHONY CLAESZ. LE JEUNE": "Netherlands",
+    "ANTOINE DIEU": "France",
+    "ANTONIO FRILLI": "Italy",
+    "ANTONIO GARELLA": "Italy",
+    "ATTRIBUÉ À CHARLES LEPEINTRE": "France",
+    "ATTRIBUÉ À GIUSEPPE GAVAGNIN": "Italy",
+    "ATTRIBUÉ À JACOPINO DEL CONTE": "Italy",
+    "ATTRIBUÉ À ÉRASME QUELLIN LE JEUNE": "Belgium",
+    "CARL AUGUST WILHELM SOMMER": "Germany",
+    "CERCLE DE FRANÇOIS GIRARDON": "France",
+    "CHARLES LE BRUN": "France",
+    "CHARLES-ANDRÉ VAN LOO DIT CARLE VAN LOO": "France",
+    "CHARLES-THÉODORE FRÈRE": "France",
+    "CORNELIS CORNELISZ. VAN HAARLEM": "Netherlands",
+    "D'APRÈS FRANÇOIS DUQUESNOY": "Belgium",
+    "D'APRÈS FÉLIX LECOMTE": "France",
+    "D'APRÈS JEAN-LOUIS LEMOYNE": "France",
+    "D'APRÈS L'ANTIQUE, FIN DU XVIIIe OU XIXe SIÈCLE": "Italy",
+    "D'APRÈS L'ANTIQUE, ITALIE, FIN DU XIXE OU DÉBUT DU XXE SIÈCLE": "Italy",
+    "D'APRÈS LORENZO BARTOLINI": "Italy",
+    "D'APRÈS TIZIANO VECELLIO, DIT TITIEN": "Italy",
+    "D'APRÈS UN MODÈLE ATTRIBUÉ À SIMON DUGUET": "France",
+    "DANS LE GOÛT DE JEAN-ANTOINE WATTEAU": "France",
+    "DANS LE GOÛT DE L'ÉCOLE DE FRANKENTHAL": "Germany",
+    "ECOLE ANVERSOISE DU XVIIe SIECLE, ATELIER DE JAN BRUEGHEL LE JEUNE": "Belgium",
+    "ENTOURAGE DE FRANÇOIS BOUCHER": "France",
+    "FILIPPO PALIZZI": "Italy",
+    "FRANCOIS RUDE": "France",
+    "FRANÇOIS BOUCHER": "France",
+    "GABRIEL-FRANÇOIS DOYEN": "France",
+    "GASPARE TRAVERSI": "Italy",
+    "GILLIAM DANDOY": "Belgium",
+    "GIOVANNI DOMENICO TIEPOLO": "Italy",
+    "GIOVANNI GRUBACS": "Italy",
+    "GIOVANNI PANEALBO": "Italy",
+    "HENRY BOUVET": "France",
+    "HUBERT ROBERT": "France",
+    "JACOB ADRIAENSZ. BACKER": "Netherlands",
+    "JACOBUS STORCK": "Netherlands",
+    "JACOPO PALMA IL GIOVANE": "Italy",
+    "JAN VAN KESSEL L'ANCIEN": "Belgium",
+    "JEAN DE SAINT-IGNY": "France",
+    "JEAN-BAPTISTE CARPEAUX": "France",
+    "JEAN-BAPTISTE LEPRINCE": "France",
+    "JEAN-HIPPOLYTE FLANDRIN": "France",
+    "JEAN-HONORÉ FRAGONARD": "France",
+    "JOHAN BARTHOLD JONGKIND": "Netherlands",
+    "JOHN BRIDGES": "United Kingdom",
+    "JOHN JAMES MASQUERIER": "United Kingdom",
+    "JOOS DE MOMPER LE JEUNE": "Belgium",
+    "JULIUS PORCELLIS": "Netherlands",
+    "LEV TCHISTOVSKY": "Russia",
+    "LOUIS DE BOULLOGNE LE JEUNE": "France",
+    "LUDOVICO CARRACCI": "Italy",
+    "MARCUS DE BYE": "Netherlands",
+    "MARIUS-JEAN-ANTONIN MERCIÉ": "France",
+    "MICHEL CORNEILLE II": "France",
+    "NICOLAES ELIASZ. PICKENOY": "Netherlands",
+    "NICOLAS-FRANÇOIS DUN": "France",
+    "PHILIP DE LÁSZLÓ": "Hungary",
+    "PIERRE ARISTIDE ANDRÉ BROUILLET": "France",
+    "PIERRE GUSMAN": "France",
+    "PIERRE JOSEPH WALLAERT": "France",
+    "RAYMOND LAFAGE": "France",
+    "RINSE VERZIJL": "Netherlands",
+    "ROBERT LE VRAC DE TOURNIÈRES": "France",
+    "ROSA BONHEUR": "France",
+    "SIR JOSEPH EDGAR BOEHM": "United Kingdom",
+    "ÉCOLE ANGLAISE DU XVIe SIÈCLE, SUIVEUR DE GEORGE GOWER": "United Kingdom",
+    "ÉCOLE ESPAGNOLE DU XVIIe SIÈCLE": "Spain",
+    "ÉCOLE FLAMANDE DU XVIIe SIÈCLE": "Belgium",
+    "ÉCOLE FRANÇAISE DU XVIIIe SIÈCLE": "France",
+    "ÉCOLE ITALIENNE DU XVIIIe SIÈCLE": "Italy",
+    "ÉCOLE HOLLANDAISE DU XVIIe SIÈCLE": "Netherlands",
+    "Alexander Calder": "United States",
+    "Raoul Dufy": "France",
+    "Moïse Kisling": "Poland",
+    "Sonia Delaunay": "Ukraine",
+    "ALBERT GLEIZES": "France",
+    "Albert Gleizes": "France",
+    "Georges Valmier": "France",
+    "André Lhote": "France",
+    "Auguste Herbin": "France",
+    "Léopold Survage": "Russia",
+    "Ossip Zadkine": "Belarus",
+    "Sam Szafran": "France",
+    "Marino Marini": "Italy",
+    "Tamara de Lempicka": "Poland",
+    "Etel Adnan": "Lebanon",
+    "Karel Appel": "Netherlands",
+    "František Kupka": "Czech Republic",
+    "Serge Poliakoff": "Russia",
+    "Marc Chagall": "Belarus",
+    "Zao Wou-Ki": "China",
+    "Kazuo Shiraga": "Japan",
+    "Chu Teh-Chun": "China",
+    "Enrico Donati": "Italy",
+    "Jacqueline Lamba": "France",
+    "Leonor Fini": "Argentina",
+    "Pablo Picasso": "Spain",
+    "D'après Pablo Picasso": "Spain",
+    "Henri Matisse": "France",
+    "Egon Schiele": "Austria",
+    "Joan Miró": "Spain",
+    "Anselm Kiefer": "Germany",
+    "Michel Parmentier": "France",
+    "Simon Hantaï": "Hungary",
+    "Helmut Newton": "Germany",
+    "Antonio Saura": "Spain",
+    "Antoni Tàpies": "Spain",
+    "Paul Delvaux": "Belgium",
+    "Jean Dubuffet": "France",
+    "Günther Förg": "Germany",
+    "Gérard Schneider": "Switzerland",
+    "Hans Hartung": "Germany",
+    "Maria Helena Vieira da Silva": "Portugal",
+    "Bernard Buffet": "France",
+    "Henri Laurens": "France",
+    "Félix Vallotton": "Switzerland",
+    "Bernard Frize": "France",
+    "Josef Albers": "Germany",
+    "Victor Vasarely": "Hungary",
+    "Carlos Cruz-Diez": "Venezuela",
+    "Alighiero Boetti": "Italy",
+    "Mimmo Rotella": "Italy",
+    "Mario Schifano": "Italy",
+    "Luciano Fabro": "Italy",
+    "Vettor Pisani": "Italy",
+    "Mario Merz": "Italy",
+    "Giuseppe Penone": "Italy",
+    "Gilberto Zorio": "Italy",
+    "Jannis Kounellis": "Greece",
+    "Giovanni Anselmo": "Italy",
+    "Emilio Prini": "Italy",
+    "Fausto Melotti": "Italy",
+    "Philippe Hiquily": "France",
 }
 
 
 # Добавление жанра по ключевым словам
 def extract_genre(description):
     genre_keywords = {
-        "portrait": "Portrait",
+       "portrait": "Portrait",
+        "self-portrait": "Self-Portrait",
         "landscape": "Landscape",
+        "seascape": "Seascape",
         "abstract": "Abstract",
         "still life": "Still Life",
         "figurative": "Figurative",
         "conceptual": "Conceptual",
+        "modern": "Modern Art",
+        "contemporary": "Contemporary Art",
+        "historical": "Historical",
+        "religious": "Religious Art",
+        "mythological": "Mythological",
+        "nude": "Nude",
+        "cubism": "Cubism",
+        "impressionism": "Impressionism",
+        "expressionism": "Expressionism",
+        "pop art": "Pop Art",
+        "surrealism": "Surrealism",
+        "minimalism": "Minimalism",
+        "baroque": "Baroque",
+        "renaissance": "Renaissance",
+        "romanticism": "Romanticism",
+        "symbolism": "Symbolism",
+        "abstract expressionism": "Abstract Expressionism",
+        "realism": "Realism",
+        "fauvism": "Fauvism",
+        "photography": "Photography",
+        "installation": "Installation",
+        "video art": "Video Art",
+    
     }
 
     for keyword, genre in genre_keywords.items():
@@ -85,6 +274,38 @@ def extract_genre(description):
             return genre
     return "Unknown"  # Если жанр не удалось определить
 
+def extract_style(description):
+    style_keywords = {
+        "cubism": "Cubism",
+        "impressionism": "Impressionism",
+        "expressionism": "Expressionism",
+        "pop art": "Pop Art",
+        "surrealism": "Surrealism",
+        "minimalism": "Minimalism",
+        "baroque": "Baroque",
+        "renaissance": "Renaissance",
+        "romanticism": "Romanticism",
+        "abstract expressionism": "Abstract Expressionism",
+        "realism": "Realism",
+        "fauvism": "Fauvism",
+        "modern": "Modern Art",
+        "contemporary": "Contemporary Art",
+        "symbolism": "Symbolism",
+        "conceptual": "Conceptual Art",
+        "neoclassicism": "Neoclassicism",
+        "art deco": "Art Deco",
+        "art nouveau": "Art Nouveau",
+        "post-impressionism": "Post-Impressionism",
+        "figurative": "Figurative Art",
+        "classicism": "Classicism",
+        "gothic": "Gothic",
+        "constructivism": "Constructivism",
+    }
+
+    for keyword, style in style_keywords.items():
+        if keyword in description.lower():
+            return style
+    return "Unknown"  # Если стиль не удалось определить
 
 
 # import json
@@ -142,6 +363,8 @@ def extract_genre(description):
 #     # Формат ожидается: ARTIST NAME (COUNTRY, YYYY-YYYY)
 #     country = ""
 #     period = ""
+#     style = extract_style(description)
+#     genre = extract_genre(description)
 #     artist_match = re.search(r"\(([^,]+),\s*([^)]+)\)", artist)
 #     if artist_match:
 #         country = artist_match.group(1).strip()
@@ -172,14 +395,15 @@ def extract_genre(description):
 #         "размер": dimensions,
 #         "страна": country,    
 #         "период": period,    
-#         "стиль": ""      
+#         "стиль": "Realism", 
+#         "жанр": genre    
 #     })
 
 # driver.quit()
 
 # # Записываем в CSV
 # csv_file = "British and European Art_14dec.csv"
-# fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль"]
+# fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль", "жанр"]
 
 # with open(csv_file, "w", newline="", encoding="utf-8") as f:
 #     # Используем точку с запятой как разделитель полей
@@ -276,14 +500,16 @@ def extract_genre(description):
 #         "размер": dimensions,
 #         "страна": "",
 #         "период": period,
-#         "стиль": "Graphic"
+#         "стиль": "Graphic",
+#         "жанр": "Portrait"
+        
 #     })
 
 # driver.quit()
 
 # # Записываем в CSV без кавычек
 # csv_file = "Graphic Masterpieces by Rembrandt van Rijn - Part II.csv"
-# fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль"]
+# fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль","жанр"]
 
 # with open(csv_file, "w", newline="", encoding="utf-8") as f:
 #     # Используем точку с запятой как разделитель полей, без кавычек
@@ -360,12 +586,13 @@ def extract_genre(description):
 #         "размер": dimensions,
 #         "страна": "Китай",  # Страна фиксированная
 #         "период": period,
-#         "стиль": "Traditional Chinese Art"  # Фиксированный стиль
+#         "стиль": "Traditional Chinese Style",  # Фиксированный стиль
+#         "жанр": "Traditional Chinese Painting" 
 #     })
 
 # # Записываем в CSV
 # csv_file = "Fine_Chinese_Modern_and_Contemporary_Ink_Paintings.csv"
-# fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль"]
+# fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль","жанр"]
 
 # with open(csv_file, "w", newline="", encoding="utf-8") as f:
 #     writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=';', quoting=csv.QUOTE_NONE, escapechar='\\')
@@ -529,6 +756,9 @@ def extract_genre(description):
 #         period = re.sub(r"né en\s*", "", period, flags=re.IGNORECASE)
 #         period = period.strip()
 
+#         style = extract_style(description)
+#         genre = extract_genre(description)
+
     
 #      # Извлечение размера
 #     dimensions = ""
@@ -555,12 +785,13 @@ def extract_genre(description):
 #         "размер": dimensions,
 #         "страна": "FRENCH",  # Можно добавить логику извлечения
 #         "период": period,
-#         "стиль": "Abstractus"
+#         "стиль": "Abstractus",
+#         "жанр": genre
 #     })
 
 # # Записываем в CSV
 # csv_file = "Vivre_la_couleur.csv"
-# fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль"]
+# fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль", "жанр"]
 
 # with open(csv_file, "w", newline="", encoding="utf-8") as f:
 #     writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=';', quoting=csv.QUOTE_NONE, escapechar='\\')
@@ -674,120 +905,6 @@ def extract_genre(description):
 #--------------------------------------------------------------------------
 
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.edge.service import Service
-from selenium.webdriver.edge.options import Options
-import re
-import json
-import csv
-
-
-
-# Путь к WebDriver
-driver_path = "D:\\project on python\\msedgedriver.exe"  # Укажите путь к вашему WebDriver
-
-# Настройка WebDriver
-edge_options = Options()
-edge_options.add_argument("--headless")  # Запуск в фоновом режиме
-service = Service(driver_path)
-driver = webdriver.Edge(service=service, options=edge_options)
-
-# URL страницы
-url = "https://onlineonly.christies.com/s/first-open-post-war-contemporary-art/lots/3847?page=5&sortby=LotNumber"
-
-try:
-    # Загружаем страницу
-    driver.get(url)
-
-    # Ищем все скрипты на странице
-    scripts = driver.find_elements(By.TAG_NAME, "script")
-
-    lot_data = None
-
-    # Ищем JSON с лотами в скриптах
-    for script in scripts:
-        script_content = script.get_attribute("innerHTML")
-        if "window.chrComponents" in script_content:
-            match = re.search(r"window\.chrComponents\s*=\s*(\{.*?\});", script_content, re.DOTALL)
-            if match:
-                json_str = match.group(1)
-                lot_data = json.loads(json_str)
-            break
-
-    if not lot_data:
-        print("Не удалось найти данные о лотах.")
-        exit()
-
-    # Извлекаем информацию о лотах
-    lots = lot_data.get("lots", {}).get("data", {}).get("lots", [])
-    if not lots:
-        print("Данные о лотах отсутствуют в JSON.")
-        exit()
-
-
-    results = []
-    for lot in lots:
-        title = lot.get("title_secondary_txt", "N/A")
-        artist = lot.get("title_primary_txt", "N/A")
-        price_realised = lot.get("price_realised_txt", "N/A")
-        estimate = lot.get("estimate_txt", "N/A")
-        description = lot.get("description_txt", "")
-
-         # Извлекаем размер из описания
-        dimensions_match = re.search(r"\(([\d.,]+\s*x\s*[\d.,]+\s*cm\.)\)", description)
-        dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
-
-        material = re.search(r"(oil on canvas|acrylic|mixed media|gouache|watercolor|bronze)", lot.get("description_txt", ""), re.IGNORECASE)
-        material = material.group(1) if material else "N/A"
-
-    # Удаляем любые скобки с содержимым (например, годы жизни художника)
-        artist_clean = re.sub(r"\([^)]*\)", "", artist).strip()
-
-        # Получаем страну из словаря
-        artist_clean = artist.split("(")[0].strip().upper()  # Убираем возможные скобки и переводим в верхний регистр
-        country = artists_countries.get(artist_clean, "Unknown")
-
-        period_match = re.search(r"\(([^)]+)\)", artist)
-        period = period_match.group(1) if period_match else "N/A"
-        
-        # Добавляем жанр и стиль
-        # Определяем жанр
-        genre = extract_genre(description)
-        #genre = "Contemporary Art"  # Пример жанра (можно заменить на логику извлечения)
-        style = "Contemporary Art"  
-
-        results.append({
-            "название": title,
-            "имя_художника": artist_clean,
-            "стоимость": price_realised,
-            "примерная_оценка": estimate,
-            "материал": material,
-            "размер": dimensions,
-            "страна": country,
-            "период": period,
-            "стиль": style,
-            "жанр": genre
-        })
-
-
-    # Сохраняем результаты в CSV
-    csv_file = "Post-War_and_Contemporary_Art.csv"
-    fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль", "жанр"]
-
-    with open(csv_file, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(results)
-
-    print(f"Данные успешно сохранены в {csv_file}")
-
-
-finally:
-    driver.quit()
-
-# -------------------------------------------------------------------------------
-
 # from selenium import webdriver
 # from selenium.webdriver.common.by import By
 # from selenium.webdriver.edge.service import Service
@@ -808,7 +925,7 @@ finally:
 # driver = webdriver.Edge(service=service, options=edge_options)
 
 # # URL страницы
-# url = "...."
+# url = "https://onlineonly.christies.com/s/first-open-post-war-contemporary-art/lots/3847?page=5&sortby=LotNumber"
 
 # try:
 #     # Загружаем страницу
@@ -866,8 +983,11 @@ finally:
 #         period = period_match.group(1) if period_match else "N/A"
         
 #         # Добавляем жанр и стиль
-#         genre = "Contemporary Art"  # Пример жанра (можно заменить на логику извлечения)
-#         style = "Abstractus"  
+#         # Определяем жанр
+#         genre = extract_genre(description)
+#         #genre = "Contemporary Art"  # Пример жанра (можно заменить на логику извлечения)
+#         style = "Contemporary Art"  
+#         #style = extract_style(description)
 
 #         results.append({
 #             "название": title,
@@ -897,3 +1017,435 @@ finally:
 
 # finally:
 #     driver.quit()
+
+# -------------------------------------------------------------------------------
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import re
+# import json
+# import csv
+
+
+
+# # Путь к WebDriver
+# driver_path = "D:\\project on python\\msedgedriver.exe"  # Укажите путь к вашему WebDriver
+
+# # Настройка WebDriver
+# edge_options = Options()
+# edge_options.add_argument("--headless")  # Запуск в фоновом режиме
+# edge_options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+
+
+# service = Service(driver_path)
+# driver = webdriver.Edge(service=service, options=edge_options)
+
+# # URL страницы
+# url = "https://onlineonly.christies.com/s/maitres-anciens-peintures-dessins-sculptures-online/lots/3527?page=2&sortby=LotNumber"
+
+# try:
+#     #Загружаем страницу
+#     driver.get(url)
+
+#     # Ищем все скрипты на странице
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+
+#     lot_data = None
+
+#     # Ищем JSON с лотами в скриптах
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents" in script_content:
+#             match = re.search(r"window\.chrComponents\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_str = match.group(1)
+#                 lot_data = json.loads(json_str)
+#             break
+
+#     if not lot_data:
+#         print("Не удалось найти данные о лотах.")
+#         exit()
+
+#     # Извлекаем информацию о лотах
+#     lots = lot_data.get("lots", {}).get("data", {}).get("lots", [])
+#     if not lots:
+#         print("Данные о лотах отсутствуют в JSON.")
+#         exit()
+
+
+
+#     results = []
+#     for lot in lots:
+#         title = lot.get("title_secondary_txt", "N/A")
+#         artist = lot.get("title_primary_txt", "N/A")
+#         price_realised = lot.get("price_realised_txt", "N/A")
+#         estimate = lot.get("estimate_txt", "N/A")
+#         description = lot.get("description_txt", "")
+
+#          # Извлекаем размер из описания
+#         dimensions_match = re.search(r"([\d.,]+\s*x\s*[\d.,]+\s*cm)", description)
+#         dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+
+#         material = re.search(r"(oil on canvas|acrylic|mixed media|gouache|watercolor|bronze)", lot.get("description_txt", ""), re.IGNORECASE)
+#         material = material.group(1) if material else "N/A"
+
+#     # Удаляем любые скобки с содержимым (например, годы жизни художника)
+#         artist_clean = re.sub(r"\([^)]*\)", "", artist).strip()
+
+#         # Получаем страну из словаря
+#         artist_clean = artist.split("(")[0].strip().upper()  # Убираем возможные скобки и переводим в верхний регистр
+#         country = artists_countries.get(artist_clean, "Unknown")
+
+#         period_match = re.search(r"\(([^)]+)\)", artist)
+#         period = period_match.group(1) if period_match else "N/A"
+        
+#         # Добавляем жанр и стиль
+#         style = extract_style(description)
+#         genre = extract_genre(description)  
+
+#         results.append({
+#             "название": title,
+#             "имя_художника": artist_clean,
+#             "стоимость": price_realised,
+#             "примерная_оценка": estimate,
+#             "материал": material,
+#             "размер": dimensions,
+#             "страна": country,
+#             "период": period,
+#             "стиль": style,
+#             "жанр": genre
+#         })
+
+
+#     # Сохраняем результаты в CSV
+#     csv_file = "Maîtres_Anciens.csv"
+#     fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль", "жанр"]
+
+#     with open(csv_file, "w", newline="", encoding="utf-8") as f:
+#         writer = csv.DictWriter(f, fieldnames=fieldnames)
+#         writer.writeheader()
+#         writer.writerows(results)
+
+#     print(f"Данные успешно сохранены в {csv_file}")
+
+
+
+# finally:
+#     driver.quit()
+
+
+##############################################################################################################
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import re
+# import json
+
+
+
+# # Путь к WebDriver
+# driver_path = "D:\\project on python\\msedgedriver.exe"  # Укажите путь к вашему WebDriver
+
+# # Настройка WebDriver
+# edge_options = Options()
+# edge_options.add_argument("--headless")  # Запуск в фоновом режиме
+# edge_options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+# edge_options.add_argument("--disable-blink-features=AutomationControlled")
+
+# service = Service(driver_path)
+# driver = webdriver.Edge(service=service, options=edge_options)
+
+# # URL страницы
+# url = "https://onlineonly.christies.com/s/maitres-anciens-peintures-dessins-sculptures-online/lots/3527?page=2&sortby=LotNumber"
+
+# try:
+#     # Загружаем страницу
+#     driver.get(url)
+
+#     # Ищем все скрипты на странице
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+
+
+    
+
+#     lot_data = None
+
+#     # Ищем JSON с лотами в скриптах
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents" in script_content:
+#             print("Найден скрипт с данными:")
+#             print(script_content[:1000])  # Для проверки содержимого
+#             match = re.search(r"window\.chrComponents\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_str = match.group(1)
+#                 lot_data = json.loads(json_str)
+#                 break
+
+    
+    
+
+#     if not lot_data:
+#         print("Не удалось найти данные о лотах.")
+#         exit()
+
+#     # Извлекаем информацию о лотах
+#     lots = lot_data.get("lots", {}).get("data", {}).get("lots", [])
+#     if not lots:
+#         print("Данные о лотах отсутствуют в JSON.")
+#         exit()
+
+#     # Список для хранения уникальных имен художников
+#     authors = set()
+
+#     # Извлекаем имена художников
+#     for lot in lots:
+#         artist = lot.get("title_primary_txt", "").split("(")[0].strip()
+#         if artist:
+#             authors.add(artist)
+
+#     # Преобразуем в отсортированный список
+#     authors = sorted(authors)
+
+#     # Выводим всех авторов
+#     for author in authors:
+#         print(author)
+
+# finally:
+#     driver.quit()
+
+##############################################################################################################
+
+# -------------------------------------------------------------------------------
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import re
+# import json
+# import csv
+
+# # Настройки WebDriver
+# driver_path = "D:\\project on python\\msedgedriver.exe"  # Укажите путь к вашему WebDriver
+# options = Options()
+# options.add_argument("--headless")  # Запуск браузера в фоновом режиме
+# options.add_argument("--disable-gpu")
+# options.add_argument("--no-sandbox")
+# options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+# # Настройка WebDriver
+# edge_options = Options()
+# edge_options.add_argument("--headless")  # Запуск в фоновом режиме
+# edge_options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+
+# service = Service(driver_path)
+# driver = webdriver.Edge(service=service, options=options)
+
+# # URL для парсинга
+# url = "https://www.christies.com/en/auction/20-21-century-art-day-sale-30415/?page=2&sortby=lotnumber"
+
+# try:
+#     # Открываем страницу
+#     driver.get(url)
+
+#     # Находим все скрипты на странице
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+
+#     lot_data = None
+
+#     # Ищем нужный скрипт с JSON
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents" in script_content:  # Проверяем, есть ли нужная структура
+#             match = re.search(r"window\.chrComponents\.lots\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_str = match.group(1)
+#                 lot_data = json.loads(json_str)  # Преобразуем JSON в словарь Python
+#                 break
+
+#     if not lot_data:
+#         print("Не удалось найти данные о лотах.")
+#         driver.quit()
+#         exit()
+
+#     # Извлекаем данные о лотах
+#     lots = lot_data.get("data", {}).get("lots", [])
+#     if not lots:
+#         print("Данные о лотах отсутствуют.")
+#         driver.quit()
+#         exit()
+
+#     # Создаем CSV
+#     results = []
+#     for lot in lots:
+#         title = lot.get("title_secondary_txt", "N/A")
+#         artist = lot.get("title_primary_txt", "N/A")
+#         price_realised = lot.get("price_realised_txt", "N/A")
+#         estimate = lot.get("estimate_txt", "N/A")
+#         description = lot.get("description_txt", "N/A")
+
+#         # Размер
+#         dimensions_match = re.search(r"([\d.,]+\s*x\s*[\d.,]+\s*(?:cm|in))", description)
+#         dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+
+#         material_match = re.search(r"(oil on canvas|acrylic|mixed media|gouache|watercolor|bronze)", description, re.IGNORECASE)
+#         material = material_match.group(1) if material_match else "N/A"
+
+#         # Удаляем скобки и извлекаем период
+#         artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+#         # Извлечение периода из имени художника (например, данные в скобках)
+#         period_match = re.search(r'\((.*?)\)', artist)
+#         period = period_match.group(1) if period_match else "N/A"
+
+#         # Страна
+#         country = artists_countries.get(artist_cleaned, "Unknown")
+
+#         # Извлекаем стиль и жанр
+#         style = extract_style(description)
+#         genre = extract_genre(description)
+
+        
+
+#         # Добавляем данные в список
+#         results.append({
+#             "Название": title,
+#             "Имя художника": artist_cleaned,
+#             "Стоимость": price_realised,
+#             "Примерная оценка": estimate,
+#             "Материал": material,
+#             "Размер": dimensions,
+#             "Страна": country,
+#             "Период": period,
+#             "Стиль": "Abstract Expressionism",
+#             "Жанр": "Abstract"
+#         })
+
+#     # Сохраняем в CSV
+#     csv_file = "20_21_CENTURY_ART.csv"
+#     fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+
+#     with open(csv_file, "w", newline="", encoding="utf-8") as f:
+#         writer = csv.DictWriter(f, fieldnames=fieldnames)
+#         writer.writeheader()
+#         writer.writerows(results)
+
+#     print(f"Данные успешно сохранены в {csv_file}")
+
+# finally:
+#     driver.quit()
+
+#-------------------------------------------------------------------------------------------------------------------
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.edge.service import Service
+from selenium.webdriver.edge.options import Options
+import re
+import json
+import csv
+
+
+# Укажите путь к вашему WebDriver
+driver_path = "D:\\project on python\\msedgedriver.exe"
+
+# Настройки WebDriver
+options = Options()
+options.add_argument("--headless")  # Запуск браузера в фоновом режиме (если необходимо)
+options.add_argument("--disable-gpu")
+options.add_argument("--no-sandbox")
+options.add_argument(f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+
+# Настройка службы WebDriver
+service = Service(driver_path)
+
+# Создание экземпляра WebDriver
+driver = webdriver.Edge(service=service, options=options)
+
+
+# URL страницы
+url = "https://onlineonly.christies.com/s/marc-chagall-entre-ciel-et-terre-oeuvres-provenant-de-la-succession-de/lots/3732"
+
+
+
+try:
+    # Открываем страницу
+    driver.get(url)
+
+    # Ищем теги <script>, содержащие данные
+    scripts = driver.find_elements(By.TAG_NAME, "script")
+    lot_data = None
+
+    # Ищем JSON в одном из скриптов
+    for script in scripts:
+        script_content = script.get_attribute("innerHTML")
+        if "window.chrComponents" in script_content:
+            match = re.search(r"window\.chrComponents\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+            if match:
+                json_data = match.group(1)
+                lot_data = json.loads(json_data)
+                break
+
+    if not lot_data:
+        print("Данные не найдены.")
+    else:
+        # Парсим лоты
+        lots = lot_data.get("lots", {}).get("data", {}).get("lots", [])
+        results = []
+
+        for lot in lots:
+            artist = lot.get("title_primary_txt", "N/A")
+            title = lot.get("title_secondary_txt", "N/A")
+            price_realised = lot.get("price_realised_txt", "N/A")
+            estimate = lot.get("estimate_txt", "N/A")
+            description = lot.get("description_txt", "N/A")
+
+            # Извлекаем материал и размеры
+            dimensions_match = re.search(r"([\d.,]+\s*x\s*[\d.,]+\s*(cm|in))", description)
+            dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+
+            material_match = re.search(r"(oil on canvas|acrylic|mixed media|gouache|watercolor|bronze)", description, re.IGNORECASE)
+            material = material_match.group(1) if material_match else "N/A"
+
+            # Удаляем скобки и извлекаем период
+            artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+            period_match = re.search(r"\\(([^)]+)\\)", artist)
+            period = period_match.group(1) if period_match else "N/A"
+
+            # Страна
+            country = "FRENCH"  # Можно заменить на словарь стран по художникам
+
+            # Извлекаем стиль и жанр
+            style = extract_style(description)
+            genre = extract_genre(description)
+
+            # Добавляем данные в список
+            results.append({
+                "Название": title,
+                "Имя художника": artist_cleaned,
+                "Стоимость": price_realised,
+                "Примерная оценка": estimate,
+                "Материал": material,
+                "Размер": dimensions,
+                "Страна": country,
+                "Период": "1887-1985",
+                "Стиль": style,
+                "Жанр": genre
+        })
+            
+        
+        csv_file = "Marc_Chagall.csv"
+        fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+
+        with open(csv_file, "w", newline="", encoding="utf-8") as file:
+            writer = csv.DictWriter(file, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(results)
+
+        print(f"Данные успешно сохранены в файл {csv_file}")
+
+finally:
+    # Закрываем браузер
+    driver.quit()
