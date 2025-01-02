@@ -117,13 +117,476 @@ artist_styles_genres = {
     "SUAD AL-ATTAR": {"style": "Surrealism", "genre": "Figurative"},
     "TAGREED DARGHOUTH": {"style": "Contemporary", "genre": "Figurative"},
     "TALA MADANI": {"style": "Contemporary", "genre": "Figurative"},
-    "TIMO NASSERI": {"style": "Contemporary", "genre": "Geometric"}
+    "TIMO NASSERI": {"style": "Contemporary", "genre": "Geometric"},
+     "ADA GILMORE CHAFFEE": {"style": "American Modernism", "genre": "Landscape"},
+    "ADOLF ARTHUR DEHN": {"style": "Social Realism", "genre": "Figurative"},
+    "ADOLPH GOTTLIEB": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "AFTER JOAN MITCHELL": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "AFTER MARC CHAGALL BY CHARLES SORLIER": {"style": "Modernism", "genre": "Figurative"},
+    "AFTER RENÉ MAGRITTE": {"style": "Surrealism", "genre": "Conceptual"},
+    "AFTER WINSLOW HOMER": {"style": "Realism", "genre": "Marine and Landscape"},
+    "AL HELD": {"style": "Abstract Expressionism", "genre": "Geometric"},
+    "ALBERT BARKER": {"style": "Realism", "genre": "Urban Landscape"},
+    "ALICE AYCOCK": {"style": "Contemporary", "genre": "Conceptual"},
+    "ANGELO PINTO": {"style": "Modernism", "genre": "Abstract"},
+    "ARMAND SEGUIN": {"style": "Post-Impressionism", "genre": "Figurative"},
+    "ARMIN LANDECK": {"style": "Precisionism", "genre": "Architectural Prints"},
+    "ARNALDO POMODORO": {"style": "Modernism", "genre": "Sculptural"},
+    "ARNOLD RÖNNEBECK": {"style": "Expressionism", "genre": "Abstract"},
+    "ARTHUR WESLEY DOW": {"style": "Tonalism", "genre": "Landscape"},
+    "AUGUSTA PAYNE BRIGGS RATHBONE": {"style": "Modernism", "genre": "Landscape"},
+    "BORIS ARTZYBASHEFF": {"style": "Illustration", "genre": "Satirical"},
+    "BROR JULIUS OLSSON NORDFELDT": {"style": "Modernism", "genre": "Landscape"},
+    "BRUCE NAUMAN": {"style": "Conceptual Art", "genre": "Multimedia"},
+    "CAMILLE PISSARRO": {"style": "Impressionism", "genre": "Landscape"},
+    "CHARLES BARKER": {"style": "Realism", "genre": "Urban Landscape"},
+    "CHARLES F. WILLIAM MIELATZ": {"style": "Realism", "genre": "Urban Scenes"},
+    "CHARLES TURZAK": {"style": "Modernism", "genre": "Woodcuts"},
+    "CHILDE HASSAM": {"style": "Impressionism", "genre": "Urban and Landscape"},
+    "CHUCK CLOSE": {"style": "Photorealism", "genre": "Portraiture"},
+    "CLAES OLDENBURG": {"style": "Pop Art", "genre": "Sculptural"},
+    "DAVID HOCKNEY": {"style": "Pop Art", "genre": "Landscape"},
+    "DIEGO RIVERA": {"style": "Mexican Muralism", "genre": "Social Realism"},
+    "DIETER ROTH": {"style": "Fluxus", "genre": "Experimental"},
+    "DON FREEMAN": {"style": "Social Realism", "genre": "Everyday Life"},
+    "DONALD JUDD": {"style": "Minimalism", "genre": "Geometric"},
+    "DONALD STANLEY VOGEL": {"style": "Modernism", "genre": "Abstract"},
+    "EDGAR CHAHINE": {"style": "Impressionism", "genre": "Portrait and Genre Scenes"},
+    "EDOUARD VUILLARD": {"style": "Post-Impressionism", "genre": "Domestic Scenes"},
+    "ELLSWORTH KELLY": {"style": "Hard-edge Painting", "genre": "Abstract"},
+    "ENZO CUCCHI": {"style": "Transavantgarde", "genre": "Figurative"},
+    "ERIC FISCHL": {"style": "Neo-expressionism", "genre": "Figurative"},
+    "FRANK DUVENECK": {"style": "Realism", "genre": "Portraiture"},
+    "FRANK MORLEY FLETCHER": {"style": "Modernism", "genre": "Printmaking"},
+    "FRANK STELLA": {"style": "Minimalism", "genre": "Abstract"},
+    "FRITZ EICHENBERG": {"style": "Expressionism", "genre": "Illustration"},
+    "FÉLIX BRACQUEMOND": {"style": "Impressionism", "genre": "Animal and Landscape"},
+    "GENE DAVIS": {"style": "Color Field", "genre": "Abstract"},
+    "GENE KLOSS": {"style": "Modernism", "genre": "Rural Scenes"},
+    "GEORGE SEGAL": {"style": "Pop Art", "genre": "Sculptural"},
+    "GEORGE TOOKER": {"style": "Magic Realism", "genre": "Figurative"},
+    "GEORGE WESLEY BELLOWS": {"style": "Ashcan School", "genre": "Urban and Rural Scenes"},
+    "GEORGES ROUAULT": {"style": "Expressionism", "genre": "Religious"},
+    "GLENN COLEMAN": {"style": "Modernism", "genre": "Urban Scenes"},
+    "GRANT WOOD": {"style": "Regionalism", "genre": "Rural Scenes"},
+    "HANS BURKHARDT": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "HARRY BRODSKY": {"style": "Social Realism", "genre": "Everyday Life"},
+    "HARRY STERNBERG": {"style": "Social Realism", "genre": "Industrial"},
+    "HELEN HYDE": {"style": "Modernism", "genre": "Printmaking"},
+    "HELEN LUNDEBERG": {"style": "Post-Surrealism", "genre": "Abstract"},
+    "HENRI DE TOULOUSE-LAUTREC": {"style": "Post-Impressionism", "genre": "Portraits and Posters"},
+    "HENRI MATISSE": {"style": "Fauvism", "genre": "Figurative"},
+    "HENRY MOORE": {"style": "Modernism", "genre": "Sculptural"},
+    "HOWARD COOK": {"style": "Regionalism", "genre": "Urban and Rural Scenes"},
+    "HOWARD HODGKIN": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "ISAC FRIEDLANDER": {"style": "Modernism", "genre": "Printmaking"},
+    "JACQUES VILLON": {"style": "Cubism", "genre": "Abstract"},
+    "JAMES JACQUES JOSEPH TISSOT": {"style": "Realism", "genre": "Portraiture"},
+    "JAMES MCNEILL WHISTLER": {"style": "Tonalism", "genre": "Portrait and Landscape"},
+    "JAMES ROSENQUIST": {"style": "Pop Art", "genre": "Collage"},
+    "JEAN ARP": {"style": "Dada", "genre": "Abstract"},
+    "JEAN DUBUFFET": {"style": "Art Brut", "genre": "Abstract"},
+    "JEAN-BAPTISTE CAMILLE COROT": {"style": "Barbizon School", "genre": "Landscape"},
+    "JEFF KOONS": {"style": "Contemporary", "genre": "Pop Art"},
+    "JIM DINE": {"style": "Pop Art", "genre": "Mixed Media"},
+    "JIM DINE AND RON PADGETT": {"style": "Pop Art", "genre": "Collaboration"},
+    "JOAN MIRÓ": {"style": "Surrealism", "genre": "Abstract"},
+    "JOE JONES": {"style": "Social Realism", "genre": "Everyday Life"},
+    "JOHN EDGAR PLATT": {"style": "Modernism", "genre": "Printmaking"},
+    "JOHN FERREN": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "KER-XAVIER ROUSSEL": {"style": "Post-Impressionism", "genre": "Figurative"},
+    "ADA GILMORE CHAFFEE": {"style": "American Modernism", "genre": "Landscape"},
+    "ADOLF ARTHUR DEHN": {"style": "Social Realism", "genre": "Figurative"},
+    "ADOLPH GOTTLIEB": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "AFTER JOAN MITCHELL": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "AFTER MARC CHAGALL BY CHARLES SORLIER": {"style": "Modernism", "genre": "Figurative"},
+    "AFTER RENÉ MAGRITTE": {"style": "Surrealism", "genre": "Conceptual"},
+    "AFTER WINSLOW HOMER": {"style": "Realism", "genre": "Marine and Landscape"},
+    "AL HELD": {"style": "Abstract Expressionism", "genre": "Geometric"},
+    "ALBERT BARKER": {"style": "Realism", "genre": "Urban Landscape"},
+    "ALICE AYCOCK": {"style": "Contemporary", "genre": "Conceptual"},
+    "ANGELO PINTO": {"style": "Modernism", "genre": "Abstract"},
+    "ARMAND SEGUIN": {"style": "Post-Impressionism", "genre": "Figurative"},
+    "ARMIN LANDECK": {"style": "Precisionism", "genre": "Architectural Prints"},
+    "ARNALDO POMODORO": {"style": "Modernism", "genre": "Sculptural"},
+    "ARNOLD RÖNNEBECK": {"style": "Expressionism", "genre": "Abstract"},
+    "ARTHUR WESLEY DOW": {"style": "Tonalism", "genre": "Landscape"},
+    "AUGUSTA PAYNE BRIGGS RATHBONE": {"style": "Modernism", "genre": "Landscape"},
+    "BORIS ARTZYBASHEFF": {"style": "Illustration", "genre": "Satirical"},
+    "BROR JULIUS OLSSON NORDFELDT": {"style": "Modernism", "genre": "Landscape"},
+    "BRUCE NAUMAN": {"style": "Conceptual Art", "genre": "Multimedia"},
+    "CAMILLE PISSARRO": {"style": "Impressionism", "genre": "Landscape"},
+    "CHARLES BARKER": {"style": "Realism", "genre": "Urban Landscape"},
+    "CHARLES F. WILLIAM MIELATZ": {"style": "Realism", "genre": "Urban Scenes"},
+    "CHARLES TURZAK": {"style": "Modernism", "genre": "Woodcuts"},
+    "CHILDE HASSAM": {"style": "Impressionism", "genre": "Urban and Landscape"},
+    "CHUCK CLOSE": {"style": "Photorealism", "genre": "Portraiture"},
+    "CLAES OLDENBURG": {"style": "Pop Art", "genre": "Sculptural"},
+    "DAVID HOCKNEY": {"style": "Pop Art", "genre": "Landscape"},
+    "DIEGO RIVERA": {"style": "Mexican Muralism", "genre": "Social Realism"},
+    "DIETER ROTH": {"style": "Fluxus", "genre": "Experimental"},
+    "DON FREEMAN": {"style": "Social Realism", "genre": "Everyday Life"},
+    "DONALD JUDD": {"style": "Minimalism", "genre": "Geometric"},
+    "DONALD STANLEY VOGEL": {"style": "Modernism", "genre": "Abstract"},
+    "EDGAR CHAHINE": {"style": "Impressionism", "genre": "Portrait and Genre Scenes"},
+    "EDOUARD VUILLARD": {"style": "Post-Impressionism", "genre": "Domestic Scenes"},
+    "ELLSWORTH KELLY": {"style": "Hard-edge Painting", "genre": "Abstract"},
+    "ENZO CUCCHI": {"style": "Transavantgarde", "genre": "Figurative"},
+    "ERIC FISCHL": {"style": "Neo-expressionism", "genre": "Figurative"},
+    "FRANK DUVENECK": {"style": "Realism", "genre": "Portraiture"},
+    "FRANK MORLEY FLETCHER": {"style": "Modernism", "genre": "Printmaking"},
+    "FRANK STELLA": {"style": "Minimalism", "genre": "Abstract"},
+    "FRITZ EICHENBERG": {"style": "Expressionism", "genre": "Illustration"},
+    "FÉLIX BRACQUEMOND": {"style": "Impressionism", "genre": "Animal and Landscape"},
+    "GENE DAVIS": {"style": "Color Field", "genre": "Abstract"},
+    "GENE KLOSS": {"style": "Modernism", "genre": "Rural Scenes"},
+    "GEORGE SEGAL": {"style": "Pop Art", "genre": "Sculptural"},
+    "GEORGE TOOKER": {"style": "Magic Realism", "genre": "Figurative"},
+    "GEORGE WESLEY BELLOWS": {"style": "Ashcan School", "genre": "Urban and Rural Scenes"},
+    "GEORGES ROUAULT": {"style": "Expressionism", "genre": "Religious"},
+    "GLENN COLEMAN": {"style": "Modernism", "genre": "Urban Scenes"},
+    "GRANT WOOD": {"style": "Regionalism", "genre": "Rural Scenes"},
+    "HANS BURKHARDT": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "HARRY BRODSKY": {"style": "Social Realism", "genre": "Everyday Life"},
+    "HARRY STERNBERG": {"style": "Social Realism", "genre": "Industrial"},
+    "HELEN HYDE": {"style": "Modernism", "genre": "Printmaking"},
+    "HELEN LUNDEBERG": {"style": "Post-Surrealism", "genre": "Abstract"},
+    "HENRI DE TOULOUSE-LAUTREC": {"style": "Post-Impressionism", "genre": "Portraits and Posters"},
+    "HENRI MATISSE": {"style": "Fauvism", "genre": "Figurative"},
+    "HENRY MOORE": {"style": "Modernism", "genre": "Sculptural"},
+    "HOWARD COOK": {"style": "Regionalism", "genre": "Urban and Rural Scenes"},
+    "HOWARD HODGKIN": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "ISAC FRIEDLANDER": {"style": "Modernism", "genre": "Printmaking"},
+    "JACQUES VILLON": {"style": "Cubism", "genre": "Abstract"},
+    "JAMES JACQUES JOSEPH TISSOT": {"style": "Realism", "genre": "Portraiture"},
+    "JAMES MCNEILL WHISTLER": {"style": "Tonalism", "genre": "Portrait and Landscape"},
+    "JAMES ROSENQUIST": {"style": "Pop Art", "genre": "Collage"},
+    "JEAN ARP": {"style": "Dada", "genre": "Abstract"},
+    "JEAN DUBUFFET": {"style": "Art Brut", "genre": "Abstract"},
+    "JEAN-BAPTISTE CAMILLE COROT": {"style": "Barbizon School", "genre": "Landscape"},
+    "JEFF KOONS": {"style": "Contemporary", "genre": "Pop Art"},
+    "JIM DINE": {"style": "Pop Art", "genre": "Mixed Media"},
+    "JIM DINE AND RON PADGETT": {"style": "Pop Art", "genre": "Collaboration"},
+    "JOAN MIRÓ": {"style": "Surrealism", "genre": "Abstract"},
+    "JOE JONES": {"style": "Social Realism", "genre": "Everyday Life"},
+    "JOHN EDGAR PLATT": {"style": "Modernism", "genre": "Printmaking"},
+    "JOHN FERREN": {"style": "Abstract Expressionism", "genre": "Abstract"},
+     "LUDWIG SANDER": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "PIERRE-AUGUSTE RENOIR": {"style": "Impressionism", "genre": "Figurative"},
+    "MILTON AVERY": {"style": "Modernism", "genre": "Figurative"},
+    "MIGUEL COVARRUBIAS": {"style": "Art Deco", "genre": "Portraiture"},
+    "LEONARD BASKIN": {"style": "Expressionism", "genre": "Figurative"},
+    "PAUL CADMUS": {"style": "Social Realism", "genre": "Figurative"},
+    "LUIS ARENAL": {"style": "Mexican Muralism", "genre": "Figurative"},
+    "MUIRHEAD BONE": {"style": "Realism", "genre": "Landscape"},
+    "STEVAN DOHANOS": {"style": "Regionalism", "genre": "Figurative"},
+    "LETTERIO CALAPAI": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "RED GROOMS": {"style": "Pop Art", "genre": "Figurative"},
+    "WERNER DREWES": {"style": "Bauhaus", "genre": "Abstract"},
+    "MAURICE JACQUE": {"style": "Academic Art", "genre": "Figurative"},
+    "LEONARD EDMONDSON": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "KERR EBY": {"style": "Realism", "genre": "Landscape"},
+    "JOHN STOCKTON DE MARTELLY": {"style": "Regionalism", "genre": "Figurative"},
+    "WHARTON ESHERICK": {"style": "Arts and Crafts", "genre": "Sculpture"},
+    "STANLEY WILLIAM HAYTER": {"style": "Surrealism", "genre": "Abstract"},
+    "ROCKWELL KENT": {"style": "Modernism", "genre": "Landscape"},
+    "WANDA GÁG": {"style": "Modernism", "genre": "Illustration"},
+    "RIVA HELFOND": {"style": "Social Realism", "genre": "Figurative"},
+    "KÄTHE KOLLWITZ": {"style": "Expressionism", "genre": "Figurative"},
+    "PETER KRASNOW": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "YASUO KUNIYOSHI": {"style": "Modernism", "genre": "Figurative"},
+    "LAWRENCE KUPFERMAN": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "PAUL LANDACRE": {"style": "Precisionism", "genre": "Printmaking"},
+    "OTTO LANGE": {"style": "Expressionism", "genre": "Figurative"},
+    "REGINALD MARSH": {"style": "Social Realism", "genre": "Figurative"},
+    "STOW WENGENROTH": {"style": "Realism", "genre": "Landscape"},
+    "THOMAS MORAN": {"style": "Hudson River School", "genre": "Landscape"},
+    "JOHN HENRY BRADLEY STORRS": {"style": "Modernism", "genre": "Sculpture"},
+    "KENNETH HAYES MILLER": {"style": "Realism", "genre": "Figurative"},
+    "ROBERT RAUSCHENBERG": {"style": "Pop Art", "genre": "Mixed Media"},
+    "WILLIAM SELTZER RICE": {"style": "Arts and Crafts", "genre": "Printmaking"},
+    "ROBERT RIGGS": {"style": "Realism", "genre": "Figurative"},
+    "WILLIAM SAMUEL SCHWARTZ": {"style": "Modernism", "genre": "Abstract"},
+    "MILLARD OWEN SHEETS": {"style": "Modernism", "genre": "Landscape"},
+    "JOHN SLOAN": {"style": "Ashcan School", "genre": "Urban Scene"},
+    "LAWRENCE BEALL SMITH": {"style": "Social Realism", "genre": "Figurative"},
+    "NILES SPENCER": {"style": "Precisionism", "genre": "Urban Landscape"},
+    "MAX WEBER": {"style": "Cubism", "genre": "Abstract"},
+    "WILLIAM ZORACH": {"style": "Modernism", "genre": "Sculpture"},
+    "RICHARD ANUSZKIEWICZ": {"style": "Op Art", "genre": "Abstract"},
+    "THEODORE WHITE": {"style": "Realism", "genre": "Figurative"},
+    "PIERRE BONNARD": {"style": "Post-Impressionism", "genre": "Figurative"},
+    "MARC CHAGALL": {"style": "Surrealism", "genre": "Figurative"},
+    "JOSEF ALBERS": {"style": "Abstract", "genre": "Geometric"},
+    "KAREL APPEL": {"style": "CoBrA", "genre": "Abstract"},
+    "GEORGE WESLEY BELLOWS": {"style": "Realism", "genre": "Figurative"},
+    "ROMARE BEARDEN": {"style": "Collage", "genre": "Figurative"},
+    "LYNN CHADWICK": {"style": "Modernism", "genre": "Sculpture"},
+    "LOUISE BOURGEOIS": {"style": "Surrealism", "genre": "Sculpture"},
+    "LEE BONTECOU": {"style": "Abstract Expressionism", "genre": "Sculpture"},
+    "MARY CASSATT": {"style": "Impressionism", "genre": "Portraiture"},
+    "JOSEPH CORNELL": {"style": "Surrealism", "genre": "Assemblage"},
+    "STUART DAVIS": {"style": "Modernism", "genre": "Abstract"},
+    "PETER DOIG": {"style": "Contemporary", "genre": "Figurative"},
+    "MAX ERNST": {"style": "Surrealism", "genre": "Abstract"},
+    "MAURICE DENIS": {"style": "Symbolism", "genre": "Figurative"},
+    "LÉONARD TSUGUHARU FOUJITA": {"style": "Modernism", "genre": "Figurative"},
+    "RICHARD HAMILTON": {"style": "Pop Art", "genre": "Abstract"},
+    "ROY LICHTENSTEIN": {"style": "Pop Art", "genre": "Comic Art"},
+    "ROBERT INDIANA": {"style": "Pop Art", "genre": "Abstract"},
+    "ROBERT RAUSCHENBERG": {"style": "Pop Art", "genre": "Mixed Media"},
+    "ROBERTO MATTA": {"style": "Surrealism", "genre": "Abstract"},
+    "ROBERT MANGOLD": {"style": "Minimalism", "genre": "Geometric"},
+    "PABLO PICASSO": {"style": "Cubism", "genre": "Abstract"},
+    "KENNETH NOLAND": {"style": "Color Field", "genre": "Abstract"},
+    "LOUISE NEVELSON": {"style": "Abstract Expressionism", "genre": "Sculpture"},
+    "ROBERT MOTHERWELL": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "AFTER FERNAND LEGER": {"style": "Cubism", "genre": "Abstract"},
+  "AFTER PAUL GAUGUIN": {"style": "Post-Impressionism", "genre": "Symbolism"},
+  "ALBERT GLEIZES": {"style": "Cubism", "genre": "Abstract"},
+  "ALBERT MARQUET": {"style": "Fauvism", "genre": "Landscape"},
+  "ALBERTO GIACOMETTI": {"style": "Surrealism", "genre": "Sculpture"},
+  "ALEXEJ VON JAWLENSKY": {"style": "Expressionism", "genre": "Portrait"},
+  "ALFRED SISLEY": {"style": "Impressionism", "genre": "Landscape"},
+  "ANDRE DERAIN": {"style": "Fauvism", "genre": "Landscape"},
+  "ANDRE LHOTE": {"style": "Cubism", "genre": "Landscape"},
+  "ARMAND GUILLAUMIN": {"style": "Impressionism", "genre": "Landscape"},
+  "AUGUSTE RODIN": {"style": "Realism", "genre": "Sculpture"},
+  "BERNARD BUFFET": {"style": "Expressionism", "genre": "Still Life"},
+  "EDOUARD VUILLARD": {"style": "Nabis", "genre": "Interior"},
+  "EMILE OTHON FRIESZ": {"style": "Fauvism", "genre": "Landscape"},
+  "EUGENE BOUDIN": {"style": "Impressionism", "genre": "Landscape"},
+  "FERNAND LEGER": {"style": "Cubism", "genre": "Abstract"},
+  "FERNANDO BOTERO": {"style": "Boteroism", "genre": "Portrait"},
+  "FRANCOISE GILOT": {"style": "Post-Impressionism", "genre": "Portrait"},
+  "GEORGES LEMMEN": {"style": "Neo-Impressionism", "genre": "Portrait"},
+  "GIORGIO DE CHIRICO": {"style": "Metaphysical Painting", "genre": "Surrealism"},
+  "GUSTAVE LOISEAU": {"style": "Impressionism", "genre": "Landscape"},
+  "HENRI FANTIN-LATOUR": {"style": "Realism", "genre": "Still Life"},
+  "HENRI HAYDEN": {"style": "Cubism", "genre": "Landscape"},
+  "HENRI LAURENS": {"style": "Cubism", "genre": "Sculpture"},
+  "HENRI LE SIDANER": {"style": "Impressionism", "genre": "Landscape"},
+  "HENRI LEBASQUE": {"style": "Post-Impressionism", "genre": "Landscape"},
+  "HENRI MARTIN": {"style": "Post-Impressionism", "genre": "Landscape"},
+  "HENRY MOORE": {"style": "Abstract", "genre": "Sculpture"},
+  "HENRY MORET": {"style": "Impressionism", "genre": "Landscape"},
+  "JACQUES LIPCHITZ": {"style": "Cubism", "genre": "Sculpture"},
+  "JEAN ARP": {"style": "Dadaism", "genre": "Sculpture"},
+  "JEAN DUFY": {"style": "Fauvism", "genre": "Landscape"},
+  "JEAN-PIERRE CASSIGNEUL": {"style": "Post-Impressionism", "genre": "Portrait"},
+  "JOAN MIRO": {"style": "Surrealism", "genre": "Abstract"},
+  "JOSEPH CSAKY": {"style": "Cubism", "genre": "Sculpture"},
+  "KAY SAGE": {"style": "Surrealism", "genre": "Abstract"},
+  "KEES VAN DONGEN": {"style": "Fauvism", "genre": "Portrait"},
+  "LEONORA CARRINGTON": {"style": "Surrealism", "genre": "Abstract"},
+  "LEOPOLD SURVAGE": {"style": "Abstract", "genre": "Abstract"},
+  "LOUIS MARCOUSSIS": {"style": "Cubism", "genre": "Still Life"},
+  "LOUIS VALTAT": {"style": "Post-Impressionism", "genre": "Landscape"},
+  "MAN RAY": {"style": "Surrealism", "genre": "Photography"},
+  "MARC CHAGALL": {"style": "Modernism", "genre": "Symbolism"},
+  "MARINO MARINI": {"style": "Modernism", "genre": "Sculpture"},
+  "MAURICE DE VLAMINCK": {"style": "Fauvism", "genre": "Landscape"},
+  "MAURICE UTRILLO": {"style": "Naïve Art", "genre": "Cityscape"},
+  "MAXIMILIEN LUCE": {"style": "Pointillism", "genre": "Landscape"},
+  "ODILON REDON": {"style": "Symbolism", "genre": "Fantasy"},
+  "PIERRE BONNARD": {"style": "Post-Impressionism", "genre": "Interior"},
+  "PIERRE-AUGUSTE RENOIR": {"style": "Impressionism", "genre": "Portrait"},
+  "RAOUL DUFY": {"style": "Fauvism", "genre": "Landscape"},
+  "SUZANNE VALADON": {"style": "Post-Impressionism", "genre": "Still Life"},
+  "VICTOR BRAUNER": {"style": "Surrealism", "genre": "Abstract"},
+  "DIETZ EDZARD": {"style": "Post-Impressionism", "genre": "Portrait"},
+  "EMMANUEL MANE-KATZ": {"style": "Expressionism", "genre": "Religious Art"},
+  "JULES PASCIN": {"style": "Expressionism", "genre": "Portrait"},
+  "HENRI HAYDEN": {"style": "Cubism", "genre": "Still Life"},
+  "GEORG KOLBE": {"style": "Expressionism", "genre": "Sculpture"},
+  "ARISTIDE MAILLOL": {"style": "Classicism", "genre": "Sculpture"},
+  "ERNST BARLACH": {"style": "Expressionism", "genre": "Sculpture"},
+  "EMILE-ANTOINE BOURDELLE": {"style": "Modernism", "genre": "Sculpture"},
+  "HENRI CHARLES MANGUIN": {"style": "Fauvism", "genre": "Landscape"},
+  "PIERRE-AUGUSTE RENOIR AND RICHARD GUINO": {"style": "Impressionism", "genre": "Collaborative Sculpture"},
+  "ALBERT ANDRE": {"style": "Post-Impressionism", "genre": "Portrait"},
+  "ALBERT GLEIZES": {"style": "Cubism", "genre": "Abstract"},
+  "ALBERTO GIACOMETTI": {"style": "Modernism", "genre": "Sculpture"},
+  "ALEXANDER ARCHIPENKO": {"style": "Cubism", "genre": "Sculpture"},
+  "ARISTIDE MAILLOL": {"style": "Classicism", "genre": "Sculpture"},
+  "BALTHUS": {"style": "Modern Realism", "genre": "Portrait"},
+  "BERNARD BUFFET": {"style": "Expressionism", "genre": "Still Life"},
+  "BERTHE MORISOT": {"style": "Impressionism", "genre": "Portrait"},
+  "CAMILLE PISSARRO": {"style": "Impressionism", "genre": "Landscape"},
+  "CHILDE HASSAM": {"style": "American Impressionism", "genre": "Landscape"},
+  "EDGAR DEGAS": {"style": "Impressionism", "genre": "Figurative"},
+  "EDOUARD VUILLARD": {"style": "Post-Impressionism", "genre": "Interior"},
+  "EGON SCHIELE": {"style": "Expressionism", "genre": "Figurative"},
+  "EMIL NOLDE": {"style": "Expressionism", "genre": "Landscape"},
+  "FERDINAND-VICTOR-EUGENE DELACROIX": {"style": "Romanticism", "genre": "Historical"},
+  "FERNAND LEGER": {"style": "Cubism", "genre": "Abstract"},
+  "FRANTISEK KUPKA": {"style": "Abstract Art", "genre": "Abstract"},
+  "GEORGE GROSZ": {"style": "Expressionism", "genre": "Satirical"},
+  "GEORGES VALMIER": {"style": "Cubism", "genre": "Abstract"},
+  "HENRI MATISSE": {"style": "Fauvism", "genre": "Portrait"},
+  "HENRY MOORE": {"style": "Modernism", "genre": "Sculpture"},
+  "HONORE DAUMIER": {"style": "Realism", "genre": "Satirical"},
+  "JACQUES LIPCHITZ": {"style": "Cubism", "genre": "Sculpture"},
+  "JEAN DUFY": {"style": "Modernism", "genre": "Cityscape"},
+  "JOAN MIRO": {"style": "Surrealism", "genre": "Abstract"},
+  "LEONARD TSUGUHARU FOUJITA": {"style": "Modernism", "genre": "Portrait"},
+  "LYONEL FEININGER": {"style": "Cubism", "genre": "Cityscape"},
+  "MANE-KATZ": {"style": "Expressionism", "genre": "Religious Art"},
+  "MARC CHAGALL": {"style": "Surrealism", "genre": "Religious Art"},
+  "MARIE LAURENCIN": {"style": "Cubism", "genre": "Portrait"},
+  "MARINO MARINI": {"style": "Modernism", "genre": "Sculpture"},
+  "MARY CASSATT": {"style": "Impressionism", "genre": "Portrait"},
+  "MAURICE DE VLAMINCK": {"style": "Fauvism", "genre": "Landscape"},
+  "MAX ERNST": {"style": "Surrealism", "genre": "Abstract"},
+  "MAXIMILIEN LUCE": {"style": "Neo-Impressionism", "genre": "Landscape"},
+  "OSSIP ZADKINE": {"style": "Cubism", "genre": "Sculpture"},
+  "PABLO PICASSO": {"style": "Cubism", "genre": "Abstract"},
+  "PAUL SIGNAC": {"style": "Pointillism", "genre": "Seascape"},
+  "PIERRE BONNARD": {"style": "Post-Impressionism", "genre": "Interior"},
+  "PIERRE-AUGUSTE RENOIR": {"style": "Impressionism", "genre": "Portrait"},
+  "ROBERT DELAUNAY": {"style": "Orphism", "genre": "Abstract"},
+  "WASSILY KANDINSKY": {"style": "Abstract Art", "genre": "Abstract"},
+  "ALEXANDER ARCHIPENKO": {"style": "Cubism", "genre": "Sculpture"},
+    "ANDY WARHOL": {"style": "Pop Art", "genre": "Portraiture"},
+    "DAVID SALLE": {"style": "Postmodernism", "genre": "Abstract"},
+    "EDGAR DEGAS": {"style": "Impressionism", "genre": "Figure Painting"},
+    "FRANCIS PICABIA": {"style": "Dada", "genre": "Abstract"},
+    "FRANTISEK KUPKA": {"style": "Orphism", "genre": "Abstract"},
+    "GASTON LACHAISE": {"style": "Modernism", "genre": "Sculpture"},
+    "GEORGE GROSZ": {"style": "Expressionism", "genre": "Satirical"},
+    "GEORGES VANTONGERLOO": {"style": "De Stijl", "genre": "Abstract"},
+    "HANS HOFMANN": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "HENRI MATISSE": {"style": "Fauvism", "genre": "Still Life"},
+    "JACK YOUNGERMAN": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "JACQUES LIPCHITZ": {"style": "Cubism", "genre": "Sculpture"},
+    "JEAN DUBUFFET": {"style": "Art Brut", "genre": "Abstract"},
+    "JEAN HELION": {"style": "Modernism", "genre": "Abstract"},
+    "JOSEPH STELLA": {"style": "Futurism", "genre": "Abstract"},
+    "KAZIMIR MALEVICH": {"style": "Suprematism", "genre": "Abstract"},
+    "KENNETH NOLAND": {"style": "Color Field", "genre": "Abstract"},
+    "LARRY RIVERS": {"style": "Pop Art", "genre": "Portraiture"},
+    "LE CORBUSIER": {"style": "Modernism", "genre": "Architecture"},
+    "LOUIS MARCOUSSIS": {"style": "Cubism", "genre": "Abstract"},
+    "MAN RAY": {"style": "Surrealism", "genre": "Photography"},
+    "MORGAN RUSSELL": {"style": "Synchronism", "genre": "Abstract"},
+    "OLEKSANDR BOHOMAZOV": {"style": "Futurism", "genre": "Abstract"},
+    "PABLO PICASSO": {"style": "Cubism", "genre": "Portraiture"},
+    "RENE MAGRITTE": {"style": "Surrealism", "genre": "Fantasy"},
+    "RICHARD LINDNER": {"style": "Pop Art", "genre": "Portraiture"},
+    "SONIA DELAUNAY": {"style": "Orphism", "genre": "Abstract"},
+    "THEO VAN DOESBURG": {"style": "De Stijl", "genre": "Abstract"},
+    "VASYL YERMILOV": {"style": "Constructivism", "genre": "Abstract"},
+    "WANG KEPING": {"style": "Modernism", "genre": "Sculpture"},
+    "YVES KLEIN": {"style": "Monochrome Art", "genre": "Abstract"},
+    "YVES TANGUY": {"style": "Surrealism", "genre": "Abstract"},
+    "ADRIAN HENRI": {"style": "Pop Art", "genre": "Abstract"},
+    "ALAN LOWNDES": {"style": "Naïve Art", "genre": "Landscape"},
+    "ALFRED WALLIS": {"style": "Naïve Art", "genre": "Marine"},
+    "ANNE ESTELLE RICE": {"style": "Fauvism", "genre": "Portraiture"},
+    "ANNE REDPATH, A.R.A.": {"style": "Expressionism", "genre": "Still Life"},
+    "ANTONY DONALDSON": {"style": "Pop Art", "genre": "Figurative"},
+    "AUGUSTUS JOHN, O.M., C.H.": {"style": "Post-Impressionism", "genre": "Portraiture"},
+    "AUGUSTUS JOHN, O.M., R.A.": {"style": "Post-Impressionism", "genre": "Landscape"},
+    "BEN NICHOLSON, O.M.": {"style": "Modernism", "genre": "Abstract"},
+    "BERNARD MEADOWS, R.A.": {"style": "Modernism", "genre": "Sculpture"},
+    "BRYAN WYNTER": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "CELIA PAUL": {"style": "Contemporary Realism", "genre": "Portraiture"},
+    "CHARLES GINNER, A.R.A.": {"style": "Post-Impressionism", "genre": "Landscape"},
+    "CHRISTOPHER BRAMHAM": {"style": "Modernism", "genre": "Landscape"},
+    "CHRISTOPHER RICHARD WYNNE NEVINSON, A.R.A.": {"style": "Futurism", "genre": "War"},
+    "CHRISTOPHER WOOD": {"style": "Modernism", "genre": "Landscape"},
+    "CLIVE BARKER": {"style": "Pop Art", "genre": "Sculpture"},
+    "CRAIGIE AITCHISON, R.A.": {"style": "Contemporary Realism", "genre": "Portraiture"},
+    "DAME BARBARA HEPWORTH": {"style": "Modernism", "genre": "Sculpture"},
+    "DAME ELISABETH FRINK, R.A.": {"style": "Modernism", "genre": "Sculpture"},
+    "DAME ELIZABETH BLACKADDER, R.A., R.S.A.": {"style": "Modernism", "genre": "Still Life"},
+    "DAME LUCIE RIE": {"style": "Modernism", "genre": "Ceramics"},
+    "DAVID BOMBERG": {"style": "Vorticism", "genre": "Abstract"},
+    "DERWENT LEES": {"style": "Post-Impressionism", "genre": "Landscape"},
+    "DUNCAN GRANT": {"style": "Post-Impressionism", "genre": "Portraiture"},
+    "EDWARD WADSWORTH, A.R.A.": {"style": "Vorticism", "genre": "Abstract"},
+    "ELIOT HODGKIN": {"style": "Realism", "genre": "Still Life"},
+    "EMILY YOUNG": {"style": "Modernism", "genre": "Sculpture"},
+    "FRANK AUERBACH": {"style": "Expressionism", "genre": "Portraiture"},
+    "GEORGE LESLIE HUNTER": {"style": "Fauvism", "genre": "Still Life"},
+    "GERALD LAING": {"style": "Pop Art", "genre": "Figurative"},
+    "GRAHAM SUTHERLAND, O.M.": {"style": "Neo-Romanticism", "genre": "Landscape"},
+    "GRAYSON PERRY, R.A.": {"style": "Contemporary Art", "genre": "Ceramics"},
+    "HELEN BRADLEY": {"style": "Naïve Art", "genre": "Figurative"},
+    "HENRY MOORE, O.M., C.H.": {"style": "Modernism", "genre": "Sculpture"},
+    "IVON HITCHENS": {"style": "Abstract Art", "genre": "Landscape"},
+    "JACK BUTLER YEATS, R.H.A.": {"style": "Expressionism", "genre": "Landscape"},
+    "JEFFREY STEELE": {"style": "Geometric Abstraction", "genre": "Abstract"},
+    "JEREMY MOON": {"style": "Hard-Edge Abstraction", "genre": "Abstract"},
+    "JOAN EARDLEY, R.S.A.": {"style": "Expressionism", "genre": "Landscape"},
+    "JOE TILSON, R.A.": {"style": "Pop Art", "genre": "Abstract"},
+    "JOHN DUNCAN FERGUSSON": {"style": "Fauvism", "genre": "Portraiture"},
+    "JOHN HOYLAND, R.A.": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "JOHN PLUMB": {"style": "Minimalism", "genre": "Abstract"},
+    "JOHN TUNNARD, A.R.A.": {"style": "Surrealism", "genre": "Abstract"},
+    "JOHN VIRTUE": {"style": "Contemporary Art", "genre": "Landscape"},
+    "JOHN WELLS": {"style": "Modernism", "genre": "Abstract"},
+    "KEITH VAUGHAN": {"style": "Neo-Romanticism", "genre": "Figurative"},
+    "LAURENCE STEPHEN LOWRY, R.A.": {"style": "Naïve Art", "genre": "Urban"},
+    "LEON KOSSOFF": {"style": "Expressionism", "genre": "Portraiture"},
+    "LYNN CHADWICK, R.A.": {"style": "Modernism", "genre": "Sculpture"},
+    "MARK GERTLER": {"style": "Post-Impressionism", "genre": "Portraiture"},
+    "MICHAEL KIDNER, R.A.": {"style": "Op Art", "genre": "Abstract"},
+    "PATRICK HERON": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "PATRICK PROCKTOR, R.A.": {"style": "Modernism", "genre": "Portraiture"},
+    "PAULINE BOTY": {"style": "Pop Art", "genre": "Portraiture"},
+    "PETER LANYON": {"style": "Abstract Expressionism", "genre": "Landscape"},
+    "PETER ROSE PULHAM": {"style": "Modernism", "genre": "Abstract"},
+    "PETER SEDGLEY": {"style": "Op Art", "genre": "Abstract"},
+    "PRUNELLA CLOUGH": {"style": "Modernism", "genre": "Urban"},
+    "R.B. KITAJ, R.A.": {"style": "Pop Art", "genre": "Figurative"},
+    "ROBERT MACBRYDE": {"style": "Cubism", "genre": "Still Life"},
+    "RODERIC O'CONOR": {"style": "Post-Impressionism", "genre": "Landscape"},
+    "ROGER FRY": {"style": "Post-Impressionism", "genre": "Portraiture"},
+    "ROGER HILTON": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "SANDRA BLOW, R.A.": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "SIR ANTHONY CARO, O.M., R.A.": {"style": "Modernism", "genre": "Sculpture"},
+    "SIR ANTONY GORMLEY, R.A.": {"style": "Contemporary Art", "genre": "Sculpture"},
+    "SIR CEDRIC MORRIS": {"style": "Modernism", "genre": "Still Life"},
+    "SIR EDUARDO PAOLOZZI, R.A.": {"style": "Pop Art", "genre": "Sculpture"},
+    "SIR FRANK BOWLING, R.A.": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "SIR JOHN LAVERY, R.A., R.S.A., R.H.A.": {"style": "Post-Impressionism", "genre": "Portraiture"},
+    "SIR MATTHEW SMITH": {"style": "Fauvism", "genre": "Still Life"},
+    "SIR PETER BLAKE, R.A.": {"style": "Pop Art", "genre": "Portraiture"},
+    "SIR PETER BLAKE, R.A. AND JANN HAWORTH": {"style": "Pop Art", "genre": "Figurative"},
+    "SIR STANLEY SPENCER, R.A.": {"style": "Neo-Romanticism", "genre": "Religious"},
+    "SIR TERRY FROST, R.A.": {"style": "Abstract Expressionism", "genre": "Abstract"},
+    "SIR WILLIAM NICHOLSON": {"style": "Post-Impressionism", "genre": "Still Life"},
+    "STANLEY WILLIAM HAYTER": {"style": "Surrealism", "genre": "Abstract"},
+    "STEPHEN CONROY": {"style": "Contemporary Art", "genre": "Portraiture"},
+    "SVEN BERLIN": {"style": "Modernism", "genre": "Sculpture"},
+    "TRISTRAM HILLIER, R.A.": {"style": "Surrealism", "genre": "Landscape"},
+    "VICTOR PASMORE, R.A.": {"style": "Abstract Art", "genre": "Abstract"},
+    "WALTER RICHARD SICKERT, A.R.A.": {"style": "Impressionism", "genre": "Urban"},
+    "WILHELMINA BARNS-GRAHAM": {"style": "Abstract Art", "genre": "Abstract"},
+    "WILLIAM BROOKER, A.R.A.": {"style": "Modernism", "genre": "Still Life"},
+    "WILLIAM ROBERTS, R.A.": {"style": "Vorticism", "genre": "Figurative"},
+    "WILLIAM SCOTT, R.A.": {"style": "Abstract Expressionism", "genre": "Still Life"},
+    "WILLIAM TUCKER": {"style": "Modernism", "genre": "Sculpture"},
+    "WINIFRED NICHOLSON": {"style": "Post-Impressionism", "genre": "Still Life"}
+  
+
 }
 
 
 
 # Словарь художников и их стран
 artists_countries = {
+    "DIETZ EDZARD": "Germany",
+  "EMMANUEL MANE-KATZ": "Ukraine",
+  "JULES PASCIN": "Bulgaria",
+  "HENRI HAYDEN": "Poland",
+  "GEORG KOLBE": "Germany",
+  "ARISTIDE MAILLOL": "France",
+  "ERNST BARLACH": "Germany",
+  "EMILE-ANTOINE BOURDELLE": "France",
+  "HENRI CHARLES MANGUIN": "France",
+  "PIERRE-AUGUSTE RENOIR AND RICHARD GUINO": "France",
     "ALEC EGAN": "United States",
     "ALEX GARDNER": "United States",
     "ALEX KATZ": "United States",
@@ -485,7 +948,372 @@ artists_countries = {
     "SUAD AL-ATTAR": "Iraq",
     "TAGREED DARGHOUTH": "Lebanon",
     "TALA MADANI": "Iran",
-    "TIMO NASSERI": "Iran"
+    "TIMO NASSERI": "Iran",
+    "ADA GILMORE CHAFFEE": "United States",
+    "ADOLF ARTHUR DEHN": "United States",
+    "ADOLPH GOTTLIEB": "United States",
+    "AFTER JOAN MITCHELL": "United States",
+    "AFTER MARC CHAGALL BY CHARLES SORLIER": "France",
+    "AFTER RENÉ MAGRITTE": "Belgium",
+    "AFTER WINSLOW HOMER": "United States",
+    "AL HELD": "United States",
+    "ALBERT BARKER": "United States",
+    "ALICE AYCOCK": "United States",
+    "ANGELO PINTO": "United States",
+    "ARMAND SEGUIN": "France",
+    "ARMIN LANDECK": "United States",
+    "ARNALDO POMODORO": "Italy",
+    "ARNOLD RÖNNEBECK": "Germany",
+    "ARTHUR WESLEY DOW": "United States",
+    "AUGUSTA PAYNE BRIGGS RATHBONE": "United States",
+    "BORIS ARTZYBASHEFF": "United States",
+    "BROR JULIUS OLSSON NORDFELDT": "United States",
+    "BRUCE NAUMAN": "United States",
+    "CAMILLE PISSARRO": "France",
+    "CHARLES BARKER": "United States",
+    "CHARLES F. WILLIAM MIELATZ": "United States",
+    "CHARLES TURZAK": "United States",
+    "CHILDE HASSAM": "United States",
+    "CHUCK CLOSE": "United States",
+    "CLAES OLDENBURG": "United States",
+    "DAVID HOCKNEY": "United Kingdom",
+    "DIEGO RIVERA": "Mexico",
+    "DIETER ROTH": "Germany",
+    "DON FREEMAN": "United States",
+    "DONALD JUDD": "United States",
+    "DONALD STANLEY VOGEL": "United States",
+    "EDGAR CHAHINE": "France",
+    "EDOUARD VUILLARD": "France",
+    "ELLSWORTH KELLY": "United States",
+    "ENZO CUCCHI": "Italy",
+    "ERIC FISCHL": "United States",
+    "FRANK DUVENECK": "United States",
+    "FRANK MORLEY FLETCHER": "United Kingdom",
+    "FRANK STELLA": "United States",
+    "FRITZ EICHENBERG": "Germany",
+    "FÉLIX BRACQUEMOND": "France",
+    "GENE DAVIS": "United States",
+    "GENE KLOSS": "United States",
+    "GEORGE SEGAL": "United States",
+    "GEORGE TOOKER": "United States",
+    "GEORGE WESLEY BELLOWS": "United States",
+    "GEORGES ROUAULT": "France",
+    "GLENN COLEMAN": "United States",
+    "GRANT WOOD": "United States",
+    "HANS BURKHARDT": "United States",
+    "HARRY BRODSKY": "United States",
+    "HARRY STERNBERG": "United States",
+    "HELEN HYDE": "United States",
+    "HELEN LUNDEBERG": "United States",
+    "HENRI DE TOULOUSE-LAUTREC": "France",
+    "HENRI MATISSE": "France",
+    "HENRY MOORE": "United Kingdom",
+    "HOWARD COOK": "United States",
+    "HOWARD HODGKIN": "United Kingdom",
+    "ISAC FRIEDLANDER": "United States",
+    "JACQUES VILLON": "France",
+    "JAMES JACQUES JOSEPH TISSOT": "France",
+    "JAMES MCNEILL WHISTLER": "United States",
+    "JAMES ROSENQUIST": "United States",
+    "JEAN ARP": "France",
+    "JEAN DUBUFFET": "France",
+    "JEAN-BAPTISTE CAMILLE COROT": "France",
+    "JEFF KOONS": "United States",
+    "JIM DINE": "United States",
+    "JIM DINE AND RON PADGETT": "United States",
+    "JOAN MIRÓ": "Spain",
+    "JOE JONES": "United States",
+    "JOHN EDGAR PLATT": "United Kingdom",
+    "JOHN FERREN": "United States",
+    "KER-XAVIER ROUSSEL": "France",
+     "LUDWIG SANDER": "United States",
+    "PIERRE-AUGUSTE RENOIR": "France",
+    "MILTON AVERY": "United States",
+    "MIGUEL COVARRUBIAS": "Mexico",
+    "LEONARD BASKIN": "United States",
+    "PAUL CADMUS": "United States",
+    "LUIS ARENAL": "Mexico",
+    "MUIRHEAD BONE": "United Kingdom",
+    "STEVAN DOHANOS": "United States",
+    "LETTERIO CALAPAI": "United States",
+    "RED GROOMS": "United States",
+    "WERNER DREWES": "Germany",
+    "MAURICE JACQUE": "France",
+    "LEONARD EDMONDSON": "United States",
+    "KERR EBY": "Canada",
+    "JOHN STOCKTON DE MARTELLY": "United States",
+    "WHARTON ESHERICK": "United States",
+    "STANLEY WILLIAM HAYTER": "United Kingdom",
+    "ROCKWELL KENT": "United States",
+    "WANDA GÁG": "United States",
+    "RIVA HELFOND": "United States",
+    "KÄTHE KOLLWITZ": "Germany",
+    "PETER KRASNOW": "United States",
+    "YASUO KUNIYOSHI": "Japan",
+    "LAWRENCE KUPFERMAN": "United States",
+    "PAUL LANDACRE": "United States",
+    "OTTO LANGE": "Germany",
+    "REGINALD MARSH": "United States",
+    "STOW WENGENROTH": "United States",
+    "THOMAS MORAN": "United States",
+    "JOHN HENRY BRADLEY STORRS": "United States",
+    "KENNETH HAYES MILLER": "United States",
+    "ROBERT RAUSCHENBERG": "United States",
+    "WILLIAM SELTZER RICE": "United States",
+    "ROBERT RIGGS": "United States",
+    "WILLIAM SAMUEL SCHWARTZ": "United States",
+    "MILLARD OWEN SHEETS": "United States",
+    "JOHN SLOAN": "United States",
+    "LAWRENCE BEALL SMITH": "United States",
+    "NILES SPENCER": "United States",
+    "MAX WEBER": "United States",
+    "WILLIAM ZORACH": "United States",
+    "RICHARD ANUSZKIEWICZ": "United States",
+    "THEODORE WHITE": "United States",
+    "PIERRE BONNARD": "France",
+    "MARC CHAGALL": "France",
+    "JOSEF ALBERS": "Germany",
+    "KAREL APPEL": "Netherlands",
+    "GEORGE WESLEY BELLOWS": "United States",
+    "ROMARE BEARDEN": "United States",
+    "LYNN CHADWICK": "United Kingdom",
+    "LOUISE BOURGEOIS": "France",
+    "LEE BONTECOU": "United States",
+    "MARY CASSATT": "United States",
+    "JOSEPH CORNELL": "United States",
+    "STUART DAVIS": "United States",
+    "PETER DOIG": "Scotland",
+    "MAX ERNST": "Germany",
+    "MAURICE DENIS": "France",
+    "LÉONARD TSUGUHARU FOUJITA": "France",
+    "RICHARD HAMILTON": "United Kingdom",
+    "ROY LICHTENSTEIN": "United States",
+    "ROBERT INDIANA": "United States",
+    "ROBERTO MATTA": "Chile",
+    "ROBERT MANGOLD": "United States",
+    "PABLO PICASSO": "Spain",
+    "KENNETH NOLAND": "United States",
+    "LOUISE NEVELSON": "United States",
+    "ROBERT MOTHERWELL": "United States",
+    "AFTER FERNAND LEGER": "France",
+    "AFTER PAUL GAUGUIN": "France",
+    "ALBERT GLEIZES": "France",
+    "ALBERT MARQUET": "France",
+    "ALBERTO GIACOMETTI": "Switzerland",
+    "ALEXEJ VON JAWLENSKY": "Russia",
+    "ALFRED SISLEY": "France",
+    "ANDRE DERAIN": "France",
+    "ANDRE LHOTE": "France",
+    "ARMAND GUILLAUMIN": "France",
+    "AUGUSTE RODIN": "France",
+    "BERNARD BUFFET": "France",
+    "EDOUARD VUILLARD": "France",
+    "EMILE OTHON FRIESZ": "France",
+    "EUGENE BOUDIN": "France",
+    "FERNAND LEGER": "France",
+    "FERNANDO BOTERO": "Colombia",
+    "FRANCOISE GILOT": "France",
+    "GEORGES LEMMEN": "Belgium",
+    "GIORGIO DE CHIRICO": "Italy",
+    "GUSTAVE LOISEAU": "France",
+    "HENRI FANTIN-LATOUR": "France",
+    "HENRI HAYDEN": "Poland",
+    "HENRI LAURENS": "France",
+    "HENRI LE SIDANER": "France",
+    "HENRI LEBASQUE": "France",
+    "HENRI MARTIN": "France",
+    "HENRY MOORE": "United Kingdom",
+    "HENRY MORET": "France",
+    "JACQUES LIPCHITZ": "Lithuania",
+    "JEAN ARP": "Germany",
+    "JEAN DUFY": "France",
+    "JEAN-PIERRE CASSIGNEUL": "France",
+    "JOAN MIRO": "Spain",
+    "JOSEPH CSAKY": "Hungary",
+    "KAY SAGE": "United States",
+    "KEES VAN DONGEN": "Netherlands",
+    "LEONORA CARRINGTON": "United Kingdom",
+    "LEOPOLD SURVAGE": "Russia",
+    "LOUIS MARCOUSSIS": "Poland",
+    "LOUIS VALTAT": "France",
+    "MAN RAY": "United States",
+    "MARC CHAGALL": "Belarus",
+    "MARINO MARINI": "Italy",
+    "MAURICE DE VLAMINCK": "France",
+    "MAURICE UTRILLO": "France",
+    "MAXIMILIEN LUCE": "France",
+    "ODILON REDON": "France",
+    "PIERRE BONNARD": "France",
+    "PIERRE-AUGUSTE RENOIR": "France",
+    "RAOUL DUFY": "France",
+    "SUZANNE VALADON": "France",
+    "VICTOR BRAUNER": "Romania",
+    "ALBERT ANDRE": "France",
+  "ALBERT GLEIZES": "France",
+  "ALBERTO GIACOMETTI": "Switzerland",
+  "ALEXANDER ARCHIPENKO": "Ukraine",
+  "ARISTIDE MAILLOL": "France",
+  "BALTHUS": "Switzerland",
+  "BERNARD BUFFET": "France",
+  "BERTHE MORISOT": "France",
+  "CAMILLE PISSARRO": "France",
+  "CHILDE HASSAM": "United States",
+  "EDGAR DEGAS": "France",
+  "EDOUARD VUILLARD": "France",
+  "EGON SCHIELE": "Austria",
+  "EMIL NOLDE": "Germany",
+  "FERDINAND-VICTOR-EUGENE DELACROIX": "France",
+  "FERNAND LEGER": "France",
+  "FRANTISEK KUPKA": "Czech Republic",
+  "GEORGE GROSZ": "Germany",
+  "GEORGES VALMIER": "France",
+  "HENRI MATISSE": "France",
+  "HENRY MOORE": "United Kingdom",
+  "HONORE DAUMIER": "France",
+  "JACQUES LIPCHITZ": "Lithuania",
+  "JEAN DUFY": "France",
+  "JOAN MIRO": "Spain",
+  "LEONARD TSUGUHARU FOUJITA": "Japan",
+  "LYONEL FEININGER": "Germany",
+  "MANE-KATZ": "Ukraine",
+  "MARC CHAGALL": "Belarus",
+  "MARIE LAURENCIN": "France",
+  "MARINO MARINI": "Italy",
+  "MARY CASSATT": "United States",
+  "MAURICE DE VLAMINCK": "France",
+  "MAX ERNST": "Germany",
+  "MAXIMILIEN LUCE": "France",
+  "OSSIP ZADKINE": "Belarus",
+  "PABLO PICASSO": "Spain",
+  "PAUL SIGNAC": "France",
+  "PIERRE BONNARD": "France",
+  "PIERRE-AUGUSTE RENOIR": "France",
+  "ROBERT DELAUNAY": "France",
+  "WASSILY KANDINSKY": "Russia",
+  "ALEXANDER ARCHIPENKO": "Ukraine",
+    "ANDY WARHOL": "United States",
+    "DAVID SALLE": "United States",
+    "EDGAR DEGAS": "France",
+    "FRANCIS PICABIA": "France",
+    "FRANTISEK KUPKA": "Czech Republic",
+    "GASTON LACHAISE": "France",
+    "GEORGE GROSZ": "Germany",
+    "GEORGES VANTONGERLOO": "Belgium",
+    "HANS HOFMANN": "Germany",
+    "HENRI MATISSE": "France",
+    "JACK YOUNGERMAN": "United States",
+    "JACQUES LIPCHITZ": "Lithuania",
+    "JEAN DUBUFFET": "France",
+    "JEAN HELION": "France",
+    "JOSEPH STELLA": "Italy",
+    "KAZIMIR MALEVICH": "Ukraine",
+    "KENNETH NOLAND": "United States",
+    "LARRY RIVERS": "United States",
+    "LE CORBUSIER": "Switzerland",
+    "LOUIS MARCOUSSIS": "Poland",
+    "MAN RAY": "United States",
+    "MORGAN RUSSELL": "United States",
+    "OLEKSANDR BOHOMAZOV": "Ukraine",
+    "PABLO PICASSO": "Spain",
+    "RENE MAGRITTE": "Belgium",
+    "RICHARD LINDNER": "Germany",
+    "SONIA DELAUNAY": "Ukraine",
+    "THEO VAN DOESBURG": "Netherlands",
+    "VASYL YERMILOV": "Ukraine",
+    "WANG KEPING": "China",
+    "YVES KLEIN": "France",
+    "YVES TANGUY": "France",
+      "ADRIAN HENRI": "United Kingdom",
+  "ALAN LOWNDES": "United Kingdom",
+  "ALFRED WALLIS": "United Kingdom",
+  "ANNE ESTELLE RICE": "United States",
+  "ANNE REDPATH, A.R.A.": "United Kingdom",
+  "ANTONY DONALDSON": "United Kingdom",
+  "AUGUSTUS JOHN, O.M., C.H.": "United Kingdom",
+  "AUGUSTUS JOHN, O.M., R.A.": "United Kingdom",
+  "BEN NICHOLSON, O.M.": "United Kingdom",
+  "BERNARD MEADOWS, R.A.": "United Kingdom",
+  "BRYAN WYNTER": "United Kingdom",
+  "CELIA PAUL": "United Kingdom",
+  "CHARLES GINNER, A.R.A.": "United Kingdom",
+  "CHRISTOPHER BRAMHAM": "United Kingdom",
+  "CHRISTOPHER RICHARD WYNNE NEVINSON, A.R.A.": "United Kingdom",
+  "CHRISTOPHER WOOD": "United Kingdom",
+  "CLIVE BARKER": "United Kingdom",
+  "CRAIGIE AITCHISON, R.A.": "United Kingdom",
+  "DAME BARBARA HEPWORTH": "United Kingdom",
+  "DAME ELISABETH FRINK, R.A.": "United Kingdom",
+  "DAME ELIZABETH BLACKADDER, R.A., R.S.A.": "United Kingdom",
+  "DAME LUCIE RIE": "Austria",
+  "DAVID BOMBERG": "United Kingdom",
+  "DERWENT LEES": "United Kingdom",
+  "DUNCAN GRANT": "United Kingdom",
+  "EDWARD WADSWORTH, A.R.A.": "United Kingdom",
+  "ELIOT HODGKIN": "United Kingdom",
+  "EMILY YOUNG": "United Kingdom",
+  "FRANK AUERBACH": "Germany",
+  "GEORGE LESLIE HUNTER": "United Kingdom",
+  "GERALD LAING": "United Kingdom",
+  "GRAHAM SUTHERLAND, O.M.": "United Kingdom",
+  "GRAYSON PERRY, R.A.": "United Kingdom",
+  "HELEN BRADLEY": "United Kingdom",
+  "HENRY MOORE, O.M., C.H.": "United Kingdom",
+  "IVON HITCHENS": "United Kingdom",
+  "JACK BUTLER YEATS, R.H.A.": "Ireland",
+  "JEFFREY STEELE": "United Kingdom",
+  "JEREMY MOON": "United Kingdom",
+  "JOAN EARDLEY, R.S.A.": "United Kingdom",
+  "JOE TILSON, R.A.": "United Kingdom",
+  "JOHN DUNCAN FERGUSSON": "United Kingdom",
+  "JOHN HOYLAND, R.A.": "United Kingdom",
+  "JOHN PLUMB": "United Kingdom",
+  "JOHN TUNNARD, A.R.A.": "United Kingdom",
+  "JOHN VIRTUE": "United Kingdom",
+  "JOHN WELLS": "United Kingdom",
+  "KEITH VAUGHAN": "United Kingdom",
+  "LAURENCE STEPHEN LOWRY, R.A.": "United Kingdom",
+  "LEON KOSSOFF": "United Kingdom",
+  "LYNN CHADWICK, R.A.": "United Kingdom",
+  "MARK GERTLER": "United Kingdom",
+  "MICHAEL KIDNER, R.A.": "United Kingdom",
+  "PATRICK HERON": "United Kingdom",
+  "PATRICK PROCKTOR, R.A.": "United Kingdom",
+  "PAULINE BOTY": "United Kingdom",
+  "PETER LANYON": "United Kingdom",
+  "PETER ROSE PULHAM": "United Kingdom",
+  "PETER SEDGLEY": "United Kingdom",
+  "PRUNELLA CLOUGH": "United Kingdom",
+  "R.B. KITAJ, R.A.": "United States",
+  "ROBERT MACBRYDE": "United Kingdom",
+  "RODERIC O'CONOR": "Ireland",
+  "ROGER FRY": "United Kingdom",
+  "ROGER HILTON": "United Kingdom",
+  "SANDRA BLOW, R.A.": "United Kingdom",
+  "SIR ANTHONY CARO, O.M., R.A.": "United Kingdom",
+  "SIR ANTONY GORMLEY, R.A.": "United Kingdom",
+  "SIR CEDRIC MORRIS": "United Kingdom",
+  "SIR EDUARDO PAOLOZZI, R.A.": "United Kingdom",
+  "SIR FRANK BOWLING, R.A.": "Guyana",
+  "SIR JOHN LAVERY, R.A., R.S.A., R.H.A.": "Ireland",
+  "SIR MATTHEW SMITH": "United Kingdom",
+  "SIR PETER BLAKE, R.A.": "United Kingdom",
+  "SIR PETER BLAKE, R.A. AND JANN HAWORTH": "United Kingdom",
+  "SIR STANLEY SPENCER, R.A.": "United Kingdom",
+  "SIR TERRY FROST, R.A.": "United Kingdom",
+  "SIR WILLIAM NICHOLSON": "United Kingdom",
+  "STANLEY WILLIAM HAYTER": "United Kingdom",
+  "STEPHEN CONROY": "United Kingdom",
+  "SVEN BERLIN": "United Kingdom",
+  "TRISTRAM HILLIER, R.A.": "United Kingdom",
+  "VICTOR PASMORE, R.A.": "United Kingdom",
+  "WALTER RICHARD SICKERT, A.R.A.": "United Kingdom",
+  "WILHELMINA BARNS-GRAHAM": "United Kingdom",
+  "WILLIAM BROOKER, A.R.A.": "United Kingdom",
+  "WILLIAM ROBERTS, R.A.": "United Kingdom",
+  "WILLIAM SCOTT, R.A.": "United Kingdom",
+  "WILLIAM TUCKER": "United Kingdom",
+  "WINIFRED NICHOLSON": "United Kingdom"
+    
 }
 
 
@@ -2070,3 +2898,494 @@ def convert_to_cm(dimensions):
 #     driver.quit()
 
 #------------------------------------------------------------------
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import re
+# import json
+# import csv
+
+# # Укажите путь к WebDriver
+# driver_path = "D:\\project on python\\msedgedriver.exe"
+
+# # Настройки WebDriver
+# options = Options()
+# options.add_argument("--headless")  # Запуск в фоновом режиме
+# options.add_argument("--disable-gpu")
+# options.add_argument("--no-sandbox")
+# options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+
+# # Создаем экземпляр WebDriver
+# service = Service(driver_path)
+# driver = webdriver.Edge(service=service, options=options)
+
+# # URL страницы
+# url = "https://onlineonly.christies.com/s/graphic-century-exceptional-impressions-alan-marianne-schwartz/lots/3856?page=4&sortby=LotNumber"
+
+# # Функция для извлечения данных
+# def extract_lot_data(driver, url):
+#     driver.get(url)
+
+#     # Находим скрипты на странице
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+#     lot_data = None
+
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents" in script_content:
+#             match = re.search(r"window\.chrComponents\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_data = match.group(1)
+#                 lot_data = json.loads(json_data)
+#                 break
+
+#     if not lot_data or "lots" not in lot_data.get("lots", {}).get("data", {}):
+#         print("Данные о лотах не найдены")
+#         return []
+
+#     lots = lot_data["lots"]["data"]["lots"]
+#     results = []
+
+#     for lot in lots:
+#         title = lot.get("title_secondary_txt", "N/A")
+#         artist = lot.get("title_primary_txt", "N/A")
+#         price_realised = lot.get("price_realised_txt", "N/A")
+#         estimate = lot.get("estimate_txt", "N/A")
+#         description = lot.get("description_txt", "N/A")
+
+#         # Извлечение материала и размеров из description
+#         material_match = re.search(r"(oil on canvas|acrylic|printed porcelain|watercolor)", description, re.IGNORECASE)
+#         material = material_match.group(1) if material_match else "N/A"
+
+#         dimensions_match = re.search(r"(\d+\.?\d*\s*x\s*\d+\.?\d*\s*(cm|in|mm))", description, re.IGNORECASE)
+#         dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+
+#         artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+
+#         period_match = re.search(r"\((.*?)\)", artist)
+#         period = period_match.group(1) if period_match else "Период не найден"
+#         artist = re.sub(r"\s*\(.*?\)", "", artist).strip().upper()
+
+#         country=artists_countries.get(artist_cleaned, "Unknown")
+#         style_genre = get_style_and_genre(artist)
+
+#         # Добавляем данные в результат
+#         results.append({
+#             "Название": title,
+#             "Имя художника": artist,
+#             "Стоимость": price_realised,
+#             "Примерная оценка": estimate,
+#             "Материал": material,
+#             "Размер": dimensions,
+#             "Страна": country,
+#             "Период": period,
+#             "Стиль": style_genre["style"],
+#             "Жанр": style_genre["genre"]
+#         })
+
+#     return results
+
+# # Основной блок выполнения
+# try:
+#     data = extract_lot_data(driver, url)
+
+#     # Сохраняем данные в CSV
+#     csv_file = "Graphic_Century.csv"
+#     fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+
+#     with open(csv_file, "w", newline="", encoding="utf-8") as file:
+#         writer = csv.DictWriter(file, fieldnames=fieldnames)
+#         writer.writeheader()
+#         writer.writerows(data)
+
+#     print(f"Данные успешно сохранены в файл {csv_file}")
+
+# finally:
+#     driver.quit()
+
+#-------------------------------------------------------------
+
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import csv
+# import re
+# import json
+
+# # Настройки Selenium
+# driver_path = "D:\project on python\msedgedriver.exe"  # Замените на путь к вашему драйверу
+# url = "https://www.christies.com/en/auction/impressionist-and-modern-art-day-sale-30531/?page=2&sortby=lotnumber"
+
+# options = Options()
+# options.add_argument("--headless")  # Открыть браузер в фоновом режиме
+# options.add_argument("--disable-gpu")
+# options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+
+# service = Service(driver_path)
+# driver = webdriver.Edge(service=service, options=options)
+
+# try:
+#     # Открываем страницу
+#     driver.get(url)
+
+#     # Ищем скрипт с данными
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+#     lot_data = None
+
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents.lots" in script_content:
+#             match = re.search(r"window\.chrComponents\.lots\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_data = match.group(1)
+#                 lot_data = json.loads(json_data)
+#                 break
+
+#     if lot_data:
+#         lots = lot_data["data"].get("lots", [])
+#         results = []
+#         for lot in lots:
+#             artist = lot.get("title_primary_txt", "N/A")
+#             title = lot.get("title_secondary_txt", "N/A")
+#             price_realised = lot.get("price_realised_txt", "N/A")
+#             estimate = lot.get("estimate_txt", "N/A")
+#             description = lot.get("description_txt", "N/A")
+
+#             # Извлекаем материал и размеры из описания
+#             material_match = re.search(r"(oil on canvas|bronze|watercolor|gouache|mixed media|collage)", description, re.IGNORECASE)
+#             material = material_match.group(1) if material_match else "N/A"
+#             dimensions_match = re.search(r"(\d+\.?\d*\s*x\s*\d+\.?\d*\s*(cm|in|mm))", description, re.IGNORECASE)
+#             dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+
+#             artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+
+#             period_match = re.search(r"\((.*?)\)", artist)
+#             period = period_match.group(1) if period_match else "Период не найден"
+#             artist = re.sub(r"\s*\(.*?\)", "", artist).strip().upper()
+
+#             style_genre = get_style_and_genre(artist)
+
+#             country=artists_countries.get(artist_cleaned, "Unknown")
+
+
+#             # Добавляем данные в результирующий список
+#             results.append({
+#                 "Название": title,
+#                 "Имя художника": artist,
+#                 "Стоимость": price_realised,
+#                 "Примерная оценка": estimate,
+#                 "Материал": material,
+#                 "Размер": dimensions,
+#                 "Страна": country,  # Если требуется, можно добавить логику для страны
+#                 "Период": period,  # Если требуется, можно добавить логику для периода
+#                 "Стиль": style_genre["style"],  # Если требуется, можно добавить логику для стиля
+#                 "Жанр": style_genre["genre"]    # Если требуется, можно добавить логику для жанра
+#             })
+
+#         # Сохраняем данные в CSV
+#         csv_file = "Impressionist_and_Modern_Art_Day.csv"
+#         fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+
+#         with open(csv_file, "w", newline="", encoding="utf-8") as file:
+#             writer = csv.DictWriter(file, fieldnames=fieldnames)
+#             writer.writeheader()
+#             writer.writerows(results)
+
+#         print(f"Данные успешно сохранены в файл {csv_file}")
+#     else:
+#         print("Данные не найдены.")
+
+# finally:
+#     driver.quit()
+
+#---------------------------------------------------------------------------------------------
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import csv
+# import re
+# import json
+
+# # Настройки Selenium
+# driver_path = "D:\project on python\msedgedriver.exe"  
+# url = "https://www.christies.com/en/auction/impressionist-and-modern-works-on-paper-30530/?page=2&sortby=lotnumber"
+
+# options = Options()
+# options.add_argument("--headless")  # Открыть браузер в фоновом режиме
+# options.add_argument("--disable-gpu")
+# options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+
+# service = Service(driver_path)
+# driver = webdriver.Edge(service=service, options=options)
+
+# try:
+#     # Открываем страницу
+#     driver.get(url)
+
+#     # Ищем скрипт с данными
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+#     lot_data = None
+
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents.lots" in script_content:
+#             match = re.search(r"window\.chrComponents\.lots\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_data = match.group(1)
+#                 lot_data = json.loads(json_data)
+#                 break
+
+#     if lot_data:
+#         lots = lot_data["data"].get("lots", [])
+#         results = []
+#         for lot in lots:
+#             artist = lot.get("title_primary_txt", "N/A")
+#             title = lot.get("title_secondary_txt", "N/A")
+#             price_realised = lot.get("price_realised_txt", "N/A")
+#             estimate = lot.get("estimate_txt", "N/A")
+#             description = lot.get("description_txt", "N/A")
+
+#             # Извлекаем материал и размеры из описания
+#             material_match = re.search(r"(oil on canvas|bronze|watercolor|gouache|mixed media|collage)", description, re.IGNORECASE)
+#             material = material_match.group(1) if material_match else "N/A"
+#             dimensions_match = re.search(r"(\d+\.?\d*\s*x\s*\d+\.?\d*\s*(cm|in|mm))", description, re.IGNORECASE)
+#             dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+            
+#             artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+
+#             period_match = re.search(r"\((.*?)\)", artist)
+#             period = period_match.group(1) if period_match else "Период не найден"
+#             artist = re.sub(r"\s*\(.*?\)", "", artist).strip().upper()
+
+#             style_genre = get_style_and_genre(artist)
+
+#             country=artists_countries.get(artist_cleaned, "Unknown")
+
+
+#             # Добавляем данные в результирующий список
+#             results.append({
+#                 "Название": title,
+#                 "Имя художника": artist,
+#                 "Стоимость": price_realised,
+#                 "Примерная оценка": estimate,
+#                 "Материал": material,
+#                 "Размер": dimensions,
+#                 "Страна": country,  
+#                 "Период": period,  
+#                 "Стиль": style_genre["style"], 
+#                 "Жанр": style_genre["genre"]    
+#             })
+
+#         # Сохраняем данные в CSV
+#         csv_file = "Modern_works_on_paper.csv"
+#         fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+
+#         with open(csv_file, "w", newline="", encoding="utf-8") as file:
+#             writer = csv.DictWriter(file, fieldnames=fieldnames)
+#             writer.writeheader()
+#             writer.writerows(results)
+
+#         print(f"Данные успешно сохранены в файл {csv_file}")
+#     else:
+#         print("Данные не найдены.")
+
+# finally:
+#     driver.quit()
+
+#-----------------------------------------------------------------------------
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import csv
+# import re
+# import json
+
+# # Настройки Selenium
+# driver_path = "D:\project on python\msedgedriver.exe"  
+# url = "https://www.christies.com/en/auction/mica-the-collection-of-mica-ertegun-part-ii-30867/"
+
+# options = Options()
+# options.add_argument("--headless")  # Открыть браузер в фоновом режиме
+# options.add_argument("--disable-gpu")
+# options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+
+# service = Service(driver_path)
+# driver = webdriver.Edge(service=service, options=options)
+
+# try:
+#     # Открываем страницу
+#     driver.get(url)
+
+#     # Ищем скрипт с данными
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+#     lot_data = None
+
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents.lots" in script_content:
+#             match = re.search(r"window\.chrComponents\.lots\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_data = match.group(1)
+#                 lot_data = json.loads(json_data)
+#                 break
+
+#     if lot_data:
+#         lots = lot_data["data"].get("lots", [])
+#         results = []
+#         for lot in lots:
+#             artist = lot.get("title_primary_txt", "N/A")
+#             title = lot.get("title_secondary_txt", "N/A")
+#             price_realised = lot.get("price_realised_txt", "N/A")
+#             estimate = lot.get("estimate_txt", "N/A")
+#             description = lot.get("description_txt", "N/A")
+
+#             # Извлекаем материал и размеры из описания
+#             material_match = re.search(r"(oil on canvas|bronze|watercolor|gouache|mixed media|collage)", description, re.IGNORECASE)
+#             material = material_match.group(1) if material_match else "N/A"
+#             dimensions_match = re.search(r"(\d+\.?\d*\s*x\s*\d+\.?\d*\s*(cm|in|mm))", description, re.IGNORECASE)
+#             dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+            
+#             artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+
+#             period_match = re.search(r"\((.*?)\)", artist)
+#             period = period_match.group(1) if period_match else "Период не найден"
+#             artist = re.sub(r"\s*\(.*?\)", "", artist).strip().upper()
+
+#             style_genre = get_style_and_genre(artist)
+
+#             country=artists_countries.get(artist_cleaned, "Unknown")
+
+
+#             # Добавляем данные в результирующий список
+#             results.append({
+#                 "Название": title,
+#                 "Имя художника": artist,
+#                 "Стоимость": price_realised,
+#                 "Примерная оценка": estimate,
+#                 "Материал": material,
+#                 "Размер": dimensions,
+#                 "Страна": country,  
+#                 "Период": period,  
+#                 "Стиль": style_genre["style"], 
+#                 "Жанр": style_genre["genre"]    
+#             })
+
+#         # Сохраняем данные в CSV
+#         csv_file = "MICA.csv"
+#         fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+
+#         with open(csv_file, "w", newline="", encoding="utf-8") as file:
+#             writer = csv.DictWriter(file, fieldnames=fieldnames)
+#             writer.writeheader()
+#             writer.writerows(results)
+
+#         print(f"Данные успешно сохранены в файл {csv_file}")
+#     else:
+#         print("Данные не найдены.")
+
+# finally:
+#     driver.quit()
+
+#-------------------------------------------------------------------------------------------------------------------------------
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.edge.service import Service
+from selenium.webdriver.edge.options import Options
+import csv
+import re
+import json
+
+# Настройки Selenium
+driver_path = "D:\project on python\msedgedriver.exe"  
+url = "https://www.christies.com/en/auction/modern-british-and-irish-art-day-sale-30284/?page=2&sortby=lotnumber"
+
+options = Options()
+options.add_argument("--headless")  # Открыть браузер в фоновом режиме
+options.add_argument("--disable-gpu")
+options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+
+service = Service(driver_path)
+driver = webdriver.Edge(service=service, options=options)
+
+try:
+    # Открываем страницу
+    driver.get(url)
+
+    # Ищем скрипт с данными
+    scripts = driver.find_elements(By.TAG_NAME, "script")
+    lot_data = None
+
+    for script in scripts:
+        script_content = script.get_attribute("innerHTML")
+        if "window.chrComponents.lots" in script_content:
+            match = re.search(r"window\.chrComponents\.lots\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+            if match:
+                json_data = match.group(1)
+                lot_data = json.loads(json_data)
+                break
+
+    if lot_data:
+        lots = lot_data["data"].get("lots", [])
+        results = []
+        for lot in lots:
+            artist = lot.get("title_primary_txt", "N/A")
+            title = lot.get("title_secondary_txt", "N/A")
+            price_realised = lot.get("price_realised_txt", "N/A")
+            estimate = lot.get("estimate_txt", "N/A")
+            description = lot.get("description_txt", "N/A")
+
+            # Извлекаем материал и размеры из описания
+            material_match = re.search(r"(oil on canvas|bronze|watercolor|gouache|mixed media|collage)", description, re.IGNORECASE)
+            material = material_match.group(1) if material_match else "N/A"
+            dimensions_match = re.search(r"(\d+\.?\d*\s*x\s*\d+\.?\d*\s*(cm|in|mm))", description, re.IGNORECASE)
+            dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+            
+            artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+
+            period_match = re.search(r"\((.*?)\)", artist)
+            period = period_match.group(1) if period_match else "Период не найден"
+            artist = re.sub(r"\s*\(.*?\)", "", artist).strip().upper()
+
+            style_genre = get_style_and_genre(artist)
+
+            country=artists_countries.get(artist_cleaned, "Unknown")
+
+
+            # Добавляем данные в результирующий список
+            results.append({
+                "Название": title,
+                "Имя художника": artist,
+                "Стоимость": price_realised,
+                "Примерная оценка": estimate,
+                "Материал": material,
+                "Размер": dimensions,
+                "Страна": country,  
+                "Период": period,  
+                "Стиль": style_genre["style"], 
+                "Жанр": style_genre["genre"]    
+            })
+
+        # Сохраняем данные в CSV
+        csv_file = "Modern_British_and_Irish.csv"
+        fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+
+        with open(csv_file, "w", newline="", encoding="utf-8") as file:
+            writer = csv.DictWriter(file, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(results)
+
+        print(f"Данные успешно сохранены в файл {csv_file}")
+    else:
+        print("Данные не найдены.")
+
+finally:
+    driver.quit()
