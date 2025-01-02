@@ -568,7 +568,441 @@ artist_styles_genres = {
     "WILLIAM ROBERTS, R.A.": {"style": "Vorticism", "genre": "Figurative"},
     "WILLIAM SCOTT, R.A.": {"style": "Abstract Expressionism", "genre": "Still Life"},
     "WILLIAM TUCKER": {"style": "Modernism", "genre": "Sculpture"},
-    "WINIFRED NICHOLSON": {"style": "Post-Impressionism", "genre": "Still Life"}
+    "WINIFRED NICHOLSON": {"style": "Post-Impressionism", "genre": "Still Life"},
+    "BAI XUESHI": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "BU NING (1917-2002)": {"style": "Modern Chinese Painting", "genre": "Portrait"},
+  "C. C. WANG": {"style": "Contemporary Chinese Art", "genre": "Calligraphy"},
+  "CHEN CONGZHOU": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "CHEN FANG": {"style": "Unknown", "genre": "Unknown"},
+  "CHEN JIRU": {"style": "Ming Dynasty Art", "genre": "Calligraphy"},
+  "CHEN LI": {"style": "Contemporary Art", "genre": "Abstract"},
+  "CHEN SHIZENG": {"style": "Modern Chinese Painting", "genre": "Landscape"},
+  "CHEN XIAOLIAN": {"style": "Contemporary Art", "genre": "Floral"},
+  "CHEN YIXI": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "CHENG JIASUI": {"style": "Ming Dynasty Art", "genre": "Calligraphy"},
+  "CHENG SHIFA": {"style": "Modern Chinese Painting", "genre": "Figurative"},
+  "DAI XI": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "DENG FEN": {"style": "Guangdong Painting School", "genre": "Portrait"},
+  "DING YANYONG": {"style": "Modern Chinese Painting", "genre": "Expressionist"},
+  "DONG SHOUPING": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "FAN HAOLIN": {"style": "Unknown", "genre": "Unknown"},
+  "FANG JUN": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "FANG ZHAOLING": {"style": "Modern Chinese Painting", "genre": "Landscape"},
+  "FENG CHAORAN": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "FENG GUIFEN": {"style": "Unknown", "genre": "Unknown"},
+  "FENG YIYIN": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "GAO LONGSHENG": {"style": "Unknown", "genre": "Unknown"},
+  "GU LINSHI": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "GU YI": {"style": "Ming Dynasty Art", "genre": "Calligraphy"},
+  "HE HUAISHUO": {"style": "Contemporary Art", "genre": "Landscape"},
+  "HE ZHUO": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "HUANG DUFENG": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "HUANG HUANWU": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "HUANG JIN": {"style": "Unknown", "genre": "Unknown"},
+  "HUANG JUNBI": {"style": "Modern Chinese Painting", "genre": "Landscape"},
+  "HUANG MIAOZI": {"style": "Modern Chinese Painting", "genre": "Calligraphy"},
+  "HUANG YONGYU": {"style": "Modern Chinese Painting", "genre": "Figurative"},
+  "HUANG YUANZHEN": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "HUANG ZHOU": {"style": "Modern Chinese Painting", "genre": "Animal Painting"},
+  "HUO CHUNYANG": {"style": "Contemporary Art", "genre": "Calligraphy"},
+  "JIANG HE": {"style": "Unknown", "genre": "Unknown"},
+  "KANG YOUWEI": {"style": "Modern Chinese Painting", "genre": "Calligraphy"},
+  "LI HUAYI": {"style": "Contemporary Art", "genre": "Landscape"},
+  "LI XIONGCAI": {"style": "Modern Chinese Painting", "genre": "Landscape"},
+  "LI YANSHENG": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "LIN FENGMIAN": {"style": "Modern Chinese Painting", "genre": "Figurative"},
+  "LIU HAISU": {"style": "Modern Chinese Painting", "genre": "Landscape"},
+  "LOU SHIBAI": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "LÜ YUAN": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "MU'AN XINGTAO": {"style": "Zen Art", "genre": "Calligraphy"},
+  "PENG XIANCHENG": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "PU JIN": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "PU RU": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "QI BAISHI": {"style": "Modern Chinese Painting", "genre": "Bird-and-Flower"},
+  "QI GONG": {"style": "Modern Chinese Painting", "genre": "Calligraphy"},
+  "QI LIANGSI": {"style": "Unknown", "genre": "Unknown"},
+  "QIAN SONGYAN": {"style": "Modern Chinese Painting", "genre": "Landscape"},
+  "QIAN ZAI": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "QIU YACAI": {"style": "Contemporary Art", "genre": "Portrait"},
+  "RAO ZONGYI": {"style": "Modern Chinese Painting", "genre": "Calligraphy"},
+  "SHEN QUAN": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "SHEN WEI": {"style": "Contemporary Art", "genre": "Photography"},
+  "SHEN XINHAI": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "SHI ZHECUN": {"style": "Modern Chinese Art", "genre": "Literature"},
+  "SHIY DE-JINN": {"style": "Modern Chinese Painting", "genre": "Landscape"},
+  "SONG WENZHI": {"style": "Modern Chinese Painting", "genre": "Landscape"},
+  "SONG XIANG": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "SU LIUPENG": {"style": "Traditional Chinese Painting", "genre": "Portrait"},
+  "TAI JINGNONG": {"style": "Modern Chinese Painting", "genre": "Calligraphy"},
+  "WANG DAOZHONG": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "WANG DONGLING": {"style": "Contemporary Art", "genre": "Calligraphy"},
+  "WANG GEYI": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "WANG QI": {"style": "Modern Chinese Painting", "genre": "Figurative"},
+  "WANG QISUN": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "WANG YACHEN": {"style": "Modern Chinese Painting", "genre": "Bird-and-Flower"},
+  "WANG YUNWU": {"style": "Modern Chinese Painting", "genre": "Calligraphy"},
+  "WANG ZHEN": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "WITH SIGNATURE OF LAN YING": {"style": "Ming Dynasty Art", "genre": "Landscape"},
+  "WU CHANGSHUO": {"style": "Modern Chinese Painting", "genre": "Calligraphy"},
+  "WU HUFAN": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "WU JINGHENG": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "WU QINGXIA": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "WU XIZAI": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "WU ZHENG": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "WU ZIFU": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "WU ZISHEN": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "WUCIUS WONG": {"style": "Contemporary Art", "genre": "Abstract"},
+  "XIE GUANSHENG": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "XIE GUOZHEN": {"style": "Modern Chinese Painting", "genre": "Calligraphy"},
+  "XIE ZHILIU": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "XU BAOGUANG": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "XU BEIHONG": {"style": "Modern Chinese Painting", "genre": "Figurative"},
+  "YANG SHANSHEN": {"style": "Modern Chinese Painting", "genre": "Animal Painting"},
+  "YANG YANWEN": {"style": "Unknown", "genre": "Unknown"},
+  "YANG YISUN": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "YE GONGCHAO": {"style": "Modern Chinese Painting", "genre": "Calligraphy"},
+  "YI LIXUN": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "YU YOUREN": {"style": "Modern Chinese Painting", "genre": "Calligraphy"},
+  "YUAN PEIJI": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "YUAN SHANGTONG": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "ZENG GUOQUAN": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "ZHANG BAIXI": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "ZHANG DAQIAN": {"style": "Modern Chinese Painting", "genre": "Landscape"},
+  "ZHANG QUN": {"style": "Unknown", "genre": "Unknown"},
+  "ZHANG SHIZHAO": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "ZHANG XIONG": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "ZHANG YUZHAO": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "ZHAO SHAO'ANG": {"style": "Modern Chinese Painting", "genre": "Bird-and-Flower"},
+  "ZHAO SHAO’ANG": {"style": "Modern Chinese Painting", "genre": "Bird-and-Flower"},
+  "ZHAO SHIGUANG": {"style": "Modern Chinese Painting", "genre": "Figurative"},
+  "ZHENG MANQING": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "ZHENG MUKANG": {"style": "Traditional Chinese Painting", "genre": "Bird-and-Flower"},
+  "ZHENG XIAOXU": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "ZHOU CEZONG": {"style": "Traditional Chinese Painting", "genre": "Landscape"},
+  "ZHU QIZHAN": {"style": "Modern Chinese Painting", "genre": "Landscape"},
+  "ZHUANG YAN": {"style": "Traditional Chinese Painting", "genre": "Calligraphy"},
+  "ADRIAEN JANSZ. VAN OSTADE": {"style": "Baroque", "genre": "Genre Painting"},
+  "ATTRIBUTED TO ANTONIO SUSINI": {"style": "Renaissance", "genre": "Sculpture"},
+  "ATTRIBUTED TO MICHAELINA WAUTIER": {"style": "Baroque", "genre": "Portrait"},
+  "CLARA PEETERS": {"style": "Baroque", "genre": "Still Life"},
+  "EGLON VAN DER NEER": {"style": "Dutch Golden Age", "genre": "Portrait"},
+  "ERASMUS QUELLINUS II": {"style": "Baroque", "genre": "Historical Painting"},
+  "FRANCESCO HAYEZ": {"style": "Romanticism", "genre": "Historical Painting"},
+  "GABRIEL METSU": {"style": "Dutch Golden Age", "genre": "Genre Painting"},
+  "GERRIT VAN HONTHORST": {"style": "Baroque", "genre": "Genre Painting"},
+  "GIOVANNI BATTISTA TIEPOLO, CALLED GIAMBATTISTA TIEPOLO": {"style": "Rococo", "genre": "Historical Painting"},
+  "GIOVANNI MARTINELLI": {"style": "Baroque", "genre": "Religious Painting"},
+  "GUSTAVE COURBET": {"style": "Realism", "genre": "Landscape"},
+  "JAN BRUEGHEL I": {"style": "Baroque", "genre": "Landscape"},
+  "JAN SIBERECHTS": {"style": "Baroque", "genre": "Landscape"},
+  "JAN VAN DE CAPPELLE": {"style": "Dutch Golden Age", "genre": "Marine Painting"},
+  "JOHANN LISS": {"style": "Baroque", "genre": "Historical Painting"},
+  "JOHANNES LINGELBACH": {"style": "Dutch Golden Age", "genre": "Genre Painting"},
+  "MICHAEL PETER ANCHER": {"style": "Realism", "genre": "Portrait"},
+  "PAOLO VENEZIANO": {"style": "Gothic", "genre": "Religious Painting"},
+  "PIETER BRUEGHEL II": {"style": "Renaissance", "genre": "Genre Painting"},
+  "SIR PETER PAUL RUBENS": {"style": "Baroque", "genre": "Historical Painting"},
+  "SIR THOMAS LAWRENCE, P.R.A.": {"style": "Romanticism", "genre": "Portrait"},
+  "THE MASTER OF MONTE OLIVETO": {"style": "Gothic", "genre": "Religious Painting"},
+  "WORKSHOP OF PIETRO LORENZETTI": {"style": "Gothic", "genre": "Religious Painting"},
+  "AARON CURRY": {"style": "Contemporary", "genre": "Sculpture"},
+  "AARON GARBER MAIKOVSKA": {"style": "Contemporary", "genre": "Abstract"},
+  "AL HELD": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "AL TAYLOR": {"style": "Contemporary", "genre": "Sculpture"},
+  "ALBERT OEHLEN": {"style": "Neo-Expressionism", "genre": "Abstract"},
+  "ALEC EGAN": {"style": "Contemporary", "genre": "Still Life"},
+  "ALEX BROWN": {"style": "Contemporary", "genre": "Abstract"},
+  "ALEX GARDNER": {"style": "Contemporary", "genre": "Figurative"},
+  "ALEX HUBBARD": {"style": "Contemporary", "genre": "Mixed Media"},
+  "ALEX ISRAEL": {"style": "Contemporary", "genre": "Pop Art"},
+  "ALEX KATZ": {"style": "Modern Realism", "genre": "Portrait"},
+  "ALEXANDER CALDER": {"style": "Modern", "genre": "Sculpture"},
+  "ALEXANDER LIBERMAN": {"style": "Modern", "genre": "Sculpture"},
+  "ALINA PEREZ": {"style": "Contemporary", "genre": "Portrait"},
+  "ALLAN MCCOLLUM": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "ALMA ALLEN": {"style": "Contemporary", "genre": "Sculpture"},
+  "ANA PRATA": {"style": "Contemporary", "genre": "Abstract"},
+  "ANDRE LANSKOY": {"style": "Tachisme", "genre": "Abstract"},
+  "ANDRES SERRANO": {"style": "Contemporary", "genre": "Photography"},
+  "ANDY WARHOL": {"style": "Pop Art", "genre": "Portrait"},
+  "ANNA LEONHARDT": {"style": "Contemporary", "genre": "Abstract"},
+  "ANTONE KÖNST": {"style": "Contemporary", "genre": "Abstract"},
+  "ARMAN": {"style": "Nouveau Réalisme", "genre": "Sculpture"},
+  "ARNULF RAINER": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "ARTURO HERRERA": {"style": "Contemporary", "genre": "Collage"},
+  "AYA TAKANO": {"style": "Superflat", "genre": "Figurative"},
+  "BARNABY FURNAS": {"style": "Contemporary", "genre": "Abstract"},
+  "BELKIS AYON": {"style": "Contemporary", "genre": "Printmaking"},
+  "BERNAR VENET": {"style": "Minimalism", "genre": "Sculpture"},
+  "BERNHARD HEILIGER": {"style": "Modern", "genre": "Sculpture"},
+  "BEVERLY PEPPER": {"style": "Modern", "genre": "Sculpture"},
+  "BOSCO SODI": {"style": "Contemporary", "genre": "Abstract"},
+  "BRIAN CALVIN": {"style": "Contemporary", "genre": "Portrait"},
+  "BRUCE CONNER": {"style": "Assemblage", "genre": "Mixed Media"},
+  "BYRON KIM": {"style": "Contemporary", "genre": "Abstract"},
+  "CALLUM INNES": {"style": "Contemporary", "genre": "Abstract"},
+  "CHARLES ARNOLDI": {"style": "Contemporary", "genre": "Abstract"},
+  "CHARLES BIEDERMAN": {"style": "Constructivism", "genre": "Abstract"},
+  "CHARLIE BILLINGHAM": {"style": "Contemporary", "genre": "Figurative"},
+  "CHIHO AOSHIMA": {"style": "Superflat", "genre": "Digital Art"},
+  "CHRIS OFILI": {"style": "Contemporary", "genre": "Figurative"},
+  "CHRISTOPHER WILMARTH": {"style": "Minimalism", "genre": "Sculpture"},
+  "CHUN KWANG YOUNG": {"style": "Contemporary", "genre": "Mixed Media"},
+  "CINDY SHERMAN": {"style": "Contemporary", "genre": "Photography"},
+  "CLAES OLDENBURG": {"style": "Pop Art", "genre": "Sculpture"},
+  "CLAIRE TABOURET": {"style": "Contemporary", "genre": "Portrait"},
+  "COLDIE": {"style": "Crypto Art", "genre": "Digital Art"},
+  "CONRAD MARCA-RELLI": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "COSIMA VON BONIN": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "DAN COLEN": {"style": "Contemporary", "genre": "Mixed Media"},
+  "DANA AWARTANI": {"style": "Contemporary", "genre": "Islamic Art"},
+  "DANIEL GORDON": {"style": "Contemporary", "genre": "Photography"},
+  "DANNY FOX": {"style": "Contemporary", "genre": "Figurative"},
+  "DAVID ALTMEJD": {"style": "Contemporary", "genre": "Sculpture"},
+  "DAVID HAMMONS": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "DAVID KRAMER": {"style": "Contemporary", "genre": "Text Art"},
+  "DAVID RODRIGUEZ CABALLERO": {"style": "Contemporary", "genre": "Sculpture"},
+  "DAVID SALLE": {"style": "Postmodernism", "genre": "Mixed Media"},
+  "DAVID SMITH": {"style": "Abstract Expressionism", "genre": "Sculpture"},
+  "DAWOUD BEY": {"style": "Contemporary", "genre": "Photography"},
+  "DEBORAH KASS": {"style": "Contemporary", "genre": "Pop Art"},
+  "DEBORAH ROBERTS": {"style": "Contemporary", "genre": "Collage"},
+  "DEVIN TROY STROTHER": {"style": "Contemporary", "genre": "Mixed Media"},
+  "DJORDJE OZBOLT": {"style": "Contemporary", "genre": "Figurative"},
+  "DMITRI CHERNIAK": {"style": "Crypto Art", "genre": "Generative Art"},
+  "DON EDDY": {"style": "Photorealism", "genre": "Still Life"},
+  "DONALD BAECHLER": {"style": "Neo-Expressionism", "genre": "Abstract"},
+  "DOROTHEA ROCKBURNE": {"style": "Minimalism", "genre": "Abstract"},
+   "ED MOSES": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "ED RUSCHA": {"style": "Pop Art", "genre": "Text Art"},
+  "EDDIE ARROYO": {"style": "Contemporary", "genre": "Figurative"},
+  "EDGAR PLANS": {"style": "Contemporary", "genre": "Figurative"},
+  "EMIL LUKAS": {"style": "Contemporary", "genre": "Abstract"},
+  "ENOC PEREZ": {"style": "Contemporary", "genre": "Figurative"},
+  "ERIC FISCHL": {"style": "Contemporary", "genre": "Figurative"},
+  "ERIK PARKER": {"style": "Contemporary", "genre": "Abstract"},
+  "ESTEBAN VICENTE": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "ESTHER MAHLANGU": {"style": "Ndebele Art", "genre": "Abstract"},
+  "EVAN HOLLOWAY": {"style": "Contemporary", "genre": "Sculpture"},
+  "FARIS MCREYNOLDS": {"style": "Contemporary", "genre": "Figurative"},
+  "FLORIAN MAIER-AICHEN": {"style": "Contemporary", "genre": "Photography"},
+  "FRANCESCO CLEMENTE": {"style": "Neo-Expressionism", "genre": "Figurative"},
+  "FRANK GEHRY": {"style": "Deconstructivism", "genre": "Architecture"},
+  "FRANK STELLA": {"style": "Minimalism", "genre": "Abstract"},
+  "FRANZ KLINE": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "FRIEDEL DZUBAS": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "GABRIEL OROZCO": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "GARRY FABIAN MILLER": {"style": "Contemporary", "genre": "Photography"},
+  "GARRY WINOGRAND": {"style": "Modern", "genre": "Photography"},
+  "GENESIS TRAMAINE": {"style": "Contemporary", "genre": "Figurative"},
+  "GEORGE CONDO": {"style": "Contemporary", "genre": "Figurative"},
+  "GEORGE RICKEY": {"style": "Modern", "genre": "Kinetic Sculpture"},
+  "GERASIMOS FLORATOS": {"style": "Contemporary", "genre": "Figurative"},
+  "GHADA AMER": {"style": "Contemporary", "genre": "Mixed Media"},
+  "GILBERT & GEORGE": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "GILLIAN AYRES": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "GRANT HAFFNER": {"style": "Contemporary", "genre": "Landscape"},
+  "GREGOR HILDEBRANDT": {"style": "Contemporary", "genre": "Mixed Media"},
+  "HANNELORE BARON": {"style": "Modern", "genre": "Collage"},
+  "HANS HOFMANN": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "HARLAND MILLER": {"style": "Contemporary", "genre": "Text Art"},
+  "HARMONY KORINE": {"style": "Contemporary", "genre": "Mixed Media"},
+  "HERNAN BAS": {"style": "Contemporary", "genre": "Figurative"},
+  "HIROSHI SUGIMOTO": {"style": "Contemporary", "genre": "Photography"},
+  "HUANG GANG": {"style": "Contemporary", "genre": "Mixed Media"},
+  "HUGH SCOTT-DOUGLAS": {"style": "Contemporary", "genre": "Abstract"},
+  "HUGO MCCLOUD": {"style": "Contemporary", "genre": "Mixed Media"},
+  "ILIT AZOULAY": {"style": "Contemporary", "genre": "Photography"},
+  "ILONA SZWARC": {"style": "Contemporary", "genre": "Photography"},
+  "ISRAEL LUND": {"style": "Contemporary", "genre": "Abstract"},
+  "JACK HAMILTON BUSH": {"style": "Color Field", "genre": "Abstract"},
+  "JACK PIERSON": {"style": "Contemporary", "genre": "Photography"},
+  "JACK ROTH": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "JACOB HASHIMOTO": {"style": "Contemporary", "genre": "Sculpture"},
+  "JAMES CASEBERE": {"style": "Contemporary", "genre": "Photography"},
+  "JAMES WEEKS": {"style": "Bay Area Figurative", "genre": "Figurative"},
+  "JAMES WHITE": {"style": "Contemporary", "genre": "Hyperrealism"},
+  "JAMIAN JULIANO-VILLANI": {"style": "Contemporary", "genre": "Figurative"},
+  "JAMMIE HOLMES": {"style": "Contemporary", "genre": "Figurative"},
+  "JAN MÜLLER": {"style": "Expressionism", "genre": "Figurative"},
+  "JAUME PLENSA": {"style": "Contemporary", "genre": "Sculpture"},
+  "JAUNE QUICK-TO-SEE SMITH": {"style": "Contemporary", "genre": "Figurative"},
+  "JEAN DUBUFFET": {"style": "Art Brut", "genre": "Figurative"},
+  "JEAN-BAPTISTE BERNADET": {"style": "Contemporary", "genre": "Abstract"},
+  "JEAN-MICHEL BASQUIAT": {"style": "Neo-Expressionism", "genre": "Figurative"},
+  "JEFF ELROD": {"style": "Contemporary", "genre": "Abstract"},
+  "JENNIFER GIUDI": {"style": "Contemporary", "genre": "Abstract"},
+  "JENNIFER STEINKAMP": {"style": "Contemporary", "genre": "Digital Art"},
+  "JENNY HOLZER": {"style": "Conceptual Art", "genre": "Text Art"},
+  "JESSE DRAXLER": {"style": "Contemporary", "genre": "Collage"},
+  "JIM DINE": {"style": "Pop Art", "genre": "Mixed Media"},
+  "JIM HODGES": {"style": "Contemporary", "genre": "Sculpture"},
+  "JOHN ARMLEDER": {"style": "Contemporary", "genre": "Mixed Media"},
+  "JOHN GRAHAM": {"style": "Modern", "genre": "Portrait"},
+  "JOHN KACERE": {"style": "Photorealism", "genre": "Figurative"},
+  "JOHN NIETO": {"style": "Contemporary", "genre": "Native American Art"},
+  "JOHN WALKER": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "JOHN WESLEY": {"style": "Pop Art", "genre": "Figurative"},
+  "JON KUHN": {"style": "Contemporary", "genre": "Glass Art"},
+  "JONATHAN LASKER": {"style": "Contemporary", "genre": "Abstract"},
+  "JONATHAN LYNDON CHASE": {"style": "Contemporary", "genre": "Figurative"},
+  "JONATHAN MEESE": {"style": "Neo-Expressionism", "genre": "Figurative"},
+  "JORDY KERWICK": {"style": "Contemporary", "genre": "Figurative"},
+  "JOSEPH BEUYS": {"style": "Conceptual Art", "genre": "Mixed Media"},
+  "JOSEPH CORNELL": {"style": "Surrealism", "genre": "Assemblage"},
+  "JOSH SMITH": {"style": "Contemporary", "genre": "Abstract"},
+  "JUAN USLE": {"style": "Contemporary", "genre": "Abstract"},
+  "JUDITH SHEA": {"style": "Contemporary", "genre": "Sculpture"},
+  "JULES OLITSKI": {"style": "Color Field", "genre": "Abstract"},
+  "JULIAN HOEBER": {"style": "Contemporary", "genre": "Mixed Media"},
+  "JULIAN OPIE": {"style": "Contemporary", "genre": "Figurative"},
+  "JULIÃO SARMENTO": {"style": "Contemporary", "genre": "Mixed Media"},
+  "JÖRG IMMENDORFF": {"style": "Neo-Expressionism", "genre": "Figurative"},
+  "KAREL APPEL": {"style": "CoBrA", "genre": "Abstract"},
+  "KAREN KILIMNIK": {"style": "Contemporary", "genre": "Mixed Media"},
+  "KARL KNATHS": {"style": "Modern", "genre": "Abstract"},
+  "KATHERINE BERNHARDT": {"style": "Contemporary", "genre": "Pop Art"},
+  "KATHRYN ANDREWS": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "KEITH TYSON": {"style": "Contemporary", "genre": "Mixed Media"},
+  "KELLEY WALKER": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "KIKI SMITH": {"style": "Contemporary", "genre": "Sculpture"},
+  "KIKI WANG": {"style": "Contemporary", "genre": "Portrait"},
+  "KIM DORLAND": {"style": "Contemporary", "genre": "Landscape"},
+  "KIM JOON": {"style": "Contemporary", "genre": "Digital Art"},
+  "KON TRUBKOVICH": {"style": "Contemporary", "genre": "Mixed Media"},
+  "KOUR POUR": {"style": "Contemporary", "genre": "Abstract"},
+  "KSENIA DERMENZHI": {"style": "Contemporary", "genre": "Figurative"},
+  "LARRY BELL": {"style": "Minimalism", "genre": "Sculpture"},
+  "LARRY RIVERS": {"style": "Pop Art", "genre": "Figurative"},
+  "LAURE MARY-COUÉGNIAS": {"style": "Contemporary", "genre": "Figurative"},
+  "LAURIE SIMMONS": {"style": "Contemporary", "genre": "Photography"},
+  "LE PHO": {"style": "Modern", "genre": "Figurative"},
+  "LEANDRO ERLICH": {"style": "Contemporary", "genre": "Installation Art"},
+  "LORIEL BELTRÁN": {"style": "Contemporary", "genre": "Abstract"},
+  "LORNA SIMPSON": {"style": "Contemporary", "genre": "Photography"},
+  "LOUISA MATTHÍASDÓTTIR": {"style": "Modern", "genre": "Landscape"},
+  "LOUISE NEVELSON": {"style": "Abstract Expressionism", "genre": "Sculpture"},
+  "LUCAS SAMARAS": {"style": "Modern", "genre": "Photography"},
+  "LUCIANO CASTELLI": {"style": "Neo-Expressionism", "genre": "Figurative"},
+  "LUCIO FONTANA": {"style": "Spatialism", "genre": "Abstract"},
+  "LYMAN KIPP": {"style": "Minimalism", "genre": "Sculpture"},
+  "LYNNE DREXLER": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "MANOLO VALDES": {"style": "Contemporary", "genre": "Figurative"},
+  "MANUEL NERI": {"style": "Modern", "genre": "Sculpture"},
+  "MARGARET KILGALLEN": {"style": "Contemporary", "genre": "Street Art"},
+  "MARIUS BERCEA": {"style": "Contemporary", "genre": "Landscape"},
+  "MARK INNERST": {"style": "Contemporary", "genre": "Abstract"},
+  "MARK LOMBARDI": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "MARTIN KIPPENBERGER": {"style": "Neo-Expressionism", "genre": "Mixed Media"},
+  "MASSIMO VITALI": {"style": "Contemporary", "genre": "Photography"},
+  "MATTHIAS WEISCHER": {"style": "Contemporary", "genre": "Figurative"},
+  "MEL BOCHNER": {"style": "Conceptual Art", "genre": "Text Art"},
+  "MICHAEL HEIZER": {"style": "Land Art", "genre": "Sculpture"},
+  "MICHAEL KAGAN": {"style": "Contemporary", "genre": "Figurative"},
+  "MICKALENE THOMAS": {"style": "Contemporary", "genre": "Portrait"},
+  "MIRANDA LICHTENSTEIN": {"style": "Contemporary", "genre": "Photography"},
+  "MURJONI MERRIWEATHER": {"style": "Contemporary", "genre": "Figurative"},
+  "NAN GOLDIN": {"style": "Contemporary", "genre": "Photography"},
+  "NANCY GRAVES": {"style": "Post-Minimalism", "genre": "Sculpture"},
+  "NATHALIE BOUTTÉ": {"style": "Contemporary", "genre": "Collage"},
+  "NEGYEM ADONOO": {"style": "Contemporary", "genre": "Abstract"},
+  "NNENNA OKORE": {"style": "Contemporary", "genre": "Sculpture"},
+  "NOBUYOSHI ARAKI": {"style": "Contemporary", "genre": "Photography"},
+  "NORMAN BLUHM": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "PAE WHITE": {"style": "Contemporary", "genre": "Installation Art"},
+  "PATRICIA AYRES": {"style": "Contemporary", "genre": "Sculpture"},
+  "PAUL JENKINS": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "PAUL PFEIFFER": {"style": "Contemporary", "genre": "Video Art"},
+  "PAUL WONNER": {"style": "Bay Area Figurative", "genre": "Figurative"},
+  "PAULINA OLOWSKA": {"style": "Contemporary", "genre": "Figurative"},
+  "PHILIP PEARLSTEIN": {"style": "Realism", "genre": "Portrait"},
+  "PHILIP TAAFFE": {"style": "Contemporary", "genre": "Abstract"},
+  "PIERO DORAZIO": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "PIERRE ALECHINSKY": {"style": "CoBrA", "genre": "Abstract"},
+  "RACHEL HARRISON": {"style": "Contemporary", "genre": "Sculpture"},
+  "RAFFI KALENDERIAN": {"style": "Contemporary", "genre": "Portrait"},
+  "RAINER FETTING": {"style": "Neo-Expressionism", "genre": "Figurative"},
+  "RALPH GOINGS": {"style": "Photorealism", "genre": "Still Life"},
+  "RAY JOHNSON": {"style": "Pop Art", "genre": "Collage"},
+  "RAYMOND PETTIBON": {"style": "Contemporary", "genre": "Figurative"},
+  "RED GROOMS": {"style": "Pop Art", "genre": "Figurative"},
+  "REENA SPAULINGS": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "REGGIE BURROWS HODGES": {"style": "Contemporary", "genre": "Figurative"},
+  "RETNA": {"style": "Contemporary", "genre": "Street Art"},
+  "RICHARD ALDRICH": {"style": "Contemporary", "genre": "Abstract"},
+  "RICHARD ANUSZKIEWICZ": {"style": "Op Art", "genre": "Abstract"},
+  "RICHARD DEACON": {"style": "Contemporary", "genre": "Sculpture"},
+  "RICHARD PETTIBONE": {"style": "Appropriation Art", "genre": "Mixed Media"},
+  "RICHARD PRINCE": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "ROB PRUITT": {"style": "Contemporary", "genre": "Pop Art"},
+  "ROBERT GRAHAM": {"style": "Modern", "genre": "Sculpture"},
+  "ROBERT MOSKOWITZ": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "ROBERT MOTHERWELL": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "ROBERT POLIDORI": {"style": "Contemporary", "genre": "Photography"},
+  "ROBERT RAUSCHENBERG": {"style": "Pop Art", "genre": "Mixed Media"},
+  "ROMARE BEARDEN": {"style": "Modern", "genre": "Collage"},
+  "RONI HORN": {"style": "Contemporary", "genre": "Sculpture"},
+  "ROSEMARIE TROCKEL": {"style": "Contemporary", "genre": "Mixed Media"},
+  "ROSS BLECKNER": {"style": "Contemporary", "genre": "Abstract"},
+  "ROXY PAINE": {"style": "Contemporary", "genre": "Sculpture"},
+  "ROY LICHTENSTEIN": {"style": "Pop Art", "genre": "Figurative"},
+  "RUUD VAN EMPEL": {"style": "Contemporary", "genre": "Photography"},
+  "SALOMÉ": {"style": "Neo-Expressionism", "genre": "Figurative"},
+  "SAM FRANCIS": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "SANDRO CHIA": {"style": "Neo-Expressionism", "genre": "Figurative"},
+  "SCOTT KAHN": {"style": "Contemporary", "genre": "Figurative"},
+  "SCOUT ZABINSKI": {"style": "Contemporary", "genre": "Figurative"},
+  "SHEPARD FAIREY": {"style": "Street Art", "genre": "Political Art"},
+  "SHIRIN NESHAT": {"style": "Contemporary", "genre": "Photography"},
+  "SIMON STARLING": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "SNOWFRO": {"style": "Crypto Art", "genre": "Generative Art"},
+  "SOREL ETROG": {"style": "Modern", "genre": "Sculpture"},
+  "SQUEAK CARNWATH": {"style": "Contemporary", "genre": "Mixed Media"},
+  "STANLEY WHITNEY": {"style": "Contemporary", "genre": "Abstract"},
+  "STEPHAN BALKENHOL": {"style": "Contemporary", "genre": "Sculpture"},
+  "STERLING RUBY": {"style": "Contemporary", "genre": "Mixed Media"},
+  "SU SU": {"style": "Contemporary", "genre": "Figurative"},
+  "SUZANNE MCCLELLAND": {"style": "Contemporary", "genre": "Abstract"},
+  "SYLVIE FLEURY": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "SZABOLCS BOZÓ": {"style": "Contemporary", "genre": "Figurative"},
+  "TAMMAM AZZAM": {"style": "Contemporary", "genre": "Digital Art"},
+  "TARA DONOVAN": {"style": "Contemporary", "genre": "Sculpture"},
+  "TERRY WINTERS": {"style": "Contemporary", "genre": "Abstract"},
+  "THANH BINH NGUYEN": {"style": "Contemporary", "genre": "Portrait"},
+  "THIERRY NOIR": {"style": "Street Art", "genre": "Figurative"},
+  "THILO HEINZMANN": {"style": "Contemporary", "genre": "Abstract"},
+  "THOMAS HELBIG": {"style": "Contemporary", "genre": "Mixed Media"},
+  "THOMAS HOUSEAGO": {"style": "Contemporary", "genre": "Sculpture"},
+  "THOMAS NOZKOWSKI": {"style": "Contemporary", "genre": "Abstract"},
+  "THOMAS RUFF": {"style": "Contemporary", "genre": "Photography"},
+  "THRUSH HOLMES": {"style": "Contemporary", "genre": "Abstract"},
+  "TIM ROLLINS": {"style": "Contemporary", "genre": "Conceptual Art"},
+  "TOM SACHS": {"style": "Contemporary", "genre": "Sculpture"},
+  "TOM WESSELMANN": {"style": "Pop Art", "genre": "Figurative"},
+  "TOMMASO CASCELLA": {"style": "Contemporary", "genre": "Abstract"},
+  "TOMOO GOKITA": {"style": "Contemporary", "genre": "Abstract"},
+  "TREY ABDELLA": {"style": "Contemporary", "genre": "Figurative"},
+  "TYLER HOBBS": {"style": "Generative Art", "genre": "Abstract"},
+  "URS FISCHER": {"style": "Contemporary", "genre": "Sculpture"},
+  "VAUGHN SPANN": {"style": "Contemporary", "genre": "Abstract"},
+  "VIBHA GALHOTRA": {"style": "Contemporary", "genre": "Environmental Art"},
+  "VICTORIA MARTINEZ": {"style": "Contemporary", "genre": "Mixed Media"},
+  "VIK MUNIZ": {"style": "Contemporary", "genre": "Photography"},
+  "VOJTĚCH KOVAŘÍK": {"style": "Contemporary", "genre": "Figurative"},
+  "WADE GUYTON": {"style": "Contemporary", "genre": "Digital Art"},
+  "WALEAD BESHTY": {"style": "Contemporary", "genre": "Photography"},
+  "WANGECHI MUTU": {"style": "Contemporary", "genre": "Collage"},
+  "WILHELM SASNAL": {"style": "Contemporary", "genre": "Figurative"},
+  "WILLEM DE KOONING": {"style": "Abstract Expressionism", "genre": "Abstract"},
+  "WILLIAM KENTRIDGE": {"style": "Contemporary", "genre": "Animation"},
+  "WILLIAM THEOPHILUS BROWN": {"style": "Bay Area Figurative", "genre": "Figurative"},
+  "WILLIAM TURNBULL": {"style": "Modern", "genre": "Sculpture"},
+  "XAVIERA SIMMONS": {"style": "Contemporary", "genre": "Mixed Media"},
+  "YESIYU ZHAO": {"style": "Contemporary", "genre": "Abstract"},
+  "YOUNG-IL AHN": {"style": "Contemporary", "genre": "Abstract"},
+  "YUKULTJI NAPANGATI": {"style": "Indigenous Australian Art", "genre": "Abstract"},
+  "ZACHARY ARMSTRONG": {"style": "Contemporary", "genre": "Abstract"},
+  "ZANELE MUHOLI": {"style": "Contemporary", "genre": "Photography"}
   
 
 }
@@ -578,15 +1012,15 @@ artist_styles_genres = {
 # Словарь художников и их стран
 artists_countries = {
     "DIETZ EDZARD": "Germany",
-  "EMMANUEL MANE-KATZ": "Ukraine",
-  "JULES PASCIN": "Bulgaria",
-  "HENRI HAYDEN": "Poland",
-  "GEORG KOLBE": "Germany",
-  "ARISTIDE MAILLOL": "France",
-  "ERNST BARLACH": "Germany",
-  "EMILE-ANTOINE BOURDELLE": "France",
-  "HENRI CHARLES MANGUIN": "France",
-  "PIERRE-AUGUSTE RENOIR AND RICHARD GUINO": "France",
+    "EMMANUEL MANE-KATZ": "Ukraine",
+    "JULES PASCIN": "Bulgaria",
+    "HENRI HAYDEN": "Poland",
+    "GEORG KOLBE": "Germany",
+    "ARISTIDE MAILLOL": "France",
+    "ERNST BARLACH": "Germany",
+    "EMILE-ANTOINE BOURDELLE": "France",
+    "HENRI CHARLES MANGUIN": "France",
+    "PIERRE-AUGUSTE RENOIR AND RICHARD GUINO": "France",
     "ALEC EGAN": "United States",
     "ALEX GARDNER": "United States",
     "ALEX KATZ": "United States",
@@ -1312,8 +1746,32 @@ artists_countries = {
   "WILLIAM ROBERTS, R.A.": "United Kingdom",
   "WILLIAM SCOTT, R.A.": "United Kingdom",
   "WILLIAM TUCKER": "United Kingdom",
-  "WINIFRED NICHOLSON": "United Kingdom"
-    
+  "WINIFRED NICHOLSON": "United Kingdom",
+  "ADRIAEN JANSZ. VAN OSTADE": "Netherlands",
+  "ATTRIBUTED TO ANTONIO SUSINI": "Italy",
+  "ATTRIBUTED TO MICHAELINA WAUTIER": "Belgium",
+  "CLARA PEETERS": "Belgium",
+  "EGLON VAN DER NEER": "Netherlands",
+  "ERASMUS QUELLINUS II": "Belgium",
+  "FRANCESCO HAYEZ": "Italy",
+  "GABRIEL METSU": "Netherlands",
+  "GERRIT VAN HONTHORST": "Netherlands",
+  "GIOVANNI BATTISTA TIEPOLO, CALLED GIAMBATTISTA TIEPOLO": "Italy",
+  "GIOVANNI MARTINELLI": "Italy",
+  "GUSTAVE COURBET": "France",
+  "JAN BRUEGHEL I": "Belgium",
+  "JAN SIBERECHTS": "Belgium",
+  "JAN VAN DE CAPPELLE": "Netherlands",
+  "JOHANN LISS": "Germany",
+  "JOHANNES LINGELBACH": "Netherlands",
+  "MICHAEL PETER ANCHER": "Denmark",
+  "PAOLO VENEZIANO": "Italy",
+  "PIETER BRUEGHEL II": "Belgium",
+  "SIR PETER PAUL RUBENS": "Belgium",
+  "SIR THOMAS LAWRENCE, P.R.A.": "United Kingdom",
+  "THE MASTER OF MONTE OLIVETO": "Italy",
+  "WORKSHOP OF PIETRO LORENZETTI": "Italy"
+      
 }
 
 
@@ -1772,28 +2230,31 @@ def convert_to_cm(dimensions):
 #     # Извлечение страны и периода из имени художника
 #     country = "CHINA"
 #     period = ""
+    
 #     artist_clean = re.sub(r"<.*?>", " ", artist)
 #     artist_name = artist_clean.strip()
 #     artist_match = re.search(r"(.*?)\(([^,]+)\)", artist_clean)
 #     if artist_match:
 #         artist_name = artist_match.group(1).strip()  # Имя автора
 #         period = artist_match.group(2).strip()  # Период
-    
+#     style_genre = get_style_and_genre(artist_name)
 
 #     results.append({
-#         "Название": title,
-#         "Имя художника": artist_name,
-#         "Стоимость": price,
-#         "Примерная оценка": estimate,
-#         "Размер": size,
-#         "Страна": country,
-#         "Период": period,
-#         "Стиль": "Traditional Chinese Art"
+#         "название": title,
+#         "имя_художника": artist_name,
+#         "стоимость": price,
+#         "примерная_оценка": estimate,
+#         "размер": size,
+#         "страна": country,
+#         "период": period,
+#         "стиль": style_genre["style"],
+#         "жанр": style_genre["genre"]
+
 #     })
 
 # # Записываем в CSV
 # csv_file = "Exquisite_Eye_hinese_Paintings.csv"
-# fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Размер", "Страна", "Период","Стиль"]
+# fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль","жанр"]
 
 # with open(csv_file, "w", newline="", encoding="utf-8") as f:
 #     writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=';', quoting=csv.QUOTE_NONE, escapechar='\\')
@@ -1985,6 +2446,9 @@ def convert_to_cm(dimensions):
 #     if material_match:
 #         material = material_match.group(1).capitalize()
 
+#     style_genre = get_style_and_genre(artist_clean)
+#     country=artists_countries.get(artist_clean, "Unknown")
+
 #     results.append({
 #         "название": title,
 #         "имя_художника": artist_clean,
@@ -1992,10 +2456,10 @@ def convert_to_cm(dimensions):
 #         "примерная_оценка": estimate,
 #         "материал": material,
 #         "размер": dimensions,
-#         "страна": "",  # Можно добавить логику извлечения
+#         "страна": country,  # Можно добавить логику извлечения
 #         "период": period,
-#         "стиль": "Abstractus",
-#         "жанр": "религиозная живопись"
+#         "стиль": style_genre["style"],
+#         "жанр": style_genre["genre"]
 #     })
 
 # # Записываем в CSV
@@ -2013,118 +2477,121 @@ def convert_to_cm(dimensions):
 #--------------------------------------------------------------------------
 
 
-# from selenium import webdriver
-# from selenium.webdriver.common.by import By
-# from selenium.webdriver.edge.service import Service
-# from selenium.webdriver.edge.options import Options
-# import re
-# import json
-# import csv
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.edge.service import Service
+from selenium.webdriver.edge.options import Options
+import re
+import json
+import csv
 
 
 
-# # Путь к WebDriver
-# driver_path = "D:\\project on python\\msedgedriver.exe"  # Укажите путь к вашему WebDriver
+# Путь к WebDriver
+driver_path = "D:\\project on python\\msedgedriver.exe"  # Укажите путь к вашему WebDriver
 
-# # Настройка WebDriver
-# edge_options = Options()
-# edge_options.add_argument("--headless")  # Запуск в фоновом режиме
-# service = Service(driver_path)
-# driver = webdriver.Edge(service=service, options=edge_options)
+# Настройка WebDriver
+edge_options = Options()
+edge_options.add_argument("--headless")  # Запуск в фоновом режиме
+edge_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+service = Service(driver_path)
+driver = webdriver.Edge(service=service, options=edge_options)
 
-# # URL страницы
-# url = "https://onlineonly.christies.com/s/first-open-post-war-contemporary-art/lots/3847?page=5&sortby=LotNumber"
+# URL страницы
+url = "https://onlineonly.christies.com/s/first-open-post-war-contemporary-art/lots/3847?page=5&sortby=LotNumber"
 
-# try:
-#     # Загружаем страницу
-#     driver.get(url)
+try:
+    # Загружаем страницу
+    driver.get(url)
 
-#     # Ищем все скрипты на странице
-#     scripts = driver.find_elements(By.TAG_NAME, "script")
+    # Ищем все скрипты на странице
+    scripts = driver.find_elements(By.TAG_NAME, "script")
 
-#     lot_data = None
+    lot_data = None
 
-#     # Ищем JSON с лотами в скриптах
-#     for script in scripts:
-#         script_content = script.get_attribute("innerHTML")
-#         if "window.chrComponents" in script_content:
-#             match = re.search(r"window\.chrComponents\s*=\s*(\{.*?\});", script_content, re.DOTALL)
-#             if match:
-#                 json_str = match.group(1)
-#                 lot_data = json.loads(json_str)
-#             break
+    # Ищем JSON с лотами в скриптах
+    for script in scripts:
+        script_content = script.get_attribute("innerHTML")
+        if "window.chrComponents" in script_content:
+            match = re.search(r"window\.chrComponents\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+            if match:
+                json_str = match.group(1)
+                lot_data = json.loads(json_str)
+            break
 
-#     if not lot_data:
-#         print("Не удалось найти данные о лотах.")
-#         exit()
+    if not lot_data:
+        print("Не удалось найти данные о лотах.")
+        exit()
 
-#     # Извлекаем информацию о лотах
-#     lots = lot_data.get("lots", {}).get("data", {}).get("lots", [])
-#     if not lots:
-#         print("Данные о лотах отсутствуют в JSON.")
-#         exit()
+    # Извлекаем информацию о лотах
+    lots = lot_data.get("lots", {}).get("data", {}).get("lots", [])
+    if not lots:
+        print("Данные о лотах отсутствуют в JSON.")
+        exit()
 
 
-#     results = []
-#     for lot in lots:
-#         title = lot.get("title_secondary_txt", "N/A")
-#         artist = lot.get("title_primary_txt", "N/A")
-#         price_realised = lot.get("price_realised_txt", "N/A")
-#         estimate = lot.get("estimate_txt", "N/A")
-#         description = lot.get("description_txt", "")
+    results = []
+    for lot in lots:
+        title = lot.get("title_secondary_txt", "N/A")
+        artist = lot.get("title_primary_txt", "N/A")
+        price_realised = lot.get("price_realised_txt", "N/A")
+        estimate = lot.get("estimate_txt", "N/A")
+        description = lot.get("description_txt", "")
 
-#          # Извлекаем размер из описания
-#         dimensions_match = re.search(r"\(([\d.,]+\s*x\s*[\d.,]+\s*cm\.)\)", description)
-#         dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+         # Извлекаем размер из описания
+        dimensions_match = re.search(r"\(([\d.,]+\s*x\s*[\d.,]+\s*cm\.)\)", description)
+        dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
 
-#         material = re.search(r"(oil on canvas|acrylic|mixed media|gouache|watercolor|bronze)", lot.get("description_txt", ""), re.IGNORECASE)
-#         material = material.group(1) if material else "N/A"
+        material = re.search(r"(oil on canvas|acrylic|mixed media|gouache|watercolor|bronze)", lot.get("description_txt", ""), re.IGNORECASE)
+        material = material.group(1) if material else "N/A"
 
-#     # Удаляем любые скобки с содержимым (например, годы жизни художника)
-#         artist_clean = re.sub(r"\([^)]*\)", "", artist).strip()
+    # Удаляем любые скобки с содержимым (например, годы жизни художника)
+        artist_clean = re.sub(r"\([^)]*\)", "", artist).strip()
 
-#         # Получаем страну из словаря
-#         artist_clean = artist.split("(")[0].strip().upper()  # Убираем возможные скобки и переводим в верхний регистр
-#         country = artists_countries.get(artist_clean, "Unknown")
+        # Получаем страну из словаря
+        artist_clean = artist.split("(")[0].strip().upper()  # Убираем возможные скобки и переводим в верхний регистр
+        country = artists_countries.get(artist_clean, "Unknown")
 
-#         period_match = re.search(r"\(([^)]+)\)", artist)
-#         period = period_match.group(1) if period_match else "N/A"
+        period_match = re.search(r"\(([^)]+)\)", artist)
+        period = period_match.group(1) if period_match else "N/A"
+
+        style_genre = get_style_and_genre(artist_clean)
         
-#         # Добавляем жанр и стиль
-#         # Определяем жанр
-#         genre = extract_genre(description)
-#         #genre = "Contemporary Art"  # Пример жанра (можно заменить на логику извлечения)
-#         style = "Contemporary Art"  
-#         #style = extract_style(description)
+        # Добавляем жанр и стиль
+        # Определяем жанр
+        genre = extract_genre(description)
+        #genre = "Contemporary Art"  # Пример жанра (можно заменить на логику извлечения)
+        style = "Contemporary Art"  
+        #style = extract_style(description)
 
-#         results.append({
-#             "название": title,
-#             "имя_художника": artist_clean,
-#             "стоимость": price_realised,
-#             "примерная_оценка": estimate,
-#             "материал": material,
-#             "размер": dimensions,
-#             "страна": country,
-#             "период": period,
-#             "стиль": style,
-#             "жанр": genre
-#         })
-
-
-#     # Сохраняем результаты в CSV
-#     csv_file = "Post-War_and_Contemporary_Art.csv"
-#     fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль", "жанр"]
-
-#     with open(csv_file, "w", newline="", encoding="utf-8") as f:
-#         writer = csv.DictWriter(f, fieldnames=fieldnames)
-#         writer.writeheader()
-#         writer.writerows(results)
-
-#     print(f"Данные успешно сохранены в {csv_file}")
+        results.append({
+            "название": title,
+            "имя_художника": artist_clean,
+            "стоимость": price_realised,
+            "примерная_оценка": estimate,
+            "материал": material,
+            "размер": dimensions,
+            "страна": country,
+            "период": period,
+            "стиль": style_genre["style"],
+            "жанр": style_genre["genre"]
+        })
 
 
-# finally:
-#     driver.quit()
+    # Сохраняем результаты в CSV
+    csv_file = "Post-War_and_Contemporary_Art.csv"
+    fieldnames = ["название", "имя_художника", "стоимость", "примерная_оценка", "материал", "размер", "страна", "период", "стиль", "жанр"]
+
+    with open(csv_file, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(results)
+
+    print(f"Данные успешно сохранены в {csv_file}")
+
+
+finally:
+    driver.quit()
 
 # -------------------------------------------------------------------------------
 
@@ -3296,96 +3763,96 @@ def convert_to_cm(dimensions):
 
 #-------------------------------------------------------------------------------------------------------------------------------
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.edge.service import Service
-from selenium.webdriver.edge.options import Options
-import csv
-import re
-import json
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.edge.service import Service
+# from selenium.webdriver.edge.options import Options
+# import csv
+# import re
+# import json
 
-# Настройки Selenium
-driver_path = "D:\project on python\msedgedriver.exe"  
-url = "https://www.christies.com/en/auction/modern-british-and-irish-art-day-sale-30284/?page=2&sortby=lotnumber"
+# # Настройки Selenium
+# driver_path = "D:\project on python\msedgedriver.exe"  
+# url = "https://www.christies.com/en/auction/modern-british-and-irish-art-day-sale-30284/?page=2&sortby=lotnumber"
 
-options = Options()
-options.add_argument("--headless")  # Открыть браузер в фоновом режиме
-options.add_argument("--disable-gpu")
-options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
+# options = Options()
+# options.add_argument("--headless")  # Открыть браузер в фоновом режиме
+# options.add_argument("--disable-gpu")
+# options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36")
 
-service = Service(driver_path)
-driver = webdriver.Edge(service=service, options=options)
+# service = Service(driver_path)
+# driver = webdriver.Edge(service=service, options=options)
 
-try:
-    # Открываем страницу
-    driver.get(url)
+# try:
+#     # Открываем страницу
+#     driver.get(url)
 
-    # Ищем скрипт с данными
-    scripts = driver.find_elements(By.TAG_NAME, "script")
-    lot_data = None
+#     # Ищем скрипт с данными
+#     scripts = driver.find_elements(By.TAG_NAME, "script")
+#     lot_data = None
 
-    for script in scripts:
-        script_content = script.get_attribute("innerHTML")
-        if "window.chrComponents.lots" in script_content:
-            match = re.search(r"window\.chrComponents\.lots\s*=\s*(\{.*?\});", script_content, re.DOTALL)
-            if match:
-                json_data = match.group(1)
-                lot_data = json.loads(json_data)
-                break
+#     for script in scripts:
+#         script_content = script.get_attribute("innerHTML")
+#         if "window.chrComponents.lots" in script_content:
+#             match = re.search(r"window\.chrComponents\.lots\s*=\s*(\{.*?\});", script_content, re.DOTALL)
+#             if match:
+#                 json_data = match.group(1)
+#                 lot_data = json.loads(json_data)
+#                 break
 
-    if lot_data:
-        lots = lot_data["data"].get("lots", [])
-        results = []
-        for lot in lots:
-            artist = lot.get("title_primary_txt", "N/A")
-            title = lot.get("title_secondary_txt", "N/A")
-            price_realised = lot.get("price_realised_txt", "N/A")
-            estimate = lot.get("estimate_txt", "N/A")
-            description = lot.get("description_txt", "N/A")
+#     if lot_data:
+#         lots = lot_data["data"].get("lots", [])
+#         results = []
+#         for lot in lots:
+#             artist = lot.get("title_primary_txt", "N/A")
+#             title = lot.get("title_secondary_txt", "N/A")
+#             price_realised = lot.get("price_realised_txt", "N/A")
+#             estimate = lot.get("estimate_txt", "N/A")
+#             description = lot.get("description_txt", "N/A")
 
-            # Извлекаем материал и размеры из описания
-            material_match = re.search(r"(oil on canvas|bronze|watercolor|gouache|mixed media|collage)", description, re.IGNORECASE)
-            material = material_match.group(1) if material_match else "N/A"
-            dimensions_match = re.search(r"(\d+\.?\d*\s*x\s*\d+\.?\d*\s*(cm|in|mm))", description, re.IGNORECASE)
-            dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
+#             # Извлекаем материал и размеры из описания
+#             material_match = re.search(r"(oil on canvas|bronze|watercolor|gouache|mixed media|collage)", description, re.IGNORECASE)
+#             material = material_match.group(1) if material_match else "N/A"
+#             dimensions_match = re.search(r"(\d+\.?\d*\s*x\s*\d+\.?\d*\s*(cm|in|mm))", description, re.IGNORECASE)
+#             dimensions = dimensions_match.group(1) if dimensions_match else "N/A"
             
-            artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
+#             artist_cleaned = re.sub(r'\(.*?\)', '', artist).strip()
 
-            period_match = re.search(r"\((.*?)\)", artist)
-            period = period_match.group(1) if period_match else "Период не найден"
-            artist = re.sub(r"\s*\(.*?\)", "", artist).strip().upper()
+#             period_match = re.search(r"\((.*?)\)", artist)
+#             period = period_match.group(1) if period_match else "Период не найден"
+#             artist = re.sub(r"\s*\(.*?\)", "", artist).strip().upper()
 
-            style_genre = get_style_and_genre(artist)
+#             style_genre = get_style_and_genre(artist)
 
-            country=artists_countries.get(artist_cleaned, "Unknown")
+#             country=artists_countries.get(artist_cleaned, "Unknown")
 
 
-            # Добавляем данные в результирующий список
-            results.append({
-                "Название": title,
-                "Имя художника": artist,
-                "Стоимость": price_realised,
-                "Примерная оценка": estimate,
-                "Материал": material,
-                "Размер": dimensions,
-                "Страна": country,  
-                "Период": period,  
-                "Стиль": style_genre["style"], 
-                "Жанр": style_genre["genre"]    
-            })
+#             # Добавляем данные в результирующий список
+#             results.append({
+#                 "Название": title,
+#                 "Имя художника": artist,
+#                 "Стоимость": price_realised,
+#                 "Примерная оценка": estimate,
+#                 "Материал": material,
+#                 "Размер": dimensions,
+#                 "Страна": country,  
+#                 "Период": period,  
+#                 "Стиль": style_genre["style"], 
+#                 "Жанр": style_genre["genre"]    
+#             })
 
-        # Сохраняем данные в CSV
-        csv_file = "Modern_British_and_Irish.csv"
-        fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
+#         # Сохраняем данные в CSV
+#         csv_file = "Modern_British_and_Irish.csv"
+#         fieldnames = ["Название", "Имя художника", "Стоимость", "Примерная оценка", "Материал", "Размер", "Страна", "Период", "Стиль", "Жанр"]
 
-        with open(csv_file, "w", newline="", encoding="utf-8") as file:
-            writer = csv.DictWriter(file, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(results)
+#         with open(csv_file, "w", newline="", encoding="utf-8") as file:
+#             writer = csv.DictWriter(file, fieldnames=fieldnames)
+#             writer.writeheader()
+#             writer.writerows(results)
 
-        print(f"Данные успешно сохранены в файл {csv_file}")
-    else:
-        print("Данные не найдены.")
+#         print(f"Данные успешно сохранены в файл {csv_file}")
+#     else:
+#         print("Данные не найдены.")
 
-finally:
-    driver.quit()
+# finally:
+#     driver.quit()
