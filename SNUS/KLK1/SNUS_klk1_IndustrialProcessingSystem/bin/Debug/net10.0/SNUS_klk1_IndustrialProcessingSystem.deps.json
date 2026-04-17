@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SNUS_klk1_IndustrialProcessingSystem/1.0.0": {
+        "runtime": {
+          "SNUS_klk1_IndustrialProcessingSystem.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SNUS_klk1_IndustrialProcessingSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
