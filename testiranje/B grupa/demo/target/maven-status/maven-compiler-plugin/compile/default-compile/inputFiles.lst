@@ -1,0 +1,11 @@
+/Users/viktoria/Downloads/B grupa/demo/src/main/java/com/example/demo/service/AccommodationService.java
+/Users/viktoria/Downloads/B grupa/demo/src/main/java/com/example/demo/exception/NotFoundException.java
+/Users/viktoria/Downloads/B grupa/demo/src/main/java/com/example/demo/repository/ReservationRepository.java
+/Users/viktoria/Downloads/B grupa/demo/src/main/java/com/example/demo/service/ReservationService.java
+/Users/viktoria/Downloads/B grupa/demo/src/main/java/com/example/demo/repository/AccommodationRepository.java
+/Users/viktoria/Downloads/B grupa/demo/src/main/java/com/example/demo/model/DateRange.java
+/Users/viktoria/Downloads/B grupa/demo/src/main/java/com/example/demo/model/Reservation.java
+/Users/viktoria/Downloads/B grupa/demo/src/main/java/com/example/demo/model/Client.java
+/Users/viktoria/Downloads/B grupa/demo/src/main/java/com/example/demo/model/Accommodation.java
+/Users/viktoria/Downloads/B grupa/demo/src/main/java/com/example/demo/util/DateTimeProvider.java
+/Users/viktoria/Downloads/B grupa/demo/src/main/java/com/example/demo/service/AccommodationServiceImpl.java
